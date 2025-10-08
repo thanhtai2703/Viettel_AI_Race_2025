@@ -42,16 +42,17 @@ class RLAgent:
         self.actor = Actor(self.state_dim, self.action_dim, hidden_dim=256).to(self.device)
         self.critic = Critic(self.state_dim, hidden_dim=256).to(self.device)
         
-        self.actor_optimizer = optim.Adam(self.actor.parameters(), lr=3e-4)
-        self.critic_optimizer = optim.Adam(self.critic.parameters(), lr=1e-3)
+        self.actor_optimizer = optim.Adam(self.actor.parameters(), lr=3e-4, eps=1e-5)
+        self.critic_optimizer = optim.Adam(self.critic.parameters(), lr=1e-3, eps=1e-5)
         
-        # PPO hyperparameters
-        self.gamma = 0.99  # Discount factor
-        self.lambda_gae = 0.95  # GAE parameter
-        self.clip_epsilon = 0.2  # PPO clipping parameter
-        self.ppo_epochs = 10  # Number of PPO update epochs
-        self.batch_size = 64
-        self.buffer_size = 2048
+        # PPO hyperparameters - Optimized for 5G energy saving
+        self.gamma = 0.998  # Higher discount for long-term energy efficiency
+        self.lambda_gae = 0.97  # Better bias-variance trade-off
+        self.clip_epsilon = 0.15  # More conservative clipping for stability
+        self.ppo_epochs = 12  # More updates per batch for better learning
+        self.batch_size = 128  # Larger batch for stable gradients
+        self.buffer_size = 4096  # Larger buffer for diverse experiences
+        
         
         # Experience buffer
         self.buffer = TransitionBuffer(self.buffer_size)
@@ -167,43 +168,85 @@ class RLAgent:
         # Extract state components
         current_simulation_start = 0
         current_network_start = 17  # After simulation features
+        drop_call_threshold = current_state[11]  # From simulation features
+        latency_threshold = current_state[12]    # From simulation features
         
         # Current state metrics
         current_energy = current_state[current_network_start + 0]
         current_connected_ues = current_state[current_simulation_start + 5]
-        current_drop_rate = current_state[current_simulation_start + 11]
-        current_latency = current_state[current_simulation_start + 12]
+        current_drop_rate = current_state[current_simulation_start + 2]
+        current_latency = current_state[current_simulation_start + 3]
+        current_cpu_violations = current_state[current_network_start + 6]
+        current_prb_violations = current_state[current_network_start + 7]
         
         # Previous state metrics for comparison
         prev_energy = prev_state[current_network_start + 0]
         prev_connected_ues = prev_state[current_simulation_start + 5]
-        prev_drop_rate = prev_state[current_simulation_start + 11]
-        prev_latency = prev_state[current_simulation_start + 12]
+        prev_drop_rate = prev_state[current_simulation_start + 2]
+        prev_latency = prev_state[current_simulation_start + 3]
         
-        # Energy efficiency reward (positive for reduction)
-        energy_change = prev_energy - current_energy
-        energy_reward = energy_change * 0.1  # Reward energy savings
+        # === 1. ENERGY EFFICIENCY (Primary objective) ===
+        # Relative energy improvement with diminishing returns
+        if prev_energy > 0:
+            energy_efficiency = (prev_energy - current_energy) / prev_energy
+            energy_reward = np.tanh(energy_efficiency * 6) * 10  # Smooth scaling
+        else:
+            energy_reward = 0
         
-        # KPI maintenance penalties
-        drop_penalty = max(0, current_drop_rate - 5.0) * -10  # Penalty above 5%
-        latency_penalty = max(0, (current_latency - 50) / 10) * -8  # Penalty above 50ms
+        # === 2. HARD CONSTRAINTS (Critical penalties) ===
+        # Exponential penalties for violations - ensure compliance
+        drop_violation = max(0, current_drop_rate - drop_call_threshold)
+        drop_penalty = -50 * (drop_violation / max(drop_call_threshold, 1e-6)) ** 2 if drop_violation > 0 else 0
         
-        # Connection stability bonus/penalty
-        connection_change = current_connected_ues - prev_connected_ues
-        connection_reward = connection_change * 0.5  # Small reward for maintaining connections
+        latency_violation = max(0, current_latency - latency_threshold)
+        latency_penalty = -30 * (latency_violation / max(latency_threshold, 1e-6)) ** 2 if latency_violation > 0 else 0
         
-        # Performance improvement bonuses
-        drop_improvement = (prev_drop_rate - current_drop_rate) * 2  # Reward drop rate reduction
-        latency_improvement = (prev_latency - current_latency) * 0.1  # Reward latency reduction
+        # Resource violations - severe penalties
+        cpu_penalty = -100 * current_cpu_violations if current_cpu_violations > 0 else 0
+        prb_penalty = -100 * current_prb_violations if current_prb_violations > 0 else 0
         
-        # Total reward
-        reward = (energy_reward + drop_penalty + latency_penalty + 
-                connection_reward + drop_improvement + latency_improvement)
+        # === 3. QoS STABILITY (Smooth operations) ===
+        # Penalize large connection fluctuations
+        connection_stability = -abs(current_connected_ues - prev_connected_ues) * 0.2
         
-        print(f"Reward components: {energy_reward:.2f}, Drop: {drop_penalty:.2f}, "
-            f"Latency: {latency_penalty:.2f}, Connection: {connection_reward:.2f}")
+        # Reward steady improvements in performance
+        drop_improvement = np.clip((prev_drop_rate - current_drop_rate) * 5, -2, 5)
+        latency_improvement = np.clip((prev_latency - current_latency) * 0.2, -2, 3)
         
-        return float(np.clip(reward, -100, 50))
+        # === 4. ACTION REGULARIZATION ===
+        # Encourage smooth, efficient actions
+        action_smoothness = -np.sum(np.abs(np.diff(action))) * 0.1  # Penalize abrupt changes
+        action_efficiency = np.sum(action) * 0.1  # Small bonus for conservative power usage
+        
+        # === 5. ADAPTIVE WEIGHTING ===
+        # Adjust weights based on current QoS status
+        qos_health = 1.0
+        if current_drop_rate > drop_call_threshold * 0.8:  # Near violation
+            qos_health *= 0.5  # Reduce energy priority
+        if current_latency > latency_threshold * 0.8:
+            qos_health *= 0.5
+            
+        # === TOTAL REWARD CALCULATION ===
+        constraint_penalty = drop_penalty + latency_penalty + cpu_penalty + prb_penalty
+        performance_reward = (drop_improvement + latency_improvement + connection_stability)
+        action_reward = action_smoothness + action_efficiency
+        
+        # Weighted combination with adaptive scaling
+        total_reward = (
+            energy_reward * qos_health * 0.4 +  # Primary objective
+            constraint_penalty +                 # Hard constraints
+            performance_reward * 0.3 +          # QoS improvements
+            action_reward * 0.1                 # Action regularization
+        )
+        
+        # Enhanced logging for debugging
+        if self.total_steps % 50 == 0:  # Log every 50 steps
+            self.logger.info(f"Reward breakdown - Energy: {energy_reward:.2f}, "
+                           f"Constraints: {constraint_penalty:.2f}, Performance: {performance_reward:.2f}, "
+                           f"Actions: {action_reward:.2f}, QoS_health: {qos_health:.2f}")
+        
+        # Smooth clipping for better gradient flow
+        return float(np.tanh(total_reward / 20) * 15)
     
     # NOT REMOVED FOR INTERACTING WITH SIMULATION (CAN BE MODIFIED)
     def update(self, state, action, next_state, done):
