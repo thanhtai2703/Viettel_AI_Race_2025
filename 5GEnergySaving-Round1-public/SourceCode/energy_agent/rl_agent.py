@@ -42,17 +42,16 @@ class RLAgent:
         self.actor = Actor(self.state_dim, self.action_dim, hidden_dim=256).to(self.device)
         self.critic = Critic(self.state_dim, hidden_dim=256).to(self.device)
         
-        self.actor_optimizer = optim.Adam(self.actor.parameters(), lr=3e-4, eps=1e-5)
-        self.critic_optimizer = optim.Adam(self.critic.parameters(), lr=1e-3, eps=1e-5)
+        self.actor_optimizer = optim.Adam(self.actor.parameters(), lr=3e-4)
+        self.critic_optimizer = optim.Adam(self.critic.parameters(), lr=1e-3)
         
-        # PPO hyperparameters - Optimized for 5G energy saving
-        self.gamma = 0.998  # Higher discount for long-term energy efficiency
-        self.lambda_gae = 0.97  # Better bias-variance trade-off
-        self.clip_epsilon = 0.15  # More conservative clipping for stability
-        self.ppo_epochs = 12  # More updates per batch for better learning
-        self.batch_size = 128  # Larger batch for stable gradients
-        self.buffer_size = 4096  # Larger buffer for diverse experiences
-        
+        # PPO hyperparameters
+        self.gamma = 0.99  # Discount factor
+        self.lambda_gae = 0.95  # GAE parameter
+        self.clip_epsilon = 0.2  # PPO clipping parameter
+        self.ppo_epochs = 10  # Number of PPO update epochs
+        self.batch_size = 64
+        self.buffer_size = 2048
         
         # Experience buffer
         self.buffer = TransitionBuffer(self.buffer_size)
@@ -124,36 +123,52 @@ class RLAgent:
         
         Args:
             state: State vector from MATLAB interface
-            
         Returns:
             action: Power ratios for each cell [0, 1]
         """
-        state = self.normalize_state(np.array(state).flatten())  # make sure it’s 1D
+
+        state = self.normalize_state(np.array(state).flatten())
         state_tensor = torch.FloatTensor(state).unsqueeze(0).to(self.device)
-        
+
         with torch.no_grad():
-            action_mean, action_logstd = self.actor(state_tensor)
-            
+            out = self.actor(state_tensor)
+            if isinstance(out, tuple):
+                action_mean, action_logstd = out
+            else:
+                action_mean = out
+                action_logstd = torch.zeros_like(action_mean)
+
             if self.training_mode:
-                # Sample from policy during training
                 action_std = torch.exp(action_logstd)
                 dist = torch.distributions.Normal(action_mean, action_std)
                 action = dist.sample()
                 log_prob = dist.log_prob(action).sum(-1)
             else:
-                # Use mean during evaluation
                 action = action_mean
                 log_prob = torch.zeros(1).to(self.device)
-        
-        # Clamp actions to [0, 1] range
-        action = torch.clamp(action, 0.0, 1.0)
-        
-        # Store for experience replay
+
+        action = torch.clamp(action, 0.15, 0.55).detach().cpu().numpy().astype(float).flatten()
+
+        if hasattr(self, "n_cells") and len(action) != self.n_cells:
+            action = np.ones(self.n_cells, dtype=float) * 0.7
+
         self.last_state = state_tensor.cpu().numpy().flatten()
-        self.last_action = action.cpu().numpy().flatten()
+        self.last_action = action
         self.last_log_prob = log_prob.cpu().numpy().flatten()
-        
-        return action.cpu().numpy().flatten()
+
+        active_cells = np.count_nonzero(self.last_state > 0.01)
+        total_cells = len(self.last_state)
+        load_ratio = active_cells / max(total_cells, 1)
+
+        min_power = max(0.15, 0.5 * (1 - load_ratio))  
+        max_power = 0.6
+
+        if isinstance(action, torch.Tensor):
+            action = torch.clamp(action, min_power, max_power)
+        else:
+            action = np.clip(action, min_power, max_power)
+
+        return action
     
     ## OPTIONAL: Modify reward calculation as needed
     def calculate_reward(self, prev_state, action, current_state):
@@ -168,85 +183,88 @@ class RLAgent:
         # Extract state components
         current_simulation_start = 0
         current_network_start = 17  # After simulation features
-        drop_call_threshold = current_state[11]  # From simulation features
-        latency_threshold = current_state[12]    # From simulation features
         
         # Current state metrics
         current_energy = current_state[current_network_start + 0]
-        current_connected_ues = current_state[current_simulation_start + 5]
-        current_drop_rate = current_state[current_simulation_start + 2]
-        current_latency = current_state[current_simulation_start + 3]
-        current_cpu_violations = current_state[current_network_start + 6]
-        current_prb_violations = current_state[current_network_start + 7]
+        current_connected_ues = current_state[current_network_start + 5]
+        current_drop_rate = current_state[current_network_start + 2]
+        current_latency = current_state[current_network_start + 3]
+
+        # Optional: handle extra metrics (CPU/PRB usage) if available
+        try:
+            current_cpu_usage = current_state[current_network_start + 9]
+            current_prb_usage = current_state[current_network_start + 10]
+        except IndexError:
+            current_cpu_usage = 0.0
+            current_prb_usage = 0.0
         
         # Previous state metrics for comparison
         prev_energy = prev_state[current_network_start + 0]
-        prev_connected_ues = prev_state[current_simulation_start + 5]
-        prev_drop_rate = prev_state[current_simulation_start + 2]
-        prev_latency = prev_state[current_simulation_start + 3]
+        prev_connected_ues = prev_state[current_network_start + 5]
+        prev_drop_rate = prev_state[current_network_start + 2]
+        prev_latency = prev_state[current_network_start + 3]
+
+        # Energy efficiency reward
+        energy_change = prev_energy - current_energy
+        #energy_reward = energy_change * 0.2  # tăng trọng số cho tiết kiệm năng lượng
+        # load-aware weighting: thưởng mạnh hơn khi tải thấp, dịu hơn khi tải cao
+        try:
+            load_ratio = float(current_connected_ues) / max(float(self.n_ues), 1.0)
+        except Exception:
+            load_ratio = 1.0
+        base_energy_w = 3.0 + 3.0 * max(0.0, 1.0 - load_ratio)  # 3.0..6.0
+        energy_reward = energy_change * base_energy_w
+        if energy_change > 0:
+            if current_drop_rate <= 2.0 and current_latency <= 120:
+                # bonus theo tải: tải thấp bonus cao, tải cao bonus thấp
+                if load_ratio < 0.5:
+                    bonus_coef = 2.0
+                elif load_ratio < 0.8:
+                    bonus_coef = 1.4
+                else:
+                    bonus_coef = 0.7
+                energy_reward += energy_change * bonus_coef
         
-        # === 1. ENERGY EFFICIENCY (Primary objective) ===
-        # Relative energy improvement with diminishing returns
-        if prev_energy > 0:
-            energy_efficiency = (prev_energy - current_energy) / prev_energy
-            energy_reward = np.tanh(energy_efficiency * 6) * 10  # Smooth scaling
+        # KPI penalties:
+        drop_threshold = 2.0
+        latency_threshold = 120.0
+        drop_coef = 10.0 if load_ratio > 0.7 else 8.0
+        latency_coef = 8.0 if load_ratio > 0.7 else 6.0
+        drop_penalty = -drop_coef * max(0.0, current_drop_rate - drop_threshold)
+        latency_penalty = -latency_coef * max(0.0, (current_latency - latency_threshold) / 10.0)
+
+        if load_ratio > 0.7:
+            cpu_penalty = -3.0 * max(0.0, current_cpu_usage - 0.85)
+            prb_penalty = -3.0 * max(0.0, current_prb_usage - 0.85)
         else:
-            energy_reward = 0
+            cpu_penalty = -2.0 * max(0.0, current_cpu_usage - 0.9)
+            prb_penalty = -2.0 * max(0.0, current_prb_usage - 0.9)
         
-        # === 2. HARD CONSTRAINTS (Critical penalties) ===
-        # Exponential penalties for violations - ensure compliance
-        drop_violation = max(0, current_drop_rate - drop_call_threshold)
-        drop_penalty = -50 * (drop_violation / max(drop_call_threshold, 1e-6)) ** 2 if drop_violation > 0 else 0
+        # Connection stability bonus/penalty
+        connection_change = current_connected_ues - prev_connected_ues
+        connection_reward = connection_change * 0.1  
         
-        latency_violation = max(0, current_latency - latency_threshold)
-        latency_penalty = -30 * (latency_violation / max(latency_threshold, 1e-6)) ** 2 if latency_violation > 0 else 0
+        # Performance improvement bonuses
+        drop_improvement = (prev_drop_rate - current_drop_rate) * 2.0
+        latency_improvement = (prev_latency - current_latency) * 0.05
         
-        # Resource violations - severe penalties
-        cpu_penalty = -100 * current_cpu_violations if current_cpu_violations > 0 else 0
-        prb_penalty = -100 * current_prb_violations if current_prb_violations > 0 else 0
-        
-        # === 3. QoS STABILITY (Smooth operations) ===
-        # Penalize large connection fluctuations
-        connection_stability = -abs(current_connected_ues - prev_connected_ues) * 0.2
-        
-        # Reward steady improvements in performance
-        drop_improvement = np.clip((prev_drop_rate - current_drop_rate) * 5, -2, 5)
-        latency_improvement = np.clip((prev_latency - current_latency) * 0.2, -2, 3)
-        
-        # === 4. ACTION REGULARIZATION ===
-        # Encourage smooth, efficient actions
-        action_smoothness = -np.sum(np.abs(np.diff(action))) * 0.1  # Penalize abrupt changes
-        action_efficiency = np.sum(action) * 0.1  # Small bonus for conservative power usage
-        
-        # === 5. ADAPTIVE WEIGHTING ===
-        # Adjust weights based on current QoS status
-        qos_health = 1.0
-        if current_drop_rate > drop_call_threshold * 0.8:  # Near violation
-            qos_health *= 0.5  # Reduce energy priority
-        if current_latency > latency_threshold * 0.8:
-            qos_health *= 0.5
-            
-        # === TOTAL REWARD CALCULATION ===
-        constraint_penalty = drop_penalty + latency_penalty + cpu_penalty + prb_penalty
-        performance_reward = (drop_improvement + latency_improvement + connection_stability)
-        action_reward = action_smoothness + action_efficiency
-        
-        # Weighted combination with adaptive scaling
-        total_reward = (
-            energy_reward * qos_health * 0.4 +  # Primary objective
-            constraint_penalty +                 # Hard constraints
-            performance_reward * 0.3 +          # QoS improvements
-            action_reward * 0.1                 # Action regularization
+        avg_power = np.mean(action)
+        power_penalty = -10.0 * max(0, avg_power - 0.5)
+        power_reward = 5.0 * max(0, 0.4 - avg_power)
+        # Total reward
+        reward = (
+            energy_reward + drop_penalty + latency_penalty +
+            cpu_penalty + prb_penalty +
+            connection_reward + drop_improvement + latency_improvement + power_penalty + power_reward 
         )
         
-        # Enhanced logging for debugging
-        if self.total_steps % 50 == 0:  # Log every 50 steps
-            self.logger.info(f"Reward breakdown - Energy: {energy_reward:.2f}, "
-                           f"Constraints: {constraint_penalty:.2f}, Performance: {performance_reward:.2f}, "
-                           f"Actions: {action_reward:.2f}, QoS_health: {qos_health:.2f}")
+        # soft saturation
+        reward = float(np.tanh(reward / 30.0) * 45.0)
         
-        # Smooth clipping for better gradient flow
-        return float(np.tanh(total_reward / 20) * 15)
+        print(f"Reward components: {energy_reward:.2f}, Drop: {drop_penalty:.2f}, "
+              f"Latency: {latency_penalty:.2f}, Connection: {connection_reward:.2f}")
+        
+        return float(np.clip(reward, -100, 50))
     
     # NOT REMOVED FOR INTERACTING WITH SIMULATION (CAN BE MODIFIED)
     def update(self, state, action, next_state, done):

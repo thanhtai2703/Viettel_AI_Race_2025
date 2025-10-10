@@ -36,11 +36,13 @@ class StateNormalizer:
             'avgDropRate': [0, 20],              # percentage
             'avgLatency': [0, 200],              # ms
             'totalTraffic': [0, 5000],           # traffic units
-            'connectedUEs': [0, 200],            # number of UEs
+            'connectedUEs': [0, 200],
+            'connectionRate': [0, 100],          # number of UEs
             'cpuViolations': [0, 50],            # number of violations
             'prbViolations': [0, 50],            # number of violations
             'maxCpuUsage': [0, 100],             # percentage
-            'maxPrbUsage': [0, 100],             # percentage
+            'maxPrbUsage': [0, 100],
+            'kpiViolations': [0, 100],            # percentage
             'totalTxPower': [0, 1000],           # total power
             'avgPowerRatio': [0, 1]              # ratio
         }

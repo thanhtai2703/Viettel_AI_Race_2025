@@ -42,8 +42,8 @@ class RLAgent:
         self.actor = Actor(self.state_dim, self.action_dim, hidden_dim=256).to(self.device)
         self.critic = Critic(self.state_dim, hidden_dim=256).to(self.device)
         
-        self.actor_optimizer = optim.Adam(self.actor.parameters(), lr=3e-4)
-        self.critic_optimizer = optim.Adam(self.critic.parameters(), lr=1e-3)
+        self.actor_optimizer = optim.Adam(self.actor.parameters(), lr=3e-5)
+        self.critic_optimizer = optim.Adam(self.critic.parameters(), lr=2e-5)
         
         # PPO hyperparameters
         self.gamma = 0.99  # Discount factor
@@ -51,7 +51,13 @@ class RLAgent:
         self.clip_epsilon = 0.2  # PPO clipping parameter
         self.ppo_epochs = 10  # Number of PPO update epochs
         self.batch_size = 64
-        self.buffer_size = 2048
+        self.buffer_size = 4096
+
+        # PPO stability knobs
+        self.entropy_coef = float(os.getenv("PPO_ENTROPY_COEF", "0.01"))   # encourage exploration
+        self.target_kl = float(os.getenv("PPO_TARGET_KL", "0.03"))         # early stop when updates too big
+        self.vf_clip_param = float(os.getenv("PPO_VF_CLIP", "0.2"))        # value clipping like PPO2
+        self.value_coef = float(os.getenv("PPO_VALUE_COEF", "0.5"))        # weight for value loss
         
         # Experience buffer
         self.buffer = TransitionBuffer(self.buffer_size)
@@ -123,86 +129,163 @@ class RLAgent:
         
         Args:
             state: State vector from MATLAB interface
-            
         Returns:
             action: Power ratios for each cell [0, 1]
         """
-        state = self.normalize_state(np.array(state).flatten())  # make sure it’s 1D
+
+        state = self.normalize_state(np.array(state).flatten())
         state_tensor = torch.FloatTensor(state).unsqueeze(0).to(self.device)
-        
+
         with torch.no_grad():
-            action_mean, action_logstd = self.actor(state_tensor)
-            
+            out = self.actor(state_tensor)
+            if isinstance(out, tuple):
+                action_mean, action_logstd = out
+            else:
+                action_mean = out
+                action_logstd = torch.zeros_like(action_mean)
+
             if self.training_mode:
-                # Sample from policy during training
                 action_std = torch.exp(action_logstd)
                 dist = torch.distributions.Normal(action_mean, action_std)
                 action = dist.sample()
                 log_prob = dist.log_prob(action).sum(-1)
             else:
-                # Use mean during evaluation
                 action = action_mean
                 log_prob = torch.zeros(1).to(self.device)
-        
-        # Clamp actions to [0, 1] range
-        action = torch.clamp(action, 0.0, 1.0)
-        
-        # Store for experience replay
+
+        action = torch.clamp(action, 0.1, 0.45).detach().cpu().numpy().astype(float).flatten()
+
+        if hasattr(self, "n_cells") and len(action) != self.n_cells:
+            action = np.ones(self.n_cells, dtype=float) * 0.5
+
         self.last_state = state_tensor.cpu().numpy().flatten()
-        self.last_action = action.cpu().numpy().flatten()
+        self.last_action = action
         self.last_log_prob = log_prob.cpu().numpy().flatten()
-        
-        return action.cpu().numpy().flatten()
+
+        # Estimate load ratio based on UE count proxy in normalized state
+        try:
+            ue_count_norm = state[5] if len(state) > 5 else 0.5  # normalized proxy
+            load_ratio = float(ue_count_norm)  # already ~0..1 after normalization
+            load_ratio = np.clip(load_ratio, 0.0, 1.0)
+        except Exception:
+            load_ratio = 0.5
+
+        # Power bounds scale with load: higher load -> higher minimum and ceiling
+        min_power = max(0.15, 0.15 + 0.35 * load_ratio)   # 0.15..0.5
+        max_power = min(0.8, 0.4 + 0.4 * load_ratio)      # 0.4..0.8
+
+        if isinstance(action, torch.Tensor):
+            action = torch.clamp(action, min_power, max_power)
+        else:
+            action = np.clip(action, min_power, max_power)
+
+        return action
     
     ## OPTIONAL: Modify reward calculation as needed
     def calculate_reward(self, prev_state, action, current_state):
         """Calculate reward based on energy savings and KPI constraints"""
         if prev_state is None:
             return 0.0
-        
+
         # Convert to numpy arrays for consistent indexing
         prev_state = np.array(prev_state).flatten()
         current_state = np.array(current_state).flatten()
-        
+
         # Extract state components
         current_simulation_start = 0
         current_network_start = 17  # After simulation features
-        
-        # Current state metrics
+
+        # Current state metrics (network indices)
         current_energy = current_state[current_network_start + 0]
-        current_connected_ues = current_state[current_simulation_start + 5]
-        current_drop_rate = current_state[current_simulation_start + 11]
-        current_latency = current_state[current_simulation_start + 12]
-        
+        current_connected_ues = current_state[current_network_start + 5]   # connected UEs
+        current_drop_rate = current_state[current_network_start + 2]       # avg drop rate (%)
+        current_latency = current_state[current_network_start + 3]         # avg latency (ms)
+
+        # Optional: handle extra metrics (CPU/PRB usage) if available
+        try:
+            # CPU/PRB as percentage; convert to ratios 0..1 for thresholding
+            current_cpu_usage = current_state[current_network_start + 9]    # %
+            current_prb_usage = current_state[current_network_start + 10]   # %
+            cpu_ratio = float(np.clip(current_cpu_usage, 0.0, 100.0)) / 100.0
+            prb_ratio = float(np.clip(current_prb_usage, 0.0, 100.0)) / 100.0
+        except Exception:
+            cpu_ratio = 0.0
+            prb_ratio = 0.0
+
         # Previous state metrics for comparison
         prev_energy = prev_state[current_network_start + 0]
-        prev_connected_ues = prev_state[current_simulation_start + 5]
-        prev_drop_rate = prev_state[current_simulation_start + 11]
-        prev_latency = prev_state[current_simulation_start + 12]
-        
+        prev_connected_ues = prev_state[current_network_start + 5]
+        prev_drop_rate = prev_state[current_network_start + 2]
+        prev_latency = prev_state[current_network_start + 3]
+
         # Energy efficiency reward (positive for reduction)
         energy_change = prev_energy - current_energy
-        energy_reward = energy_change * 0.1  # Reward energy savings
-        
-        # KPI maintenance penalties
-        drop_penalty = max(0, current_drop_rate - 5.0) * -10  # Penalty above 5%
-        latency_penalty = max(0, (current_latency - 50) / 10) * -8  # Penalty above 50ms
-        
+        #energy_reward = energy_change * 0.2  # tăng trọng số cho tiết kiệm năng lượng
+
+        # Load-aware energy weighting: stronger at low load, softer at high load
+        try:
+            load_ratio = float(current_connected_ues) / max(float(self.n_ues), 1.0)
+            load_ratio = np.clip(load_ratio, 0.0, 1.0)
+        except Exception:
+            load_ratio = 0.5
+
+        base_energy_weight = 2.0 + 4.0 * (1.0 - load_ratio)  # 2..6
+        energy_reward = energy_change * base_energy_weight
+        if energy_change > 0 and current_drop_rate <= 3.0 and current_latency <= 150:
+            # Bonus depends on load and resource headroom
+            if load_ratio < 0.4:
+                bonus_coef = 3.0
+            elif load_ratio < 0.7:
+                bonus_coef = 1.5
+            else:
+                bonus_coef = 0.8
+            if cpu_ratio <= 0.7 and prb_ratio <= 0.7:
+                bonus_coef *= 1.2
+            energy_reward += energy_change * bonus_coef
+
+        # KPI penalties scale with load
+        if load_ratio > 0.6:
+            drop_penalty = -10.0 * max(0.0, current_drop_rate - 2.0)
+            latency_penalty = -8.0 * max(0.0, (current_latency - 120.0) / 10.0)
+            cpu_penalty = -3.0 * max(0.0, cpu_ratio - 0.8)
+            prb_penalty = -3.0 * max(0.0, prb_ratio - 0.8)
+        else:
+            drop_penalty = -6.0 * max(0.0, current_drop_rate - 4.0)
+            latency_penalty = -5.0 * max(0.0, (current_latency - 180.0) / 10.0)
+            cpu_penalty = -2.0 * max(0.0, cpu_ratio - 0.85)
+            prb_penalty = -2.0 * max(0.0, prb_ratio - 0.85)
+
         # Connection stability bonus/penalty
         connection_change = current_connected_ues - prev_connected_ues
-        connection_reward = connection_change * 0.5  # Small reward for maintaining connections
-        
+        connection_reward = connection_change * 0.1
+
         # Performance improvement bonuses
-        drop_improvement = (prev_drop_rate - current_drop_rate) * 2  # Reward drop rate reduction
-        latency_improvement = (prev_latency - current_latency) * 0.1  # Reward latency reduction
-        
+        drop_improvement = (prev_drop_rate - current_drop_rate) * 1.5
+        latency_improvement = (prev_latency - current_latency) * 0.03
+
+        avg_power = float(np.mean(action))
+        # Low-load guard: discourage high power when load is low
+        low_load_guard = 0.0
+        if load_ratio < 0.3 and avg_power > 0.5:
+            low_load_guard = -(avg_power - 0.5) * 2.5
+        # High-load guard: discourage too-low power when load is high
+        high_load_guard = 0.0
+        if load_ratio > 0.7 and avg_power < 0.4:
+            high_load_guard = -(0.4 - avg_power) * 10.0
+        # Optional action-aware shaping (keep existing terms)
+        power_penalty = -15.0 * max(0.0, avg_power - 0.4)
+        power_reward = 58.0 * max(0.0, 0.3 - avg_power)
+
         # Total reward
-        reward = (energy_reward + drop_penalty + latency_penalty + 
-                connection_reward + drop_improvement + latency_improvement)
-        
+        reward = (
+            energy_reward + drop_penalty + latency_penalty +
+            cpu_penalty + prb_penalty +
+            connection_reward + drop_improvement + latency_improvement + power_penalty + power_reward + low_load_guard + high_load_guard
+        )
+
         print(f"Reward components: {energy_reward:.2f}, Drop: {drop_penalty:.2f}, "
-            f"Latency: {latency_penalty:.2f}, Connection: {connection_reward:.2f}")
-        
+              f"Latency: {latency_penalty:.2f}, Connection: {connection_reward:.2f}")
+
         return float(np.clip(reward, -100, 50))
     
     # NOT REMOVED FOR INTERACTING WITH SIMULATION (CAN BE MODIFIED)
@@ -312,8 +395,10 @@ class RLAgent:
         old_log_probs_tensor = torch.FloatTensor(old_log_probs).to(self.device)
         advantages_tensor = torch.FloatTensor(advantages).to(self.device)
         returns_tensor = torch.FloatTensor(returns).to(self.device)
+        values_tensor = torch.FloatTensor(values).to(self.device)  # old values for value clipping
         
         # PPO training loop
+        early_stop = False  # early stop by target KL
         for epoch in range(self.ppo_epochs):
             # Shuffle data
             indices = torch.randperm(len(states))
@@ -327,12 +412,14 @@ class RLAgent:
                 batch_old_log_probs = old_log_probs_tensor[batch_indices]
                 batch_advantages = advantages_tensor[batch_indices]
                 batch_returns = returns_tensor[batch_indices]
+                batch_old_values = values_tensor[batch_indices].squeeze()
                 
                 # Compute current policy
                 action_mean, action_logstd = self.actor(batch_states)
                 action_std = torch.exp(action_logstd)
                 dist = torch.distributions.Normal(action_mean, action_std)
                 new_log_probs = dist.log_prob(batch_actions).sum(-1)
+                entropy = dist.entropy().sum(-1).mean()
                 
                 # Compute ratio
                 ratio = torch.exp(new_log_probs - batch_old_log_probs)
@@ -340,11 +427,16 @@ class RLAgent:
                 # Compute surrogate losses
                 surr1 = ratio * batch_advantages
                 surr2 = torch.clamp(ratio, 1 - self.clip_epsilon, 1 + self.clip_epsilon) * batch_advantages
-                actor_loss = -torch.min(surr1, surr2).mean()
+                actor_loss = -torch.min(surr1, surr2).mean() - self.entropy_coef * entropy
                 
-                # Critic loss
+                # Critic loss with value clipping
                 current_values = self.critic(batch_states).squeeze()
-                critic_loss = nn.MSELoss()(current_values, batch_returns)
+                v_pred_clipped = batch_old_values + (current_values - batch_old_values).clamp(
+                    -self.vf_clip_param, self.vf_clip_param
+                )
+                critic_loss1 = nn.MSELoss()(current_values, batch_returns)
+                critic_loss2 = nn.MSELoss()(v_pred_clipped, batch_returns)
+                critic_loss = torch.max(critic_loss1, critic_loss2) * self.value_coef
                 
                 # Update actor
                 self.actor_optimizer.zero_grad()
@@ -357,6 +449,15 @@ class RLAgent:
                 critic_loss.backward()
                 torch.nn.utils.clip_grad_norm_(self.critic.parameters(), 0.5)
                 self.critic_optimizer.step()
+
+                # Target KL early stop
+                with torch.no_grad():
+                    approx_kl = (batch_old_log_probs - new_log_probs).mean().item()
+                if approx_kl > self.target_kl:
+                    early_stop = True
+                    break
+            if early_stop:
+                break
         
         # Clear buffer after training
         self.buffer.clear()

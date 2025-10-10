@@ -1,0 +1,2493 @@
+[1.000] Step 1/300: RL Agent: Setting cell 1 to minimum power (30.0 dBm)
+[1.000] Step 1/300: RL Agent: Adjusting cell 2 power from 43.0 to 40.8 dBm
+[1.000] Step 1/300: RL Agent: Adjusting cell 3 power from 43.0 to 38.4 dBm
+[1.000] Step 1/300: RL Agent: Adjusting cell 4 power from 43.0 to 44.0 dBm
+[1.000] Step 1/300: RL Agent: Adjusting cell 5 power from 43.0 to 40.7 dBm
+[1.000] Step 1/300: RL Agent: Adjusting cell 6 power from 43.0 to 46.0 dBm
+[1.000] Step 1/300: RL Agent: Adjusting cell 7 power from 43.0 to 41.8 dBm
+[1.000] Step 1/300: RL Agent: Adjusting cell 8 power from 43.0 to 46.0 dBm
+[1.000] Step 1/300: RL Agent: Setting cell 9 to minimum power (30.0 dBm)
+[1.000] Step 1/300: RL Agent: Adjusting cell 10 power from 43.0 to 33.9 dBm
+[1.000] Step 1/300: RL Agent: Adjusting cell 11 power from 43.0 to 46.0 dBm
+[1.000] Step 1/300: RL Agent: Setting cell 12 to minimum power (30.0 dBm)
+[1.000] Step 1/300: RL Agent: Setting cell 13 to minimum power (30.0 dBm)
+[1.000] Step 1/300: RL Agent: Adjusting cell 14 power from 43.0 to 45.3 dBm
+[1.000] Step 1/300: RL Agent: Adjusting cell 15 power from 43.0 to 37.6 dBm
+[1.000] Step 1/300: RL Agent: Adjusting cell 16 power from 43.0 to 33.7 dBm
+[1.000] Step 1/300: RL Agent: Adjusting cell 17 power from 43.0 to 46.0 dBm
+[1.000] Step 1/300: RL Agent: Adjusting cell 18 power from 43.0 to 39.5 dBm
+[1.000] Step 1/300: RL Agent: Adjusting cell 19 power from 43.0 to 46.0 dBm
+[1.000] Step 1/300: RL Agent: Adjusting cell 20 power from 43.0 to 34.1 dBm
+[1.000] Step 1/300: RL Agent: Adjusting cell 21 power from 43.0 to 41.3 dBm
+[2.000] Step 2/300: RL Agent: Adjusting cell 1 power from 30.0 to 40.9 dBm
+[2.000] Step 2/300: RL Agent: Adjusting cell 2 power from 40.8 to 43.6 dBm
+[2.000] Step 2/300: RL Agent: Adjusting cell 3 power from 38.4 to 35.8 dBm
+[2.000] Step 2/300: RL Agent: Setting cell 4 to minimum power (30.0 dBm)
+[2.000] Step 2/300: RL Agent: Adjusting cell 5 power from 40.7 to 46.0 dBm
+[2.000] Step 2/300: RL Agent: Adjusting cell 6 power from 46.0 to 40.9 dBm
+[2.000] Step 2/300: RL Agent: Adjusting cell 7 power from 41.8 to 32.9 dBm
+[2.000] Step 2/300: RL Agent: Adjusting cell 8 power from 46.0 to 31.3 dBm
+[2.000] Step 2/300: RL Agent: Adjusting cell 9 power from 30.0 to 37.6 dBm
+[2.000] Step 2/300: RL Agent: Adjusting cell 10 power from 33.9 to 45.2 dBm
+[2.000] Step 2/300: RL Agent: Setting cell 11 to minimum power (30.0 dBm)
+[2.000] Step 2/300: RL Agent: Setting cell 12 to minimum power (30.0 dBm)
+[2.000] Step 2/300: RL Agent: Adjusting cell 13 power from 30.0 to 37.2 dBm
+[2.000] Step 2/300: RL Agent: Setting cell 14 to minimum power (30.0 dBm)
+[2.000] Step 2/300: RL Agent: Adjusting cell 15 power from 37.6 to 33.5 dBm
+[2.000] Step 2/300: RL Agent: Adjusting cell 16 power from 33.7 to 46.0 dBm
+[2.000] Step 2/300: RL Agent: Adjusting cell 17 power from 46.0 to 41.2 dBm
+[2.000] Step 2/300: RL Agent: Adjusting cell 18 power from 39.5 to 40.3 dBm
+[2.000] Step 2/300: RL Agent: Adjusting cell 19 power from 46.0 to 34.9 dBm
+[2.000] Step 2/300: RL Agent: Setting cell 20 to minimum power (30.0 dBm)
+[2.000] Step 2/300: RL Agent: Setting cell 21 to minimum power (30.0 dBm)
+[3.000] Step 3/300: RL Agent: Adjusting cell 1 power from 40.9 to 36.4 dBm
+[3.000] Step 3/300: RL Agent: Adjusting cell 2 power from 43.6 to 45.6 dBm
+[3.000] Step 3/300: RL Agent: Adjusting cell 3 power from 35.8 to 39.0 dBm
+[3.000] Step 3/300: RL Agent: Adjusting cell 4 power from 30.0 to 35.1 dBm
+[3.000] Step 3/300: RL Agent: Adjusting cell 5 power from 46.0 to 40.4 dBm
+[3.000] Step 3/300: RL Agent: Adjusting cell 6 power from 40.9 to 38.6 dBm
+[3.000] Step 3/300: RL Agent: Setting cell 7 to minimum power (30.0 dBm)
+[3.000] Step 3/300: RL Agent: Adjusting cell 8 power from 31.3 to 35.8 dBm
+[3.000] Step 3/300: RL Agent: Adjusting cell 9 power from 37.6 to 32.8 dBm
+[3.000] Step 3/300: RL Agent: Adjusting cell 10 power from 45.2 to 46.0 dBm
+[3.000] Step 3/300: RL Agent: Adjusting cell 11 power from 30.0 to 40.3 dBm
+[3.000] Step 3/300: RL Agent: Adjusting cell 12 power from 30.0 to 45.7 dBm
+[3.000] Step 3/300: RL Agent: Adjusting cell 13 power from 37.2 to 46.0 dBm
+[3.000] Step 3/300: RL Agent: Adjusting cell 14 power from 30.0 to 46.0 dBm
+[3.000] Step 3/300: RL Agent: Adjusting cell 15 power from 33.5 to 46.0 dBm
+[3.000] Step 3/300: RL Agent: Adjusting cell 16 power from 46.0 to 32.1 dBm
+[3.000] Step 3/300: RL Agent: Adjusting cell 17 power from 41.2 to 39.3 dBm
+[3.000] Step 3/300: RL Agent: Adjusting cell 18 power from 40.3 to 32.4 dBm
+[3.000] Step 3/300: RL Agent: Adjusting cell 19 power from 34.9 to 46.0 dBm
+[3.000] Step 3/300: RL Agent: Setting cell 20 to minimum power (30.8 dBm)
+[3.000] Step 3/300: RL Agent: Adjusting cell 21 power from 30.0 to 46.0 dBm
+[4.000] Step 4/300: RL Agent: Setting cell 1 to minimum power (30.0 dBm)
+[4.000] Step 4/300: RL Agent: Setting cell 2 to minimum power (30.0 dBm)
+[4.000] Step 4/300: RL Agent: Adjusting cell 3 power from 39.0 to 40.7 dBm
+[4.000] Step 4/300: RL Agent: Adjusting cell 4 power from 35.1 to 46.0 dBm
+[4.000] Step 4/300: RL Agent: Setting cell 5 to minimum power (30.0 dBm)
+[4.000] Step 4/300: RL Agent: Setting cell 6 to minimum power (30.0 dBm)
+[4.000] Step 4/300: RL Agent: Adjusting cell 7 power from 30.0 to 46.0 dBm
+[4.000] Step 4/300: RL Agent: Adjusting cell 8 power from 35.8 to 46.0 dBm
+[4.000] Step 4/300: RL Agent: Adjusting cell 9 power from 32.8 to 46.0 dBm
+[4.000] Step 4/300: RL Agent: Adjusting cell 11 power from 40.3 to 44.5 dBm
+[4.000] Step 4/300: RL Agent: Setting cell 12 to minimum power (30.0 dBm)
+[4.000] Step 4/300: RL Agent: Adjusting cell 13 power from 46.0 to 39.1 dBm
+[4.000] Step 4/300: RL Agent: Adjusting cell 14 power from 46.0 to 43.7 dBm
+[4.000] Step 4/300: RL Agent: Setting cell 15 to minimum power (30.0 dBm)
+[4.000] Step 4/300: RL Agent: Adjusting cell 16 power from 32.1 to 41.7 dBm
+[4.000] Step 4/300: RL Agent: Adjusting cell 17 power from 39.3 to 46.0 dBm
+[4.000] Step 4/300: RL Agent: Adjusting cell 18 power from 32.4 to 33.0 dBm
+[4.000] Step 4/300: RL Agent: Adjusting cell 19 power from 46.0 to 41.5 dBm
+[4.000] Step 4/300: RL Agent: Setting cell 20 to minimum power (30.0 dBm)
+[4.000] Step 4/300: RL Agent: Adjusting cell 21 power from 46.0 to 36.2 dBm
+[5.000] Step 5/300: RL Agent: Adjusting cell 1 power from 30.0 to 38.3 dBm
+[5.000] Step 5/300: RL Agent: Adjusting cell 2 power from 30.0 to 42.5 dBm
+[5.000] Step 5/300: RL Agent: Adjusting cell 3 power from 40.7 to 44.4 dBm
+[5.000] Step 5/300: RL Agent: Adjusting cell 4 power from 46.0 to 37.7 dBm
+[5.000] Step 5/300: RL Agent: Adjusting cell 5 power from 30.0 to 39.5 dBm
+[5.000] Step 5/300: RL Agent: Adjusting cell 6 power from 30.0 to 46.0 dBm
+[5.000] Step 5/300: RL Agent: Adjusting cell 7 power from 46.0 to 39.5 dBm
+[5.000] Step 5/300: RL Agent: Adjusting cell 8 power from 46.0 to 40.3 dBm
+[5.000] Step 5/300: RL Agent: Setting cell 9 to minimum power (30.0 dBm)
+[5.000] Step 5/300: RL Agent: Adjusting cell 10 power from 46.0 to 44.6 dBm
+[5.000] Step 5/300: RL Agent: Adjusting cell 11 power from 44.5 to 34.4 dBm
+[5.000] Step 5/300: RL Agent: Setting cell 12 to minimum power (30.0 dBm)
+[5.000] Step 5/300: RL Agent: Adjusting cell 13 power from 39.1 to 39.4 dBm
+[5.000] Step 5/300: RL Agent: Setting cell 14 to minimum power (30.0 dBm)
+[5.000] Step 5/300: RL Agent: Adjusting cell 15 power from 30.0 to 34.2 dBm
+[5.000] Step 5/300: RL Agent: Adjusting cell 16 power from 41.7 to 36.9 dBm
+[5.000] Step 5/300: RL Agent: Adjusting cell 17 power from 46.0 to 40.1 dBm
+[5.000] Step 5/300: RL Agent: Adjusting cell 18 power from 33.0 to 35.5 dBm
+[5.000] Step 5/300: RL Agent: Setting cell 19 to minimum power (30.9 dBm)
+[5.000] Step 5/300: RL Agent: Adjusting cell 20 power from 30.0 to 38.8 dBm
+[5.000] Step 5/300: RL Agent: Adjusting cell 21 power from 36.2 to 46.0 dBm
+[6.000] Step 6/300: RL Agent: Setting cell 1 to minimum power (30.0 dBm)
+[6.000] Step 6/300: RL Agent: Adjusting cell 2 power from 42.5 to 46.0 dBm
+[6.000] Step 6/300: RL Agent: Adjusting cell 3 power from 44.4 to 36.1 dBm
+[6.000] Step 6/300: RL Agent: Adjusting cell 4 power from 37.7 to 46.0 dBm
+[6.000] Step 6/300: RL Agent: Adjusting cell 5 power from 39.5 to 33.3 dBm
+[6.000] Step 6/300: RL Agent: Adjusting cell 7 power from 39.5 to 42.3 dBm
+[6.000] Step 6/300: RL Agent: Adjusting cell 8 power from 40.3 to 35.1 dBm
+[6.000] Step 6/300: RL Agent: Adjusting cell 9 power from 30.0 to 39.4 dBm
+[6.000] Step 6/300: RL Agent: Adjusting cell 10 power from 44.6 to 41.6 dBm
+[6.000] Step 6/300: RL Agent: Adjusting cell 11 power from 34.4 to 31.6 dBm
+[6.000] Step 6/300: RL Agent: Adjusting cell 12 power from 30.0 to 37.8 dBm
+[6.000] Step 6/300: RL Agent: Adjusting cell 13 power from 39.4 to 46.0 dBm
+[6.000] Step 6/300: RL Agent: Adjusting cell 14 power from 30.0 to 36.5 dBm
+[6.000] Step 6/300: RL Agent: Setting cell 15 to minimum power (30.9 dBm)
+[6.000] Step 6/300: RL Agent: Adjusting cell 16 power from 36.9 to 46.0 dBm
+[6.000] Step 6/300: RL Agent: Setting cell 17 to minimum power (30.0 dBm)
+[6.000] Step 6/300: RL Agent: Adjusting cell 18 power from 35.5 to 45.6 dBm
+[6.000] Step 6/300: RL Agent: Setting cell 19 to minimum power (30.0 dBm)
+[6.000] Step 6/300: RL Agent: Adjusting cell 20 power from 38.8 to 36.0 dBm
+[7.000] Step 7/300: RL Agent: Adjusting cell 1 power from 30.0 to 38.8 dBm
+[7.000] Step 7/300: RL Agent: Adjusting cell 2 power from 46.0 to 34.4 dBm
+[7.000] Step 7/300: RL Agent: Adjusting cell 3 power from 36.1 to 44.7 dBm
+[7.000] Step 7/300: RL Agent: Adjusting cell 4 power from 46.0 to 32.4 dBm
+[7.000] Step 7/300: RL Agent: Setting cell 5 to minimum power (30.0 dBm)
+[7.000] Step 7/300: RL Agent: Adjusting cell 7 power from 42.3 to 43.8 dBm
+[7.000] Step 7/300: RL Agent: Adjusting cell 8 power from 35.1 to 31.2 dBm
+[7.000] Step 7/300: RL Agent: Adjusting cell 9 power from 39.4 to 41.7 dBm
+[7.000] Step 7/300: RL Agent: Adjusting cell 10 power from 41.6 to 46.0 dBm
+[7.000] Step 7/300: RL Agent: Adjusting cell 11 power from 31.6 to 46.0 dBm
+[7.000] Step 7/300: RL Agent: Setting cell 12 to minimum power (30.0 dBm)
+[7.000] Step 7/300: RL Agent: Setting cell 13 to minimum power (30.0 dBm)
+[7.000] Step 7/300: RL Agent: Setting cell 14 to minimum power (30.0 dBm)
+[7.000] Step 7/300: RL Agent: Adjusting cell 15 power from 30.9 to 40.5 dBm
+[7.000] Step 7/300: RL Agent: Adjusting cell 16 power from 46.0 to 35.8 dBm
+[7.000] Step 7/300: RL Agent: Adjusting cell 17 power from 30.0 to 44.3 dBm
+[7.000] Step 7/300: RL Agent: Adjusting cell 18 power from 45.6 to 45.0 dBm
+[7.000] Step 7/300: RL Agent: Adjusting cell 19 power from 30.0 to 46.0 dBm
+[7.000] Step 7/300: RL Agent: Adjusting cell 20 power from 36.0 to 34.0 dBm
+[7.000] Step 7/300: RL Agent: Adjusting cell 21 power from 46.0 to 35.4 dBm
+[8.000] Step 8/300: RL Agent: Adjusting cell 1 power from 38.8 to 34.5 dBm
+[8.000] Step 8/300: RL Agent: Adjusting cell 2 power from 34.4 to 41.8 dBm
+[8.000] Step 8/300: RL Agent: Adjusting cell 3 power from 44.7 to 46.0 dBm
+[8.000] Step 8/300: RL Agent: Setting cell 4 to minimum power (30.0 dBm)
+[8.000] Step 8/300: RL Agent: Adjusting cell 5 power from 30.0 to 46.0 dBm
+[8.000] Step 8/300: RL Agent: Adjusting cell 6 power from 46.0 to 33.4 dBm
+[8.000] Step 8/300: RL Agent: Adjusting cell 7 power from 43.8 to 38.6 dBm
+[8.000] Step 8/300: RL Agent: Adjusting cell 8 power from 31.2 to 40.5 dBm
+[8.000] Step 8/300: RL Agent: Adjusting cell 9 power from 41.7 to 34.2 dBm
+[8.000] Step 8/300: RL Agent: Adjusting cell 11 power from 46.0 to 36.1 dBm
+[8.000] Step 8/300: RL Agent: Adjusting cell 12 power from 30.0 to 40.2 dBm
+[8.000] Step 8/300: RL Agent: Adjusting cell 13 power from 30.0 to 36.6 dBm
+[8.000] Step 8/300: RL Agent: Adjusting cell 14 power from 30.0 to 38.3 dBm
+[8.000] Step 8/300: RL Agent: Adjusting cell 15 power from 40.5 to 45.3 dBm
+[8.000] Step 8/300: RL Agent: Adjusting cell 16 power from 35.8 to 39.3 dBm
+[8.000] Step 8/300: RL Agent: Setting cell 17 to minimum power (30.0 dBm)
+[8.000] Step 8/300: RL Agent: Adjusting cell 18 power from 45.0 to 46.0 dBm
+[8.000] Step 8/300: RL Agent: Setting cell 19 to minimum power (30.0 dBm)
+[8.000] Step 8/300: RL Agent: Adjusting cell 20 power from 34.0 to 46.0 dBm
+[8.000] Step 8/300: RL Agent: Adjusting cell 21 power from 35.4 to 46.0 dBm
+[9.000] Step 9/300: RL Agent: Adjusting cell 1 power from 34.5 to 45.9 dBm
+[9.000] Step 9/300: RL Agent: Adjusting cell 2 power from 41.8 to 46.0 dBm
+[9.000] Step 9/300: RL Agent: Adjusting cell 3 power from 46.0 to 42.5 dBm
+[9.000] Step 9/300: RL Agent: Adjusting cell 4 power from 30.0 to 36.9 dBm
+[9.000] Step 9/300: RL Agent: Adjusting cell 5 power from 46.0 to 38.5 dBm
+[9.000] Step 9/300: RL Agent: Adjusting cell 6 power from 33.4 to 40.5 dBm
+[9.000] Step 9/300: RL Agent: Setting cell 7 to minimum power (30.0 dBm)
+[9.000] Step 9/300: RL Agent: Adjusting cell 8 power from 40.5 to 34.6 dBm
+[9.000] Step 9/300: RL Agent: Setting cell 9 to minimum power (30.0 dBm)
+[9.000] Step 9/300: RL Agent: Adjusting cell 10 power from 46.0 to 45.5 dBm
+[9.000] Step 9/300: RL Agent: Adjusting cell 11 power from 36.1 to 46.0 dBm
+[9.000] Step 9/300: RL Agent: Adjusting cell 12 power from 40.2 to 39.8 dBm
+[9.000] Step 9/300: RL Agent: Adjusting cell 13 power from 36.6 to 35.9 dBm
+[9.000] Step 9/300: RL Agent: Adjusting cell 14 power from 38.3 to 31.8 dBm
+[9.000] Step 9/300: RL Agent: Adjusting cell 15 power from 45.3 to 35.4 dBm
+[9.000] Step 9/300: RL Agent: Adjusting cell 16 power from 39.3 to 46.0 dBm
+[9.000] Step 9/300: RL Agent: Setting cell 17 to minimum power (30.0 dBm)
+[9.000] Step 9/300: RL Agent: Adjusting cell 18 power from 46.0 to 36.8 dBm
+[9.000] Step 9/300: RL Agent: Adjusting cell 19 power from 30.0 to 37.1 dBm
+[9.000] Step 9/300: RL Agent: Adjusting cell 20 power from 46.0 to 31.2 dBm
+[9.000] Step 9/300: RL Agent: Adjusting cell 21 power from 46.0 to 31.9 dBm
+[10.000] Step 10/300: RL Agent: Adjusting cell 1 power from 45.9 to 39.4 dBm
+[10.000] Step 10/300: RL Agent: Adjusting cell 2 power from 46.0 to 41.3 dBm
+[10.000] Step 10/300: RL Agent: Setting cell 3 to minimum power (30.0 dBm)
+[10.000] Step 10/300: RL Agent: Setting cell 4 to minimum power (30.0 dBm)
+[10.000] Step 10/300: RL Agent: Adjusting cell 5 power from 38.5 to 32.9 dBm
+[10.000] Step 10/300: RL Agent: Adjusting cell 6 power from 40.5 to 32.8 dBm
+[10.000] Step 10/300: RL Agent: Setting cell 7 to minimum power (30.0 dBm)
+[10.000] Step 10/300: RL Agent: Adjusting cell 8 power from 34.6 to 38.2 dBm
+[10.000] Step 10/300: RL Agent: Adjusting cell 9 power from 30.0 to 33.1 dBm
+[10.000] Step 10/300: RL Agent: Adjusting cell 10 power from 45.5 to 42.4 dBm
+[10.000] Step 10/300: RL Agent: Adjusting cell 11 power from 46.0 to 43.2 dBm
+[10.000] Step 10/300: RL Agent: Setting cell 12 to minimum power (30.0 dBm)
+[10.000] Step 10/300: RL Agent: Adjusting cell 13 power from 35.9 to 41.7 dBm
+[10.000] Step 10/300: RL Agent: Setting cell 14 to minimum power (30.0 dBm)
+[10.000] Step 10/300: RL Agent: Setting cell 15 to minimum power (30.0 dBm)
+[10.000] Step 10/300: RL Agent: Adjusting cell 16 power from 46.0 to 40.5 dBm
+[10.000] Step 10/300: RL Agent: Adjusting cell 17 power from 30.0 to 38.9 dBm
+[10.000] Step 10/300: RL Agent: Adjusting cell 18 power from 36.8 to 33.3 dBm
+[10.000] Step 10/300: RL Agent: Adjusting cell 19 power from 37.1 to 46.0 dBm
+[10.000] Step 10/300: RL Agent: Adjusting cell 20 power from 31.2 to 32.1 dBm
+[10.000] Step 10/300: RL Agent: Adjusting cell 21 power from 31.9 to 31.6 dBm
+[11.000] Step 11/300: RL Agent: Setting cell 1 to minimum power (30.0 dBm)
+[11.000] Step 11/300: RL Agent: Adjusting cell 2 power from 41.3 to 46.0 dBm
+[11.000] Step 11/300: RL Agent: Adjusting cell 3 power from 30.0 to 46.0 dBm
+[11.000] Step 11/300: RL Agent: Adjusting cell 4 power from 30.0 to 33.8 dBm
+[11.000] Step 11/300: RL Agent: Adjusting cell 5 power from 32.9 to 36.1 dBm
+[11.000] Step 11/300: RL Agent: Adjusting cell 6 power from 32.8 to 33.2 dBm
+[11.000] Step 11/300: RL Agent: Adjusting cell 7 power from 30.0 to 38.5 dBm
+[11.000] Step 11/300: RL Agent: Adjusting cell 8 power from 38.2 to 46.0 dBm
+[11.000] Step 11/300: RL Agent: Adjusting cell 9 power from 33.1 to 35.8 dBm
+[11.000] Step 11/300: RL Agent: Setting cell 10 to minimum power (30.0 dBm)
+[11.000] Step 11/300: RL Agent: Setting cell 11 to minimum power (30.0 dBm)
+[11.000] Step 11/300: RL Agent: Setting cell 12 to minimum power (30.0 dBm)
+[11.000] Step 11/300: RL Agent: Setting cell 13 to minimum power (30.2 dBm)
+[11.000] Step 11/300: RL Agent: Adjusting cell 14 power from 30.0 to 39.8 dBm
+[11.000] Step 11/300: RL Agent: Adjusting cell 15 power from 30.0 to 46.0 dBm
+[11.000] Step 11/300: RL Agent: Adjusting cell 16 power from 40.5 to 42.4 dBm
+[11.000] Step 11/300: RL Agent: Adjusting cell 17 power from 38.9 to 41.5 dBm
+[11.000] Step 11/300: RL Agent: Adjusting cell 18 power from 33.3 to 46.0 dBm
+[11.000] Step 11/300: RL Agent: Adjusting cell 19 power from 46.0 to 44.1 dBm
+[11.000] Step 11/300: RL Agent: Adjusting cell 20 power from 32.1 to 32.0 dBm
+[11.000] Step 11/300: RL Agent: Adjusting cell 21 power from 31.6 to 40.3 dBm
+[12.000] Step 12/300: RL Agent: Adjusting cell 1 power from 30.0 to 40.0 dBm
+[12.000] Step 12/300: RL Agent: Adjusting cell 2 power from 46.0 to 43.8 dBm
+[12.000] Step 12/300: RL Agent: Adjusting cell 4 power from 33.8 to 40.5 dBm
+[12.000] Step 12/300: RL Agent: Setting cell 5 to minimum power (30.0 dBm)
+[12.000] Step 12/300: RL Agent: Setting cell 6 to minimum power (30.0 dBm)
+[12.000] Step 12/300: RL Agent: Setting cell 7 to minimum power (30.5 dBm)
+[12.000] Step 12/300: RL Agent: Adjusting cell 9 power from 35.8 to 41.4 dBm
+[12.000] Step 12/300: RL Agent: Adjusting cell 10 power from 30.0 to 35.4 dBm
+[12.000] Step 12/300: RL Agent: Adjusting cell 11 power from 30.0 to 46.0 dBm
+[12.000] Step 12/300: RL Agent: Adjusting cell 12 power from 30.0 to 46.0 dBm
+[12.000] Step 12/300: RL Agent: Adjusting cell 13 power from 30.2 to 31.3 dBm
+[12.000] Step 12/300: RL Agent: Setting cell 14 to minimum power (30.0 dBm)
+[12.000] Step 12/300: RL Agent: Adjusting cell 15 power from 46.0 to 38.0 dBm
+[12.000] Step 12/300: RL Agent: Setting cell 16 to minimum power (30.0 dBm)
+[12.000] Step 12/300: RL Agent: Adjusting cell 17 power from 41.5 to 46.0 dBm
+[12.000] Step 12/300: RL Agent: Adjusting cell 18 power from 46.0 to 31.9 dBm
+[12.000] Step 12/300: RL Agent: Adjusting cell 19 power from 44.1 to 42.7 dBm
+[12.000] Step 12/300: RL Agent: Setting cell 20 to minimum power (30.0 dBm)
+[12.000] Step 12/300: RL Agent: Adjusting cell 21 power from 40.3 to 46.0 dBm
+[13.000] Step 13/300: RL Agent: Adjusting cell 1 power from 40.0 to 32.6 dBm
+[13.000] Step 13/300: RL Agent: Adjusting cell 2 power from 43.8 to 40.6 dBm
+[13.000] Step 13/300: RL Agent: Adjusting cell 3 power from 46.0 to 43.0 dBm
+[13.000] Step 13/300: RL Agent: Adjusting cell 4 power from 40.5 to 31.7 dBm
+[13.000] Step 13/300: RL Agent: Adjusting cell 5 power from 30.0 to 36.1 dBm
+[13.000] Step 13/300: RL Agent: Setting cell 6 to minimum power (30.0 dBm)
+[13.000] Step 13/300: RL Agent: Setting cell 7 to minimum power (30.0 dBm)
+[13.000] Step 13/300: RL Agent: Adjusting cell 9 power from 41.4 to 41.8 dBm
+[13.000] Step 13/300: RL Agent: Setting cell 10 to minimum power (30.0 dBm)
+[13.000] Step 13/300: RL Agent: Setting cell 11 to minimum power (30.0 dBm)
+[13.000] Step 13/300: RL Agent: Adjusting cell 13 power from 31.3 to 38.3 dBm
+[13.000] Step 13/300: RL Agent: Adjusting cell 14 power from 30.0 to 46.0 dBm
+[13.000] Step 13/300: RL Agent: Adjusting cell 15 power from 38.0 to 36.2 dBm
+[13.000] Step 13/300: RL Agent: Setting cell 16 to minimum power (30.7 dBm)
+[13.000] Step 13/300: RL Agent: Setting cell 17 to minimum power (30.0 dBm)
+[13.000] Step 13/300: RL Agent: Setting cell 18 to minimum power (30.0 dBm)
+[13.000] Step 13/300: RL Agent: Adjusting cell 19 power from 42.7 to 43.1 dBm
+[13.000] Step 13/300: RL Agent: Adjusting cell 20 power from 30.0 to 36.2 dBm
+[13.000] Step 13/300: RL Agent: Setting cell 21 to minimum power (30.0 dBm)
+[14.000] Step 14/300: RL Agent: Adjusting cell 1 power from 32.6 to 40.2 dBm
+[14.000] Step 14/300: RL Agent: Adjusting cell 2 power from 40.6 to 46.0 dBm
+[14.000] Step 14/300: RL Agent: Setting cell 3 to minimum power (30.0 dBm)
+[14.000] Step 14/300: RL Agent: Adjusting cell 4 power from 31.7 to 37.4 dBm
+[14.000] Step 14/300: RL Agent: Adjusting cell 5 power from 36.1 to 45.4 dBm
+[14.000] Step 14/300: RL Agent: Setting cell 6 to minimum power (30.0 dBm)
+[14.000] Step 14/300: RL Agent: Adjusting cell 7 power from 30.0 to 38.0 dBm
+[14.000] Step 14/300: RL Agent: Setting cell 8 to minimum power (30.0 dBm)
+[14.000] Step 14/300: RL Agent: Adjusting cell 9 power from 41.8 to 43.1 dBm
+[14.000] Step 14/300: RL Agent: Adjusting cell 10 power from 30.0 to 32.0 dBm
+[14.000] Step 14/300: RL Agent: Adjusting cell 11 power from 30.0 to 42.2 dBm
+[14.000] Step 14/300: RL Agent: Setting cell 12 to minimum power (30.0 dBm)
+[14.000] Step 14/300: RL Agent: Setting cell 13 to minimum power (30.0 dBm)
+[14.000] Step 14/300: RL Agent: Adjusting cell 15 power from 36.2 to 36.0 dBm
+[14.000] Step 14/300: RL Agent: Adjusting cell 16 power from 30.7 to 34.3 dBm
+[14.000] Step 14/300: RL Agent: Adjusting cell 17 power from 30.0 to 41.9 dBm
+[14.000] Step 14/300: RL Agent: Adjusting cell 18 power from 30.0 to 46.0 dBm
+[14.000] Step 14/300: RL Agent: Setting cell 19 to minimum power (30.0 dBm)
+[14.000] Step 14/300: RL Agent: Adjusting cell 20 power from 36.2 to 46.0 dBm
+[14.000] Step 14/300: RL Agent: Adjusting cell 21 power from 30.0 to 46.0 dBm
+[15.000] Step 15/300: RL Agent: Adjusting cell 1 power from 40.2 to 41.4 dBm
+[15.000] Step 15/300: RL Agent: Adjusting cell 3 power from 30.0 to 40.3 dBm
+[15.000] Step 15/300: RL Agent: Adjusting cell 4 power from 37.4 to 33.7 dBm
+[15.000] Step 15/300: RL Agent: Adjusting cell 5 power from 45.4 to 38.0 dBm
+[15.000] Step 15/300: RL Agent: Adjusting cell 6 power from 30.0 to 42.1 dBm
+[15.000] Step 15/300: RL Agent: Adjusting cell 7 power from 38.0 to 41.6 dBm
+[15.000] Step 15/300: RL Agent: Adjusting cell 8 power from 30.0 to 35.6 dBm
+[15.000] Step 15/300: RL Agent: Adjusting cell 9 power from 43.1 to 32.2 dBm
+[15.000] Step 15/300: RL Agent: Adjusting cell 10 power from 32.0 to 40.7 dBm
+[15.000] Step 15/300: RL Agent: Adjusting cell 11 power from 42.2 to 46.0 dBm
+[15.000] Step 15/300: RL Agent: Adjusting cell 12 power from 30.0 to 33.7 dBm
+[15.000] Step 15/300: RL Agent: Adjusting cell 13 power from 30.0 to 44.4 dBm
+[15.000] Step 15/300: RL Agent: Setting cell 14 to minimum power (30.0 dBm)
+[15.000] Step 15/300: RL Agent: Adjusting cell 15 power from 36.0 to 32.5 dBm
+[15.000] Step 15/300: RL Agent: Adjusting cell 16 power from 34.3 to 32.0 dBm
+[15.000] Step 15/300: RL Agent: Adjusting cell 17 power from 41.9 to 37.4 dBm
+[15.000] Step 15/300: RL Agent: Adjusting cell 18 power from 46.0 to 36.0 dBm
+[15.000] Step 15/300: RL Agent: Adjusting cell 19 power from 30.0 to 41.4 dBm
+[15.000] Step 15/300: RL Agent: Setting cell 21 to minimum power (30.1 dBm)
+[16.000] Step 16/300: RL Agent: Adjusting cell 1 power from 41.4 to 32.5 dBm
+[16.000] Step 16/300: RL Agent: Adjusting cell 2 power from 46.0 to 39.1 dBm
+[16.000] Step 16/300: RL Agent: Setting cell 3 to minimum power (30.0 dBm)
+[16.000] Step 16/300: RL Agent: Setting cell 4 to minimum power (30.0 dBm)
+[16.000] Step 16/300: RL Agent: Adjusting cell 5 power from 38.0 to 46.0 dBm
+[16.000] Step 16/300: RL Agent: Setting cell 6 to minimum power (30.0 dBm)
+[16.000] Step 16/300: RL Agent: Adjusting cell 7 power from 41.6 to 44.9 dBm
+[16.000] Step 16/300: RL Agent: Adjusting cell 8 power from 35.6 to 44.7 dBm
+[16.000] Step 16/300: RL Agent: Adjusting cell 9 power from 32.2 to 46.0 dBm
+[16.000] Step 16/300: RL Agent: Setting cell 10 to minimum power (30.0 dBm)
+[16.000] Step 16/300: RL Agent: Adjusting cell 12 power from 33.7 to 36.3 dBm
+[16.000] Step 16/300: RL Agent: Adjusting cell 13 power from 44.4 to 46.0 dBm
+[16.000] Step 16/300: RL Agent: Adjusting cell 14 power from 30.0 to 37.1 dBm
+[16.000] Step 16/300: RL Agent: Adjusting cell 15 power from 32.5 to 39.3 dBm
+[16.000] Step 16/300: RL Agent: Adjusting cell 16 power from 32.0 to 39.2 dBm
+[16.000] Step 16/300: RL Agent: Adjusting cell 17 power from 37.4 to 40.8 dBm
+[16.000] Step 16/300: RL Agent: Adjusting cell 18 power from 36.0 to 46.0 dBm
+[16.000] Step 16/300: RL Agent: Adjusting cell 19 power from 41.4 to 34.0 dBm
+[16.000] Step 16/300: RL Agent: Adjusting cell 20 power from 46.0 to 31.4 dBm
+[16.000] Step 16/300: RL Agent: Adjusting cell 21 power from 30.1 to 38.5 dBm
+[17.000] Step 17/300: RL Agent: Adjusting cell 1 power from 32.5 to 35.4 dBm
+[17.000] Step 17/300: RL Agent: Adjusting cell 2 power from 39.1 to 36.7 dBm
+[17.000] Step 17/300: RL Agent: Adjusting cell 3 power from 30.0 to 46.0 dBm
+[17.000] Step 17/300: RL Agent: Adjusting cell 4 power from 30.0 to 46.0 dBm
+[17.000] Step 17/300: RL Agent: Adjusting cell 5 power from 46.0 to 32.5 dBm
+[17.000] Step 17/300: RL Agent: Adjusting cell 6 power from 30.0 to 41.5 dBm
+[17.000] Step 17/300: RL Agent: Adjusting cell 7 power from 44.9 to 43.9 dBm
+[17.000] Step 17/300: RL Agent: Adjusting cell 8 power from 44.7 to 38.8 dBm
+[17.000] Step 17/300: RL Agent: Adjusting cell 9 power from 46.0 to 32.0 dBm
+[17.000] Step 17/300: RL Agent: Adjusting cell 10 power from 30.0 to 46.0 dBm
+[17.000] Step 17/300: RL Agent: Adjusting cell 12 power from 36.3 to 31.9 dBm
+[17.000] Step 17/300: RL Agent: Adjusting cell 13 power from 46.0 to 36.9 dBm
+[17.000] Step 17/300: RL Agent: Adjusting cell 14 power from 37.1 to 32.4 dBm
+[17.000] Step 17/300: RL Agent: Adjusting cell 15 power from 39.3 to 45.2 dBm
+[17.000] Step 17/300: RL Agent: Adjusting cell 16 power from 39.2 to 46.0 dBm
+[17.000] Step 17/300: RL Agent: Adjusting cell 17 power from 40.8 to 46.0 dBm
+[17.000] Step 17/300: RL Agent: Adjusting cell 18 power from 46.0 to 32.7 dBm
+[17.000] Step 17/300: RL Agent: Adjusting cell 19 power from 34.0 to 41.5 dBm
+[17.000] Step 17/300: RL Agent: Adjusting cell 20 power from 31.4 to 46.0 dBm
+[17.000] Step 17/300: RL Agent: Adjusting cell 21 power from 38.5 to 34.3 dBm
+[18.000] Step 18/300: RL Agent: Adjusting cell 1 power from 35.4 to 43.1 dBm
+[18.000] Step 18/300: RL Agent: Adjusting cell 2 power from 36.7 to 46.0 dBm
+[18.000] Step 18/300: RL Agent: Adjusting cell 3 power from 46.0 to 42.0 dBm
+[18.000] Step 18/300: RL Agent: Adjusting cell 4 power from 46.0 to 42.9 dBm
+[18.000] Step 18/300: RL Agent: Adjusting cell 5 power from 32.5 to 46.0 dBm
+[18.000] Step 18/300: RL Agent: Setting cell 6 to minimum power (30.0 dBm)
+[18.000] Step 18/300: RL Agent: Adjusting cell 7 power from 43.9 to 32.1 dBm
+[18.000] Step 18/300: RL Agent: Adjusting cell 8 power from 38.8 to 32.3 dBm
+[18.000] Step 18/300: RL Agent: Adjusting cell 9 power from 32.0 to 41.5 dBm
+[18.000] Step 18/300: RL Agent: Adjusting cell 12 power from 31.9 to 46.0 dBm
+[18.000] Step 18/300: RL Agent: Adjusting cell 13 power from 36.9 to 46.0 dBm
+[18.000] Step 18/300: RL Agent: Adjusting cell 14 power from 32.4 to 33.1 dBm
+[18.000] Step 18/300: RL Agent: Adjusting cell 15 power from 45.2 to 46.0 dBm
+[18.000] Step 18/300: RL Agent: Setting cell 16 to minimum power (30.0 dBm)
+[18.000] Step 18/300: RL Agent: Adjusting cell 18 power from 32.7 to 31.6 dBm
+[18.000] Step 18/300: RL Agent: Adjusting cell 19 power from 41.5 to 40.3 dBm
+[18.000] Step 18/300: RL Agent: Setting cell 20 to minimum power (30.0 dBm)
+[18.000] Step 18/300: RL Agent: Adjusting cell 21 power from 34.3 to 36.3 dBm
+[19.000] Step 19/300: RL Agent: Adjusting cell 1 power from 43.1 to 34.8 dBm
+[19.000] Step 19/300: RL Agent: Setting cell 2 to minimum power (30.0 dBm)
+[19.000] Step 19/300: RL Agent: Adjusting cell 3 power from 42.0 to 34.5 dBm
+[19.000] Step 19/300: RL Agent: Adjusting cell 4 power from 42.9 to 34.3 dBm
+[19.000] Step 19/300: RL Agent: Adjusting cell 6 power from 30.0 to 34.0 dBm
+[19.000] Step 19/300: RL Agent: Adjusting cell 7 power from 32.1 to 41.7 dBm
+[19.000] Step 19/300: RL Agent: Setting cell 8 to minimum power (30.0 dBm)
+[19.000] Step 19/300: RL Agent: Setting cell 9 to minimum power (31.0 dBm)
+[19.000] Step 19/300: RL Agent: Adjusting cell 10 power from 46.0 to 34.2 dBm
+[19.000] Step 19/300: RL Agent: Setting cell 11 to minimum power (30.0 dBm)
+[19.000] Step 19/300: RL Agent: Setting cell 12 to minimum power (30.0 dBm)
+[19.000] Step 19/300: RL Agent: Adjusting cell 13 power from 46.0 to 42.0 dBm
+[19.000] Step 19/300: RL Agent: Adjusting cell 14 power from 33.1 to 44.1 dBm
+[19.000] Step 19/300: RL Agent: Adjusting cell 15 power from 46.0 to 34.3 dBm
+[19.000] Step 19/300: RL Agent: Adjusting cell 16 power from 30.0 to 32.9 dBm
+[19.000] Step 19/300: RL Agent: Adjusting cell 17 power from 46.0 to 35.7 dBm
+[19.000] Step 19/300: RL Agent: Adjusting cell 18 power from 31.6 to 41.4 dBm
+[19.000] Step 19/300: RL Agent: Setting cell 19 to minimum power (30.0 dBm)
+[19.000] Step 19/300: RL Agent: Setting cell 20 to minimum power (30.0 dBm)
+[19.000] Step 19/300: RL Agent: Setting cell 21 to minimum power (30.0 dBm)
+[20.000] Step 20/300: RL Agent: Adjusting cell 1 power from 34.8 to 38.7 dBm
+[20.000] Step 20/300: RL Agent: Adjusting cell 2 power from 30.0 to 37.0 dBm
+[20.000] Step 20/300: RL Agent: Adjusting cell 3 power from 34.5 to 46.0 dBm
+[20.000] Step 20/300: RL Agent: Adjusting cell 4 power from 34.3 to 46.0 dBm
+[20.000] Step 20/300: RL Agent: Adjusting cell 5 power from 46.0 to 33.8 dBm
+[20.000] Step 20/300: RL Agent: Setting cell 6 to minimum power (30.0 dBm)
+[20.000] Step 20/300: RL Agent: Adjusting cell 7 power from 41.7 to 38.0 dBm
+[20.000] Step 20/300: RL Agent: Setting cell 8 to minimum power (30.0 dBm)
+[20.000] Step 20/300: RL Agent: Adjusting cell 9 power from 31.0 to 46.0 dBm
+[20.000] Step 20/300: RL Agent: Adjusting cell 10 power from 34.2 to 45.0 dBm
+[20.000] Step 20/300: RL Agent: Setting cell 11 to minimum power (30.0 dBm)
+[20.000] Step 20/300: RL Agent: Adjusting cell 12 power from 30.0 to 46.0 dBm
+[20.000] Step 20/300: RL Agent: Setting cell 13 to minimum power (30.0 dBm)
+[20.000] Step 20/300: RL Agent: Adjusting cell 14 power from 44.1 to 31.3 dBm
+[20.000] Step 20/300: RL Agent: Adjusting cell 15 power from 34.3 to 46.0 dBm
+[20.000] Step 20/300: RL Agent: Adjusting cell 16 power from 32.9 to 46.0 dBm
+[20.000] Step 20/300: RL Agent: Adjusting cell 17 power from 35.7 to 46.0 dBm
+[20.000] Step 20/300: RL Agent: Adjusting cell 18 power from 41.4 to 38.8 dBm
+[20.000] Step 20/300: RL Agent: Adjusting cell 19 power from 30.0 to 46.0 dBm
+[20.000] Step 20/300: RL Agent: Adjusting cell 20 power from 30.0 to 36.1 dBm
+[20.000] Step 20/300: RL Agent: Adjusting cell 21 power from 30.0 to 34.1 dBm
+[21.000] Step 21/300: RL Agent: Setting cell 1 to minimum power (30.6 dBm)
+[21.000] Step 21/300: RL Agent: Adjusting cell 2 power from 37.0 to 39.6 dBm
+[21.000] Step 21/300: RL Agent: Adjusting cell 4 power from 46.0 to 37.3 dBm
+[21.000] Step 21/300: RL Agent: Setting cell 5 to minimum power (30.0 dBm)
+[21.000] Step 21/300: RL Agent: Setting cell 6 to minimum power (30.0 dBm)
+[21.000] Step 21/300: RL Agent: Adjusting cell 7 power from 38.0 to 46.0 dBm
+[21.000] Step 21/300: RL Agent: Adjusting cell 8 power from 30.0 to 44.1 dBm
+[21.000] Step 21/300: RL Agent: Adjusting cell 10 power from 45.0 to 38.3 dBm
+[21.000] Step 21/300: RL Agent: Adjusting cell 11 power from 30.0 to 46.0 dBm
+[21.000] Step 21/300: RL Agent: Adjusting cell 12 power from 46.0 to 37.5 dBm
+[21.000] Step 21/300: RL Agent: Adjusting cell 13 power from 30.0 to 34.9 dBm
+[21.000] Step 21/300: RL Agent: Setting cell 14 to minimum power (30.0 dBm)
+[21.000] Step 21/300: RL Agent: Adjusting cell 15 power from 46.0 to 33.7 dBm
+[21.000] Step 21/300: RL Agent: Setting cell 16 to minimum power (30.0 dBm)
+[21.000] Step 21/300: RL Agent: Adjusting cell 17 power from 46.0 to 43.0 dBm
+[21.000] Step 21/300: RL Agent: Adjusting cell 18 power from 38.8 to 35.4 dBm
+[21.000] Step 21/300: RL Agent: Adjusting cell 19 power from 46.0 to 43.3 dBm
+[21.000] Step 21/300: RL Agent: Adjusting cell 20 power from 36.1 to 43.1 dBm
+[21.000] Step 21/300: RL Agent: Setting cell 21 to minimum power (30.0 dBm)
+[22.000] Step 22/300: RL Agent: Adjusting cell 1 power from 30.6 to 37.5 dBm
+[22.000] Step 22/300: RL Agent: Setting cell 2 to minimum power (30.0 dBm)
+[22.000] Step 22/300: RL Agent: Adjusting cell 4 power from 37.3 to 32.5 dBm
+[22.000] Step 22/300: RL Agent: Adjusting cell 5 power from 30.0 to 36.3 dBm
+[22.000] Step 22/300: RL Agent: Adjusting cell 6 power from 30.0 to 45.0 dBm
+[22.000] Step 22/300: RL Agent: Adjusting cell 7 power from 46.0 to 37.0 dBm
+[22.000] Step 22/300: RL Agent: Adjusting cell 8 power from 44.1 to 37.6 dBm
+[22.000] Step 22/300: RL Agent: Adjusting cell 9 power from 46.0 to 44.7 dBm
+[22.000] Step 22/300: RL Agent: Adjusting cell 10 power from 38.3 to 36.8 dBm
+[22.000] Step 22/300: RL Agent: Setting cell 11 to minimum power (30.0 dBm)
+[22.000] Step 22/300: RL Agent: Adjusting cell 12 power from 37.5 to 46.0 dBm
+[22.000] Step 22/300: RL Agent: Adjusting cell 13 power from 34.9 to 46.0 dBm
+[22.000] Step 22/300: RL Agent: Adjusting cell 14 power from 30.0 to 46.0 dBm
+[22.000] Step 22/300: RL Agent: Adjusting cell 15 power from 33.7 to 46.0 dBm
+[22.000] Step 22/300: RL Agent: Setting cell 16 to minimum power (30.8 dBm)
+[22.000] Step 22/300: RL Agent: Adjusting cell 17 power from 43.0 to 38.8 dBm
+[22.000] Step 22/300: RL Agent: Adjusting cell 18 power from 35.4 to 46.0 dBm
+[22.000] Step 22/300: RL Agent: Adjusting cell 19 power from 43.3 to 36.6 dBm
+[22.000] Step 22/300: RL Agent: Adjusting cell 20 power from 43.1 to 32.6 dBm
+[22.000] Step 22/300: RL Agent: Adjusting cell 21 power from 30.0 to 36.6 dBm
+[23.000] Step 23/300: RL Agent: Adjusting cell 1 power from 37.5 to 46.0 dBm
+[23.000] Step 23/300: RL Agent: Setting cell 2 to minimum power (30.0 dBm)
+[23.000] Step 23/300: RL Agent: Adjusting cell 4 power from 32.5 to 46.0 dBm
+[23.000] Step 23/300: RL Agent: Adjusting cell 5 power from 36.3 to 43.2 dBm
+[23.000] Step 23/300: RL Agent: Adjusting cell 6 power from 45.0 to 36.1 dBm
+[23.000] Step 23/300: RL Agent: Adjusting cell 7 power from 37.0 to 46.0 dBm
+[23.000] Step 23/300: RL Agent: Adjusting cell 8 power from 37.6 to 45.5 dBm
+[23.000] Step 23/300: RL Agent: Adjusting cell 9 power from 44.7 to 39.7 dBm
+[23.000] Step 23/300: RL Agent: Adjusting cell 10 power from 36.8 to 42.4 dBm
+[23.000] Step 23/300: RL Agent: Setting cell 11 to minimum power (30.0 dBm)
+[23.000] Step 23/300: RL Agent: Adjusting cell 12 power from 46.0 to 37.9 dBm
+[23.000] Step 23/300: RL Agent: Adjusting cell 13 power from 46.0 to 36.7 dBm
+[23.000] Step 23/300: RL Agent: Adjusting cell 14 power from 46.0 to 43.5 dBm
+[23.000] Step 23/300: RL Agent: Adjusting cell 15 power from 46.0 to 31.9 dBm
+[23.000] Step 23/300: RL Agent: Setting cell 16 to minimum power (30.0 dBm)
+[23.000] Step 23/300: RL Agent: Adjusting cell 17 power from 38.8 to 39.8 dBm
+[23.000] Step 23/300: RL Agent: Adjusting cell 18 power from 46.0 to 31.6 dBm
+[23.000] Step 23/300: RL Agent: Setting cell 19 to minimum power (30.0 dBm)
+[23.000] Step 23/300: RL Agent: Setting cell 20 to minimum power (30.0 dBm)
+[23.000] Step 23/300: RL Agent: Adjusting cell 21 power from 36.6 to 43.0 dBm
+[24.000] Step 24/300: RL Agent: Setting cell 1 to minimum power (30.0 dBm)
+[24.000] Step 24/300: RL Agent: Setting cell 2 to minimum power (30.3 dBm)
+[24.000] Step 24/300: RL Agent: Adjusting cell 3 power from 46.0 to 40.6 dBm
+[24.000] Step 24/300: RL Agent: Adjusting cell 5 power from 43.2 to 46.0 dBm
+[24.000] Step 24/300: RL Agent: Setting cell 6 to minimum power (30.0 dBm)
+[24.000] Step 24/300: RL Agent: Adjusting cell 7 power from 46.0 to 45.2 dBm
+[24.000] Step 24/300: RL Agent: Adjusting cell 8 power from 45.5 to 46.0 dBm
+[24.000] Step 24/300: RL Agent: Adjusting cell 9 power from 39.7 to 39.5 dBm
+[24.000] Step 24/300: RL Agent: Adjusting cell 10 power from 42.4 to 39.5 dBm
+[24.000] Step 24/300: RL Agent: Adjusting cell 11 power from 30.0 to 46.0 dBm
+[24.000] Step 24/300: RL Agent: Adjusting cell 12 power from 37.9 to 46.0 dBm
+[24.000] Step 24/300: RL Agent: Adjusting cell 13 power from 36.7 to 46.0 dBm
+[24.000] Step 24/300: RL Agent: Setting cell 14 to minimum power (30.0 dBm)
+[24.000] Step 24/300: RL Agent: Adjusting cell 15 power from 31.9 to 39.5 dBm
+[24.000] Step 24/300: RL Agent: Adjusting cell 16 power from 30.0 to 34.7 dBm
+[24.000] Step 24/300: RL Agent: Adjusting cell 17 power from 39.8 to 35.5 dBm
+[24.000] Step 24/300: RL Agent: Adjusting cell 18 power from 31.6 to 41.6 dBm
+[24.000] Step 24/300: RL Agent: Setting cell 19 to minimum power (30.0 dBm)
+[24.000] Step 24/300: RL Agent: Adjusting cell 20 power from 30.0 to 40.4 dBm
+[24.000] Step 24/300: RL Agent: Adjusting cell 21 power from 43.0 to 38.2 dBm
+[25.000] Step 25/300: RL Agent: Adjusting cell 1 power from 30.0 to 38.5 dBm
+[25.000] Step 25/300: RL Agent: Adjusting cell 2 power from 30.3 to 37.7 dBm
+[25.000] Step 25/300: RL Agent: Adjusting cell 3 power from 40.6 to 34.8 dBm
+[25.000] Step 25/300: RL Agent: Adjusting cell 5 power from 46.0 to 44.5 dBm
+[25.000] Step 25/300: RL Agent: Adjusting cell 6 power from 30.0 to 32.9 dBm
+[25.000] Step 25/300: RL Agent: Adjusting cell 7 power from 45.2 to 36.8 dBm
+[25.000] Step 25/300: RL Agent: Adjusting cell 9 power from 39.5 to 38.6 dBm
+[25.000] Step 25/300: RL Agent: Adjusting cell 10 power from 39.5 to 42.4 dBm
+[25.000] Step 25/300: RL Agent: Adjusting cell 11 power from 46.0 to 33.3 dBm
+[25.000] Step 25/300: RL Agent: Adjusting cell 12 power from 46.0 to 45.3 dBm
+[25.000] Step 25/300: RL Agent: Adjusting cell 13 power from 46.0 to 38.7 dBm
+[25.000] Step 25/300: RL Agent: Setting cell 14 to minimum power (30.0 dBm)
+[25.000] Step 25/300: RL Agent: Adjusting cell 15 power from 39.5 to 33.0 dBm
+[25.000] Step 25/300: RL Agent: Adjusting cell 16 power from 34.7 to 46.0 dBm
+[25.000] Step 25/300: RL Agent: Adjusting cell 17 power from 35.5 to 46.0 dBm
+[25.000] Step 25/300: RL Agent: Adjusting cell 18 power from 41.6 to 41.4 dBm
+[25.000] Step 25/300: RL Agent: Adjusting cell 19 power from 30.0 to 43.1 dBm
+[25.000] Step 25/300: RL Agent: Setting cell 20 to minimum power (30.0 dBm)
+[25.000] Step 25/300: RL Agent: Setting cell 21 to minimum power (30.0 dBm)
+[26.000] Step 26/300: RL Agent: Adjusting cell 1 power from 38.5 to 39.6 dBm
+[26.000] Step 26/300: RL Agent: Adjusting cell 2 power from 37.7 to 40.4 dBm
+[26.000] Step 26/300: RL Agent: Adjusting cell 3 power from 34.8 to 42.7 dBm
+[26.000] Step 26/300: RL Agent: Setting cell 4 to minimum power (30.0 dBm)
+[26.000] Step 26/300: RL Agent: Adjusting cell 5 power from 44.5 to 36.2 dBm
+[26.000] Step 26/300: RL Agent: Setting cell 6 to minimum power (30.0 dBm)
+[26.000] Step 26/300: RL Agent: Adjusting cell 7 power from 36.8 to 32.7 dBm
+[26.000] Step 26/300: RL Agent: Setting cell 8 to minimum power (30.0 dBm)
+[26.000] Step 26/300: RL Agent: Setting cell 9 to minimum power (30.3 dBm)
+[26.000] Step 26/300: RL Agent: Adjusting cell 10 power from 42.4 to 43.3 dBm
+[26.000] Step 26/300: RL Agent: Setting cell 11 to minimum power (30.0 dBm)
+[26.000] Step 26/300: RL Agent: Adjusting cell 12 power from 45.3 to 38.1 dBm
+[26.000] Step 26/300: RL Agent: Adjusting cell 13 power from 38.7 to 40.7 dBm
+[26.000] Step 26/300: RL Agent: Adjusting cell 14 power from 30.0 to 46.0 dBm
+[26.000] Step 26/300: RL Agent: Adjusting cell 15 power from 33.0 to 34.2 dBm
+[26.000] Step 26/300: RL Agent: Adjusting cell 16 power from 46.0 to 43.0 dBm
+[26.000] Step 26/300: RL Agent: Adjusting cell 17 power from 46.0 to 31.3 dBm
+[26.000] Step 26/300: RL Agent: Adjusting cell 18 power from 41.4 to 42.1 dBm
+[26.000] Step 26/300: RL Agent: Adjusting cell 19 power from 43.1 to 46.0 dBm
+[26.000] Step 26/300: RL Agent: Setting cell 20 to minimum power (30.0 dBm)
+[26.000] Step 26/300: RL Agent: Adjusting cell 21 power from 30.0 to 46.0 dBm
+[27.000] Step 27/300: RL Agent: Setting cell 1 to minimum power (30.0 dBm)
+[27.000] Step 27/300: RL Agent: Setting cell 2 to minimum power (30.9 dBm)
+[27.000] Step 27/300: RL Agent: Adjusting cell 3 power from 42.7 to 40.0 dBm
+[27.000] Step 27/300: RL Agent: Adjusting cell 4 power from 30.0 to 33.8 dBm
+[27.000] Step 27/300: RL Agent: Adjusting cell 5 power from 36.2 to 34.0 dBm
+[27.000] Step 27/300: RL Agent: Adjusting cell 6 power from 30.0 to 41.5 dBm
+[27.000] Step 27/300: RL Agent: Adjusting cell 7 power from 32.7 to 46.0 dBm
+[27.000] Step 27/300: RL Agent: Setting cell 8 to minimum power (30.7 dBm)
+[27.000] Step 27/300: RL Agent: Setting cell 9 to minimum power (30.0 dBm)
+[27.000] Step 27/300: RL Agent: Adjusting cell 10 power from 43.3 to 31.8 dBm
+[27.000] Step 27/300: RL Agent: Adjusting cell 11 power from 30.0 to 46.0 dBm
+[27.000] Step 27/300: RL Agent: Adjusting cell 12 power from 38.1 to 39.5 dBm
+[27.000] Step 27/300: RL Agent: Adjusting cell 13 power from 40.7 to 33.9 dBm
+[27.000] Step 27/300: RL Agent: Adjusting cell 14 power from 46.0 to 42.7 dBm
+[27.000] Step 27/300: RL Agent: Adjusting cell 15 power from 34.2 to 41.6 dBm
+[27.000] Step 27/300: RL Agent: Adjusting cell 16 power from 43.0 to 43.2 dBm
+[27.000] Step 27/300: RL Agent: Adjusting cell 17 power from 31.3 to 46.0 dBm
+[27.000] Step 27/300: RL Agent: Adjusting cell 18 power from 42.1 to 46.0 dBm
+[27.000] Step 27/300: RL Agent: Adjusting cell 19 power from 46.0 to 31.1 dBm
+[27.000] Step 27/300: RL Agent: Adjusting cell 20 power from 30.0 to 34.7 dBm
+[27.000] Step 27/300: RL Agent: Setting cell 21 to minimum power (30.0 dBm)
+[28.000] Step 28/300: RL Agent: Adjusting cell 1 power from 30.0 to 37.3 dBm
+[28.000] Step 28/300: RL Agent: Adjusting cell 2 power from 30.9 to 33.1 dBm
+[28.000] Step 28/300: RL Agent: Setting cell 3 to minimum power (30.0 dBm)
+[28.000] Step 28/300: RL Agent: Adjusting cell 4 power from 33.8 to 40.6 dBm
+[28.000] Step 28/300: RL Agent: Adjusting cell 5 power from 34.0 to 33.6 dBm
+[28.000] Step 28/300: RL Agent: Setting cell 6 to minimum power (30.0 dBm)
+[28.000] Step 28/300: RL Agent: Adjusting cell 8 power from 30.7 to 42.1 dBm
+[28.000] Step 28/300: RL Agent: Adjusting cell 9 power from 30.0 to 35.4 dBm
+[28.000] Step 28/300: RL Agent: Setting cell 10 to minimum power (30.0 dBm)
+[28.000] Step 28/300: RL Agent: Setting cell 11 to minimum power (30.0 dBm)
+[28.000] Step 28/300: RL Agent: Adjusting cell 12 power from 39.5 to 46.0 dBm
+[28.000] Step 28/300: RL Agent: Adjusting cell 13 power from 33.9 to 31.8 dBm
+[28.000] Step 28/300: RL Agent: Adjusting cell 14 power from 42.7 to 46.0 dBm
+[28.000] Step 28/300: RL Agent: Adjusting cell 15 power from 41.6 to 37.6 dBm
+[28.000] Step 28/300: RL Agent: Adjusting cell 16 power from 43.2 to 36.3 dBm
+[28.000] Step 28/300: RL Agent: Adjusting cell 17 power from 46.0 to 42.2 dBm
+[28.000] Step 28/300: RL Agent: Adjusting cell 18 power from 46.0 to 34.7 dBm
+[28.000] Step 28/300: RL Agent: Adjusting cell 19 power from 31.1 to 39.4 dBm
+[28.000] Step 28/300: RL Agent: Adjusting cell 20 power from 34.7 to 45.0 dBm
+[28.000] Step 28/300: RL Agent: Adjusting cell 21 power from 30.0 to 46.0 dBm
+[29.000] Step 29/300: RL Agent: Adjusting cell 1 power from 37.3 to 33.8 dBm
+[29.000] Step 29/300: RL Agent: Adjusting cell 2 power from 33.1 to 37.0 dBm
+[29.000] Step 29/300: RL Agent: Adjusting cell 3 power from 30.0 to 46.0 dBm
+[29.000] Step 29/300: RL Agent: Adjusting cell 4 power from 40.6 to 41.7 dBm
+[29.000] Step 29/300: RL Agent: Setting cell 5 to minimum power (30.0 dBm)
+[29.000] Step 29/300: RL Agent: Adjusting cell 6 power from 30.0 to 46.0 dBm
+[29.000] Step 29/300: RL Agent: Setting cell 7 to minimum power (30.0 dBm)
+[29.000] Step 29/300: RL Agent: Setting cell 8 to minimum power (30.0 dBm)
+[29.000] Step 29/300: RL Agent: Adjusting cell 9 power from 35.4 to 36.8 dBm
+[29.000] Step 29/300: RL Agent: Adjusting cell 10 power from 30.0 to 36.5 dBm
+[29.000] Step 29/300: RL Agent: Adjusting cell 11 power from 30.0 to 38.5 dBm
+[29.000] Step 29/300: RL Agent: Setting cell 12 to minimum power (30.0 dBm)
+[29.000] Step 29/300: RL Agent: Adjusting cell 13 power from 31.8 to 39.3 dBm
+[29.000] Step 29/300: RL Agent: Adjusting cell 15 power from 37.6 to 45.7 dBm
+[29.000] Step 29/300: RL Agent: Adjusting cell 16 power from 36.3 to 38.0 dBm
+[29.000] Step 29/300: RL Agent: Adjusting cell 17 power from 42.2 to 46.0 dBm
+[29.000] Step 29/300: RL Agent: Adjusting cell 18 power from 34.7 to 35.8 dBm
+[29.000] Step 29/300: RL Agent: Adjusting cell 19 power from 39.4 to 33.4 dBm
+[29.000] Step 29/300: RL Agent: Adjusting cell 20 power from 45.0 to 41.9 dBm
+[29.000] Step 29/300: RL Agent: Setting cell 21 to minimum power (30.0 dBm)
+[30.000] Step 30/300: RL Agent: Adjusting cell 1 power from 33.8 to 46.0 dBm
+[30.000] Step 30/300: RL Agent: Adjusting cell 2 power from 37.0 to 46.0 dBm
+[30.000] Step 30/300: RL Agent: Adjusting cell 3 power from 46.0 to 36.5 dBm
+[30.000] Step 30/300: RL Agent: Adjusting cell 4 power from 41.7 to 46.0 dBm
+[30.000] Step 30/300: RL Agent: Setting cell 5 to minimum power (30.0 dBm)
+[30.000] Step 30/300: RL Agent: Setting cell 6 to minimum power (30.0 dBm)
+[30.000] Step 30/300: RL Agent: Adjusting cell 7 power from 30.0 to 43.9 dBm
+[30.000] Step 30/300: RL Agent: Adjusting cell 8 power from 30.0 to 46.0 dBm
+[30.000] Step 30/300: RL Agent: Adjusting cell 9 power from 36.8 to 46.0 dBm
+[30.000] Step 30/300: RL Agent: Setting cell 10 to minimum power (30.6 dBm)
+[30.000] Step 30/300: RL Agent: Adjusting cell 11 power from 38.5 to 46.0 dBm
+[30.000] Step 30/300: RL Agent: Adjusting cell 12 power from 30.0 to 31.8 dBm
+[30.000] Step 30/300: RL Agent: Adjusting cell 13 power from 39.3 to 41.5 dBm
+[30.000] Step 30/300: RL Agent: Adjusting cell 14 power from 46.0 to 34.5 dBm
+[30.000] Step 30/300: RL Agent: Setting cell 15 to minimum power (30.0 dBm)
+[30.000] Step 30/300: RL Agent: Adjusting cell 16 power from 38.0 to 46.0 dBm
+[30.000] Step 30/300: RL Agent: Adjusting cell 17 power from 46.0 to 31.8 dBm
+[30.000] Step 30/300: RL Agent: Adjusting cell 18 power from 35.8 to 44.9 dBm
+[30.000] Step 30/300: RL Agent: Adjusting cell 19 power from 33.4 to 35.3 dBm
+[30.000] Step 30/300: RL Agent: Adjusting cell 20 power from 41.9 to 37.9 dBm
+[30.000] Step 30/300: RL Agent: Adjusting cell 21 power from 30.0 to 41.7 dBm
+[31.000] Step 31/300: RL Agent: Setting cell 1 to minimum power (30.0 dBm)
+[31.000] Step 31/300: RL Agent: Setting cell 2 to minimum power (30.0 dBm)
+[31.000] Step 31/300: RL Agent: Adjusting cell 3 power from 36.5 to 35.7 dBm
+[31.000] Step 31/300: RL Agent: Adjusting cell 4 power from 46.0 to 45.7 dBm
+[31.000] Step 31/300: RL Agent: Setting cell 5 to minimum power (30.0 dBm)
+[31.000] Step 31/300: RL Agent: Adjusting cell 6 power from 30.0 to 34.7 dBm
+[31.000] Step 31/300: RL Agent: Adjusting cell 7 power from 43.9 to 44.4 dBm
+[31.000] Step 31/300: RL Agent: Adjusting cell 8 power from 46.0 to 44.4 dBm
+[31.000] Step 31/300: RL Agent: Adjusting cell 9 power from 46.0 to 37.2 dBm
+[31.000] Step 31/300: RL Agent: Adjusting cell 10 power from 30.6 to 31.6 dBm
+[31.000] Step 31/300: RL Agent: Setting cell 11 to minimum power (30.0 dBm)
+[31.000] Step 31/300: RL Agent: Adjusting cell 12 power from 31.8 to 42.8 dBm
+[31.000] Step 31/300: RL Agent: Setting cell 13 to minimum power (30.4 dBm)
+[31.000] Step 31/300: RL Agent: Adjusting cell 14 power from 34.5 to 46.0 dBm
+[31.000] Step 31/300: RL Agent: Adjusting cell 15 power from 30.0 to 44.9 dBm
+[31.000] Step 31/300: RL Agent: Adjusting cell 16 power from 46.0 to 37.0 dBm
+[31.000] Step 31/300: RL Agent: Setting cell 17 to minimum power (30.0 dBm)
+[31.000] Step 31/300: RL Agent: Adjusting cell 18 power from 44.9 to 34.4 dBm
+[31.000] Step 31/300: RL Agent: Adjusting cell 19 power from 35.3 to 46.0 dBm
+[31.000] Step 31/300: RL Agent: Adjusting cell 20 power from 37.9 to 36.3 dBm
+[31.000] Step 31/300: RL Agent: Adjusting cell 21 power from 41.7 to 46.0 dBm
+[32.000] Step 32/300: RL Agent: Setting cell 1 to minimum power (30.0 dBm)
+[32.000] Step 32/300: RL Agent: Adjusting cell 2 power from 30.0 to 41.9 dBm
+[32.000] Step 32/300: RL Agent: Adjusting cell 3 power from 35.7 to 46.0 dBm
+[32.000] Step 32/300: RL Agent: Adjusting cell 4 power from 45.7 to 46.0 dBm
+[32.000] Step 32/300: RL Agent: Adjusting cell 5 power from 30.0 to 36.7 dBm
+[32.000] Step 32/300: RL Agent: Adjusting cell 6 power from 34.7 to 36.5 dBm
+[32.000] Step 32/300: RL Agent: Adjusting cell 7 power from 44.4 to 38.1 dBm
+[32.000] Step 32/300: RL Agent: Adjusting cell 8 power from 44.4 to 31.2 dBm
+[32.000] Step 32/300: RL Agent: Adjusting cell 9 power from 37.2 to 42.9 dBm
+[32.000] Step 32/300: RL Agent: Adjusting cell 10 power from 31.6 to 31.2 dBm
+[32.000] Step 32/300: RL Agent: Adjusting cell 11 power from 30.0 to 43.5 dBm
+[32.000] Step 32/300: RL Agent: Adjusting cell 12 power from 42.8 to 46.0 dBm
+[32.000] Step 32/300: RL Agent: Adjusting cell 13 power from 30.4 to 36.3 dBm
+[32.000] Step 32/300: RL Agent: Adjusting cell 14 power from 46.0 to 36.9 dBm
+[32.000] Step 32/300: RL Agent: Adjusting cell 15 power from 44.9 to 40.3 dBm
+[32.000] Step 32/300: RL Agent: Adjusting cell 16 power from 37.0 to 42.1 dBm
+[32.000] Step 32/300: RL Agent: Adjusting cell 17 power from 30.0 to 36.9 dBm
+[32.000] Step 32/300: RL Agent: Adjusting cell 18 power from 34.4 to 35.7 dBm
+[32.000] Step 32/300: RL Agent: Adjusting cell 19 power from 46.0 to 35.7 dBm
+[32.000] Step 32/300: RL Agent: Adjusting cell 20 power from 36.3 to 46.0 dBm
+[32.000] Step 32/300: RL Agent: Adjusting cell 21 power from 46.0 to 33.1 dBm
+[33.000] Step 33/300: RL Agent: Adjusting cell 1 power from 30.0 to 45.0 dBm
+[33.000] Step 33/300: RL Agent: Adjusting cell 2 power from 41.9 to 39.1 dBm
+[33.000] Step 33/300: RL Agent: Setting cell 3 to minimum power (30.0 dBm)
+[33.000] Step 33/300: RL Agent: Adjusting cell 4 power from 46.0 to 41.8 dBm
+[33.000] Step 33/300: RL Agent: Adjusting cell 5 power from 36.7 to 46.0 dBm
+[33.000] Step 33/300: RL Agent: Setting cell 6 to minimum power (30.0 dBm)
+[33.000] Step 33/300: RL Agent: Adjusting cell 7 power from 38.1 to 46.0 dBm
+[33.000] Step 33/300: RL Agent: Adjusting cell 8 power from 31.2 to 38.5 dBm
+[33.000] Step 33/300: RL Agent: Setting cell 9 to minimum power (30.8 dBm)
+[33.000] Step 33/300: RL Agent: Adjusting cell 10 power from 31.2 to 42.1 dBm
+[33.000] Step 33/300: RL Agent: Adjusting cell 11 power from 43.5 to 42.2 dBm
+[33.000] Step 33/300: RL Agent: Setting cell 12 to minimum power (30.0 dBm)
+[33.000] Step 33/300: RL Agent: Adjusting cell 13 power from 36.3 to 34.3 dBm
+[33.000] Step 33/300: RL Agent: Adjusting cell 14 power from 36.9 to 31.9 dBm
+[33.000] Step 33/300: RL Agent: Setting cell 15 to minimum power (30.5 dBm)
+[33.000] Step 33/300: RL Agent: Setting cell 16 to minimum power (30.0 dBm)
+[33.000] Step 33/300: RL Agent: Setting cell 17 to minimum power (30.0 dBm)
+[33.000] Step 33/300: RL Agent: Adjusting cell 18 power from 35.7 to 42.8 dBm
+[33.000] Step 33/300: RL Agent: Adjusting cell 19 power from 35.7 to 35.9 dBm
+[33.000] Step 33/300: RL Agent: Adjusting cell 20 power from 46.0 to 45.1 dBm
+[33.000] Step 33/300: RL Agent: Adjusting cell 21 power from 33.1 to 46.0 dBm
+[34.000] Step 34/300: RL Agent: Adjusting cell 1 power from 45.0 to 44.6 dBm
+[34.000] Step 34/300: RL Agent: Adjusting cell 2 power from 39.1 to 46.0 dBm
+[34.000] Step 34/300: RL Agent: Adjusting cell 3 power from 30.0 to 41.5 dBm
+[34.000] Step 34/300: RL Agent: Setting cell 4 to minimum power (30.0 dBm)
+[34.000] Step 34/300: RL Agent: Adjusting cell 5 power from 46.0 to 37.9 dBm
+[34.000] Step 34/300: RL Agent: Adjusting cell 6 power from 30.0 to 46.0 dBm
+[34.000] Step 34/300: RL Agent: Adjusting cell 7 power from 46.0 to 43.3 dBm
+[34.000] Step 34/300: RL Agent: Adjusting cell 8 power from 38.5 to 43.5 dBm
+[34.000] Step 34/300: RL Agent: Adjusting cell 9 power from 30.8 to 38.4 dBm
+[34.000] Step 34/300: RL Agent: Adjusting cell 10 power from 42.1 to 43.5 dBm
+[34.000] Step 34/300: RL Agent: Adjusting cell 11 power from 42.2 to 42.5 dBm
+[34.000] Step 34/300: RL Agent: Setting cell 12 to minimum power (30.0 dBm)
+[34.000] Step 34/300: RL Agent: Adjusting cell 13 power from 34.3 to 40.2 dBm
+[34.000] Step 34/300: RL Agent: Adjusting cell 14 power from 31.9 to 38.8 dBm
+[34.000] Step 34/300: RL Agent: Adjusting cell 15 power from 30.5 to 46.0 dBm
+[34.000] Step 34/300: RL Agent: Adjusting cell 16 power from 30.0 to 34.5 dBm
+[34.000] Step 34/300: RL Agent: Adjusting cell 17 power from 30.0 to 36.9 dBm
+[34.000] Step 34/300: RL Agent: Adjusting cell 18 power from 42.8 to 32.1 dBm
+[34.000] Step 34/300: RL Agent: Adjusting cell 19 power from 35.9 to 39.9 dBm
+[34.000] Step 34/300: RL Agent: Setting cell 20 to minimum power (30.0 dBm)
+[34.000] Step 34/300: RL Agent: Setting cell 21 to minimum power (30.0 dBm)
+[35.000] Step 35/300: RL Agent: Adjusting cell 1 power from 44.6 to 39.1 dBm
+[35.000] Step 35/300: RL Agent: Adjusting cell 2 power from 46.0 to 39.4 dBm
+[35.000] Step 35/300: RL Agent: Adjusting cell 3 power from 41.5 to 46.0 dBm
+[35.000] Step 35/300: RL Agent: Adjusting cell 4 power from 30.0 to 46.0 dBm
+[35.000] Step 35/300: RL Agent: Adjusting cell 5 power from 37.9 to 46.0 dBm
+[35.000] Step 35/300: RL Agent: Setting cell 6 to minimum power (30.0 dBm)
+[35.000] Step 35/300: RL Agent: Adjusting cell 7 power from 43.3 to 35.8 dBm
+[35.000] Step 35/300: RL Agent: Setting cell 8 to minimum power (30.0 dBm)
+[35.000] Step 35/300: RL Agent: Setting cell 9 to minimum power (30.0 dBm)
+[35.000] Step 35/300: RL Agent: Adjusting cell 10 power from 43.5 to 43.4 dBm
+[35.000] Step 35/300: RL Agent: Adjusting cell 11 power from 42.5 to 46.0 dBm
+[35.000] Step 35/300: RL Agent: Adjusting cell 12 power from 30.0 to 40.7 dBm
+[35.000] Step 35/300: RL Agent: Adjusting cell 13 power from 40.2 to 46.0 dBm
+[35.000] Step 35/300: RL Agent: Adjusting cell 14 power from 38.8 to 46.0 dBm
+[35.000] Step 35/300: RL Agent: Adjusting cell 16 power from 34.5 to 41.2 dBm
+[35.000] Step 35/300: RL Agent: Adjusting cell 17 power from 36.9 to 43.2 dBm
+[35.000] Step 35/300: RL Agent: Adjusting cell 18 power from 32.1 to 46.0 dBm
+[35.000] Step 35/300: RL Agent: Adjusting cell 19 power from 39.9 to 37.2 dBm
+[35.000] Step 35/300: RL Agent: Adjusting cell 20 power from 30.0 to 46.0 dBm
+[35.000] Step 35/300: RL Agent: Adjusting cell 21 power from 30.0 to 46.0 dBm
+[36.000] Step 36/300: RL Agent: Adjusting cell 1 power from 39.1 to 38.6 dBm
+[36.000] Step 36/300: RL Agent: Adjusting cell 2 power from 39.4 to 36.9 dBm
+[36.000] Step 36/300: RL Agent: Adjusting cell 3 power from 46.0 to 41.0 dBm
+[36.000] Step 36/300: RL Agent: Adjusting cell 4 power from 46.0 to 37.3 dBm
+[36.000] Step 36/300: RL Agent: Adjusting cell 6 power from 30.0 to 44.5 dBm
+[36.000] Step 36/300: RL Agent: Adjusting cell 7 power from 35.8 to 32.2 dBm
+[36.000] Step 36/300: RL Agent: Adjusting cell 8 power from 30.0 to 41.9 dBm
+[36.000] Step 36/300: RL Agent: Adjusting cell 9 power from 30.0 to 46.0 dBm
+[36.000] Step 36/300: RL Agent: Adjusting cell 10 power from 43.4 to 37.0 dBm
+[36.000] Step 36/300: RL Agent: Adjusting cell 11 power from 46.0 to 42.6 dBm
+[36.000] Step 36/300: RL Agent: Adjusting cell 12 power from 40.7 to 45.8 dBm
+[36.000] Step 36/300: RL Agent: Adjusting cell 13 power from 46.0 to 35.6 dBm
+[36.000] Step 36/300: RL Agent: Adjusting cell 14 power from 46.0 to 32.4 dBm
+[36.000] Step 36/300: RL Agent: Adjusting cell 15 power from 46.0 to 34.9 dBm
+[36.000] Step 36/300: RL Agent: Adjusting cell 16 power from 41.2 to 37.6 dBm
+[36.000] Step 36/300: RL Agent: Adjusting cell 17 power from 43.2 to 40.5 dBm
+[36.000] Step 36/300: RL Agent: Adjusting cell 18 power from 46.0 to 35.8 dBm
+[36.000] Step 36/300: RL Agent: Adjusting cell 19 power from 37.2 to 34.5 dBm
+[36.000] Step 36/300: RL Agent: Adjusting cell 20 power from 46.0 to 33.6 dBm
+[36.000] Step 36/300: RL Agent: Setting cell 21 to minimum power (30.0 dBm)
+[37.000] Step 37/300: RL Agent: Adjusting cell 1 power from 38.6 to 46.0 dBm
+[37.000] Step 37/300: RL Agent: Adjusting cell 2 power from 36.9 to 42.1 dBm
+[37.000] Step 37/300: RL Agent: Adjusting cell 3 power from 41.0 to 32.5 dBm
+[37.000] Step 37/300: RL Agent: Adjusting cell 4 power from 37.3 to 38.4 dBm
+[37.000] Step 37/300: RL Agent: Adjusting cell 5 power from 46.0 to 39.0 dBm
+[37.000] Step 37/300: RL Agent: Adjusting cell 6 power from 44.5 to 34.4 dBm
+[37.000] Step 37/300: RL Agent: Adjusting cell 7 power from 32.2 to 46.0 dBm
+[37.000] Step 37/300: RL Agent: Adjusting cell 8 power from 41.9 to 41.2 dBm
+[37.000] Step 37/300: RL Agent: Adjusting cell 9 power from 46.0 to 36.2 dBm
+[37.000] Step 37/300: RL Agent: Adjusting cell 10 power from 37.0 to 40.4 dBm
+[37.000] Step 37/300: RL Agent: Adjusting cell 11 power from 42.6 to 38.1 dBm
+[37.000] Step 37/300: RL Agent: Adjusting cell 12 power from 45.8 to 46.0 dBm
+[37.000] Step 37/300: RL Agent: Adjusting cell 13 power from 35.6 to 33.5 dBm
+[37.000] Step 37/300: RL Agent: Setting cell 14 to minimum power (30.4 dBm)
+[37.000] Step 37/300: RL Agent: Adjusting cell 15 power from 34.9 to 39.2 dBm
+[37.000] Step 37/300: RL Agent: Adjusting cell 16 power from 37.6 to 32.4 dBm
+[37.000] Step 37/300: RL Agent: Adjusting cell 17 power from 40.5 to 40.6 dBm
+[37.000] Step 37/300: RL Agent: Adjusting cell 18 power from 35.8 to 35.8 dBm
+[37.000] Step 37/300: RL Agent: Setting cell 19 to minimum power (30.0 dBm)
+[37.000] Step 37/300: RL Agent: Adjusting cell 20 power from 33.6 to 46.0 dBm
+[37.000] Step 37/300: RL Agent: Setting cell 21 to minimum power (30.0 dBm)
+[38.000] Step 38/300: RL Agent: Setting cell 1 to minimum power (30.0 dBm)
+[38.000] Step 38/300: RL Agent: Adjusting cell 2 power from 42.1 to 46.0 dBm
+[38.000] Step 38/300: RL Agent: Adjusting cell 3 power from 32.5 to 44.1 dBm
+[38.000] Step 38/300: RL Agent: Setting cell 4 to minimum power (30.0 dBm)
+[38.000] Step 38/300: RL Agent: Adjusting cell 5 power from 39.0 to 37.3 dBm
+[38.000] Step 38/300: RL Agent: Adjusting cell 6 power from 34.4 to 39.9 dBm
+[38.000] Step 38/300: RL Agent: Adjusting cell 7 power from 46.0 to 32.6 dBm
+[38.000] Step 38/300: RL Agent: Adjusting cell 8 power from 41.2 to 32.4 dBm
+[38.000] Step 38/300: RL Agent: Adjusting cell 9 power from 36.2 to 38.7 dBm
+[38.000] Step 38/300: RL Agent: Adjusting cell 10 power from 40.4 to 41.9 dBm
+[38.000] Step 38/300: RL Agent: Adjusting cell 11 power from 38.1 to 46.0 dBm
+[38.000] Step 38/300: RL Agent: Adjusting cell 12 power from 46.0 to 37.4 dBm
+[38.000] Step 38/300: RL Agent: Adjusting cell 13 power from 33.5 to 35.6 dBm
+[38.000] Step 38/300: RL Agent: Adjusting cell 14 power from 30.4 to 46.0 dBm
+[38.000] Step 38/300: RL Agent: Adjusting cell 15 power from 39.2 to 39.1 dBm
+[38.000] Step 38/300: RL Agent: Adjusting cell 16 power from 32.4 to 46.0 dBm
+[38.000] Step 38/300: RL Agent: Adjusting cell 17 power from 40.6 to 43.6 dBm
+[38.000] Step 38/300: RL Agent: Adjusting cell 18 power from 35.8 to 36.4 dBm
+[38.000] Step 38/300: RL Agent: Adjusting cell 19 power from 30.0 to 46.0 dBm
+[38.000] Step 38/300: RL Agent: Setting cell 21 to minimum power (30.0 dBm)
+[39.000] Step 39/300: RL Agent: Adjusting cell 1 power from 30.0 to 37.9 dBm
+[39.000] Step 39/300: RL Agent: Adjusting cell 2 power from 46.0 to 37.4 dBm
+[39.000] Step 39/300: RL Agent: Adjusting cell 3 power from 44.1 to 46.0 dBm
+[39.000] Step 39/300: RL Agent: Setting cell 4 to minimum power (30.0 dBm)
+[39.000] Step 39/300: RL Agent: Adjusting cell 5 power from 37.3 to 35.1 dBm
+[39.000] Step 39/300: RL Agent: Adjusting cell 6 power from 39.9 to 46.0 dBm
+[39.000] Step 39/300: RL Agent: Adjusting cell 7 power from 32.6 to 35.8 dBm
+[39.000] Step 39/300: RL Agent: Setting cell 8 to minimum power (30.0 dBm)
+[39.000] Step 39/300: RL Agent: Adjusting cell 9 power from 38.7 to 41.2 dBm
+[39.000] Step 39/300: RL Agent: Setting cell 10 to minimum power (31.0 dBm)
+[39.000] Step 39/300: RL Agent: Adjusting cell 11 power from 46.0 to 43.9 dBm
+[39.000] Step 39/300: RL Agent: Setting cell 12 to minimum power (30.0 dBm)
+[39.000] Step 39/300: RL Agent: Adjusting cell 13 power from 35.6 to 46.0 dBm
+[39.000] Step 39/300: RL Agent: Setting cell 14 to minimum power (30.0 dBm)
+[39.000] Step 39/300: RL Agent: Adjusting cell 15 power from 39.1 to 40.6 dBm
+[39.000] Step 39/300: RL Agent: Adjusting cell 16 power from 46.0 to 38.8 dBm
+[39.000] Step 39/300: RL Agent: Setting cell 17 to minimum power (30.9 dBm)
+[39.000] Step 39/300: RL Agent: Adjusting cell 18 power from 36.4 to 40.0 dBm
+[39.000] Step 39/300: RL Agent: Adjusting cell 21 power from 30.0 to 41.5 dBm
+[40.000] Step 40/300: RL Agent: Adjusting cell 1 power from 37.9 to 34.4 dBm
+[40.000] Step 40/300: RL Agent: Setting cell 2 to minimum power (30.0 dBm)
+[40.000] Step 40/300: RL Agent: Adjusting cell 3 power from 46.0 to 37.3 dBm
+[40.000] Step 40/300: RL Agent: Adjusting cell 4 power from 30.0 to 31.2 dBm
+[40.000] Step 40/300: RL Agent: Adjusting cell 5 power from 35.1 to 37.8 dBm
+[40.000] Step 40/300: RL Agent: Setting cell 6 to minimum power (30.0 dBm)
+[40.000] Step 40/300: RL Agent: Setting cell 7 to minimum power (30.0 dBm)
+[40.000] Step 40/300: RL Agent: Setting cell 8 to minimum power (30.5 dBm)
+[40.000] Step 40/300: RL Agent: Adjusting cell 9 power from 41.2 to 33.9 dBm
+[40.000] Step 40/300: RL Agent: Adjusting cell 10 power from 31.0 to 37.0 dBm
+[40.000] Step 40/300: RL Agent: Adjusting cell 11 power from 43.9 to 41.7 dBm
+[40.000] Step 40/300: RL Agent: Adjusting cell 12 power from 30.0 to 38.5 dBm
+[40.000] Step 40/300: RL Agent: Setting cell 13 to minimum power (30.0 dBm)
+[40.000] Step 40/300: RL Agent: Adjusting cell 14 power from 30.0 to 41.0 dBm
+[40.000] Step 40/300: RL Agent: Adjusting cell 15 power from 40.6 to 46.0 dBm
+[40.000] Step 40/300: RL Agent: Adjusting cell 16 power from 38.8 to 46.0 dBm
+[40.000] Step 40/300: RL Agent: Setting cell 17 to minimum power (30.0 dBm)
+[40.000] Step 40/300: RL Agent: Adjusting cell 18 power from 40.0 to 46.0 dBm
+[40.000] Step 40/300: RL Agent: Adjusting cell 21 power from 41.5 to 46.0 dBm
+[41.000] Step 41/300: RL Agent: Adjusting cell 1 power from 34.4 to 41.4 dBm
+[41.000] Step 41/300: RL Agent: Setting cell 2 to minimum power (30.0 dBm)
+[41.000] Step 41/300: RL Agent: Setting cell 3 to minimum power (30.0 dBm)
+[41.000] Step 41/300: RL Agent: Adjusting cell 4 power from 31.2 to 39.2 dBm
+[41.000] Step 41/300: RL Agent: Adjusting cell 5 power from 37.8 to 36.5 dBm
+[41.000] Step 41/300: RL Agent: Adjusting cell 6 power from 30.0 to 46.0 dBm
+[41.000] Step 41/300: RL Agent: Adjusting cell 7 power from 30.0 to 33.9 dBm
+[41.000] Step 41/300: RL Agent: Setting cell 8 to minimum power (30.0 dBm)
+[41.000] Step 41/300: RL Agent: Adjusting cell 9 power from 33.9 to 44.1 dBm
+[41.000] Step 41/300: RL Agent: Adjusting cell 10 power from 37.0 to 40.9 dBm
+[41.000] Step 41/300: RL Agent: Adjusting cell 11 power from 41.7 to 40.3 dBm
+[41.000] Step 41/300: RL Agent: Adjusting cell 12 power from 38.5 to 46.0 dBm
+[41.000] Step 41/300: RL Agent: Adjusting cell 13 power from 30.0 to 42.6 dBm
+[41.000] Step 41/300: RL Agent: Adjusting cell 14 power from 41.0 to 43.2 dBm
+[41.000] Step 41/300: RL Agent: Setting cell 15 to minimum power (30.0 dBm)
+[41.000] Step 41/300: RL Agent: Adjusting cell 16 power from 46.0 to 35.2 dBm
+[41.000] Step 41/300: RL Agent: Adjusting cell 17 power from 30.0 to 44.9 dBm
+[41.000] Step 41/300: RL Agent: Setting cell 18 to minimum power (30.0 dBm)
+[41.000] Step 41/300: RL Agent: Setting cell 19 to minimum power (30.3 dBm)
+[41.000] Step 41/300: RL Agent: Setting cell 20 to minimum power (30.0 dBm)
+[41.000] Step 41/300: RL Agent: Setting cell 21 to minimum power (30.0 dBm)
+[42.000] Step 42/300: RL Agent: Adjusting cell 1 power from 41.4 to 42.8 dBm
+[42.000] Step 42/300: RL Agent: Adjusting cell 2 power from 30.0 to 46.0 dBm
+[42.000] Step 42/300: RL Agent: Adjusting cell 3 power from 30.0 to 37.7 dBm
+[42.000] Step 42/300: RL Agent: Adjusting cell 4 power from 39.2 to 38.0 dBm
+[42.000] Step 42/300: RL Agent: Adjusting cell 5 power from 36.5 to 33.6 dBm
+[42.000] Step 42/300: RL Agent: Adjusting cell 6 power from 46.0 to 33.1 dBm
+[42.000] Step 42/300: RL Agent: Setting cell 7 to minimum power (30.0 dBm)
+[42.000] Step 42/300: RL Agent: Setting cell 8 to minimum power (30.0 dBm)
+[42.000] Step 42/300: RL Agent: Adjusting cell 9 power from 44.1 to 32.8 dBm
+[42.000] Step 42/300: RL Agent: Adjusting cell 10 power from 40.9 to 46.0 dBm
+[42.000] Step 42/300: RL Agent: Adjusting cell 11 power from 40.3 to 35.6 dBm
+[42.000] Step 42/300: RL Agent: Adjusting cell 12 power from 46.0 to 41.0 dBm
+[42.000] Step 42/300: RL Agent: Adjusting cell 13 power from 42.6 to 33.0 dBm
+[42.000] Step 42/300: RL Agent: Adjusting cell 14 power from 43.2 to 44.4 dBm
+[42.000] Step 42/300: RL Agent: Adjusting cell 15 power from 30.0 to 46.0 dBm
+[42.000] Step 42/300: RL Agent: Adjusting cell 16 power from 35.2 to 46.0 dBm
+[42.000] Step 42/300: RL Agent: Adjusting cell 17 power from 44.9 to 32.9 dBm
+[42.000] Step 42/300: RL Agent: Adjusting cell 18 power from 30.0 to 46.0 dBm
+[42.000] Step 42/300: RL Agent: Adjusting cell 19 power from 30.3 to 31.0 dBm
+[42.000] Step 42/300: RL Agent: Adjusting cell 20 power from 30.0 to 34.8 dBm
+[42.000] Step 42/300: RL Agent: Adjusting cell 21 power from 30.0 to 44.8 dBm
+[43.000] Step 43/300: RL Agent: Adjusting cell 1 power from 42.8 to 39.2 dBm
+[43.000] Step 43/300: RL Agent: Setting cell 2 to minimum power (30.0 dBm)
+[43.000] Step 43/300: RL Agent: Adjusting cell 3 power from 37.7 to 36.8 dBm
+[43.000] Step 43/300: RL Agent: Adjusting cell 4 power from 38.0 to 35.9 dBm
+[43.000] Step 43/300: RL Agent: Adjusting cell 5 power from 33.6 to 41.2 dBm
+[43.000] Step 43/300: RL Agent: Setting cell 6 to minimum power (30.0 dBm)
+[43.000] Step 43/300: RL Agent: Adjusting cell 7 power from 30.0 to 33.5 dBm
+[43.000] Step 43/300: RL Agent: Setting cell 8 to minimum power (30.3 dBm)
+[43.000] Step 43/300: RL Agent: Adjusting cell 9 power from 32.8 to 42.7 dBm
+[43.000] Step 43/300: RL Agent: Adjusting cell 10 power from 46.0 to 39.4 dBm
+[43.000] Step 43/300: RL Agent: Adjusting cell 11 power from 35.6 to 34.4 dBm
+[43.000] Step 43/300: RL Agent: Setting cell 12 to minimum power (30.0 dBm)
+[43.000] Step 43/300: RL Agent: Adjusting cell 13 power from 33.0 to 45.0 dBm
+[43.000] Step 43/300: RL Agent: Adjusting cell 14 power from 44.4 to 40.7 dBm
+[43.000] Step 43/300: RL Agent: Setting cell 15 to minimum power (30.0 dBm)
+[43.000] Step 43/300: RL Agent: Adjusting cell 16 power from 46.0 to 43.8 dBm
+[43.000] Step 43/300: RL Agent: Adjusting cell 17 power from 32.9 to 39.9 dBm
+[43.000] Step 43/300: RL Agent: Setting cell 18 to minimum power (30.0 dBm)
+[43.000] Step 43/300: RL Agent: Adjusting cell 19 power from 31.0 to 32.8 dBm
+[43.000] Step 43/300: RL Agent: Setting cell 20 to minimum power (30.0 dBm)
+[43.000] Step 43/300: RL Agent: Adjusting cell 21 power from 44.8 to 31.7 dBm
+[44.000] Step 44/300: RL Agent: Adjusting cell 1 power from 39.2 to 46.0 dBm
+[44.000] Step 44/300: RL Agent: Setting cell 2 to minimum power (30.0 dBm)
+[44.000] Step 44/300: RL Agent: Adjusting cell 3 power from 36.8 to 46.0 dBm
+[44.000] Step 44/300: RL Agent: Adjusting cell 4 power from 35.9 to 44.0 dBm
+[44.000] Step 44/300: RL Agent: Adjusting cell 5 power from 41.2 to 37.2 dBm
+[44.000] Step 44/300: RL Agent: Adjusting cell 6 power from 30.0 to 46.0 dBm
+[44.000] Step 44/300: RL Agent: Setting cell 7 to minimum power (30.0 dBm)
+[44.000] Step 44/300: RL Agent: Adjusting cell 8 power from 30.3 to 40.0 dBm
+[44.000] Step 44/300: RL Agent: Adjusting cell 9 power from 42.7 to 33.6 dBm
+[44.000] Step 44/300: RL Agent: Adjusting cell 10 power from 39.4 to 45.2 dBm
+[44.000] Step 44/300: RL Agent: Setting cell 11 to minimum power (30.0 dBm)
+[44.000] Step 44/300: RL Agent: Adjusting cell 12 power from 30.0 to 42.2 dBm
+[44.000] Step 44/300: RL Agent: Adjusting cell 13 power from 45.0 to 36.7 dBm
+[44.000] Step 44/300: RL Agent: Setting cell 14 to minimum power (30.0 dBm)
+[44.000] Step 44/300: RL Agent: Adjusting cell 15 power from 30.0 to 46.0 dBm
+[44.000] Step 44/300: RL Agent: Setting cell 16 to minimum power (30.0 dBm)
+[44.000] Step 44/300: RL Agent: Adjusting cell 17 power from 39.9 to 32.8 dBm
+[44.000] Step 44/300: RL Agent: Adjusting cell 18 power from 30.0 to 38.2 dBm
+[44.000] Step 44/300: RL Agent: Adjusting cell 19 power from 32.8 to 35.8 dBm
+[44.000] Step 44/300: RL Agent: Adjusting cell 20 power from 30.0 to 46.0 dBm
+[44.000] Step 44/300: RL Agent: Setting cell 21 to minimum power (30.0 dBm)
+[45.000] Step 45/300: RL Agent: Adjusting cell 1 power from 46.0 to 41.0 dBm
+[45.000] Step 45/300: RL Agent: Adjusting cell 2 power from 30.0 to 46.0 dBm
+[45.000] Step 45/300: RL Agent: Adjusting cell 3 power from 46.0 to 35.6 dBm
+[45.000] Step 45/300: RL Agent: Adjusting cell 4 power from 44.0 to 35.8 dBm
+[45.000] Step 45/300: RL Agent: Adjusting cell 5 power from 37.2 to 36.5 dBm
+[45.000] Step 45/300: RL Agent: Setting cell 6 to minimum power (30.0 dBm)
+[45.000] Step 45/300: RL Agent: Adjusting cell 7 power from 30.0 to 31.8 dBm
+[45.000] Step 45/300: RL Agent: Adjusting cell 8 power from 40.0 to 40.7 dBm
+[45.000] Step 45/300: RL Agent: Adjusting cell 9 power from 33.6 to 39.6 dBm
+[45.000] Step 45/300: RL Agent: Adjusting cell 10 power from 45.2 to 46.0 dBm
+[45.000] Step 45/300: RL Agent: Adjusting cell 11 power from 30.0 to 46.0 dBm
+[45.000] Step 45/300: RL Agent: Adjusting cell 12 power from 42.2 to 32.7 dBm
+[45.000] Step 45/300: RL Agent: Adjusting cell 13 power from 36.7 to 41.7 dBm
+[45.000] Step 45/300: RL Agent: Adjusting cell 14 power from 30.0 to 32.8 dBm
+[45.000] Step 45/300: RL Agent: Adjusting cell 15 power from 46.0 to 45.3 dBm
+[45.000] Step 45/300: RL Agent: Adjusting cell 16 power from 30.0 to 39.0 dBm
+[45.000] Step 45/300: RL Agent: Adjusting cell 17 power from 32.8 to 36.7 dBm
+[45.000] Step 45/300: RL Agent: Adjusting cell 18 power from 38.2 to 46.0 dBm
+[45.000] Step 45/300: RL Agent: Adjusting cell 19 power from 35.8 to 43.1 dBm
+[45.000] Step 45/300: RL Agent: Adjusting cell 20 power from 46.0 to 44.9 dBm
+[45.000] Step 45/300: RL Agent: Adjusting cell 21 power from 30.0 to 35.5 dBm
+[46.000] Step 46/300: RL Agent: Adjusting cell 1 power from 41.0 to 46.0 dBm
+[46.000] Step 46/300: RL Agent: Adjusting cell 3 power from 35.6 to 45.5 dBm
+[46.000] Step 46/300: RL Agent: Setting cell 4 to minimum power (30.0 dBm)
+[46.000] Step 46/300: RL Agent: Adjusting cell 5 power from 36.5 to 43.5 dBm
+[46.000] Step 46/300: RL Agent: Adjusting cell 6 power from 30.0 to 46.0 dBm
+[46.000] Step 46/300: RL Agent: Setting cell 7 to minimum power (30.0 dBm)
+[46.000] Step 46/300: RL Agent: Setting cell 8 to minimum power (30.0 dBm)
+[46.000] Step 46/300: RL Agent: Adjusting cell 9 power from 39.6 to 33.0 dBm
+[46.000] Step 46/300: RL Agent: Adjusting cell 10 power from 46.0 to 40.5 dBm
+[46.000] Step 46/300: RL Agent: Adjusting cell 12 power from 32.7 to 46.0 dBm
+[46.000] Step 46/300: RL Agent: Adjusting cell 13 power from 41.7 to 44.4 dBm
+[46.000] Step 46/300: RL Agent: Adjusting cell 14 power from 32.8 to 36.6 dBm
+[46.000] Step 46/300: RL Agent: Setting cell 15 to minimum power (30.0 dBm)
+[46.000] Step 46/300: RL Agent: Adjusting cell 16 power from 39.0 to 46.0 dBm
+[46.000] Step 46/300: RL Agent: Adjusting cell 17 power from 36.7 to 35.8 dBm
+[46.000] Step 46/300: RL Agent: Adjusting cell 19 power from 43.1 to 46.0 dBm
+[46.000] Step 46/300: RL Agent: Adjusting cell 20 power from 44.9 to 33.4 dBm
+[46.000] Step 46/300: RL Agent: Adjusting cell 21 power from 35.5 to 46.0 dBm
+[47.000] Step 47/300: RL Agent: Setting cell 1 to minimum power (30.5 dBm)
+[47.000] Step 47/300: RL Agent: Adjusting cell 3 power from 45.5 to 39.8 dBm
+[47.000] Step 47/300: RL Agent: Adjusting cell 4 power from 30.0 to 38.8 dBm
+[47.000] Step 47/300: RL Agent: Adjusting cell 5 power from 43.5 to 34.4 dBm
+[47.000] Step 47/300: RL Agent: Adjusting cell 6 power from 46.0 to 43.7 dBm
+[47.000] Step 47/300: RL Agent: Adjusting cell 7 power from 30.0 to 39.6 dBm
+[47.000] Step 47/300: RL Agent: Adjusting cell 8 power from 30.0 to 46.0 dBm
+[47.000] Step 47/300: RL Agent: Adjusting cell 9 power from 33.0 to 32.4 dBm
+[47.000] Step 47/300: RL Agent: Adjusting cell 10 power from 40.5 to 40.2 dBm
+[47.000] Step 47/300: RL Agent: Adjusting cell 11 power from 46.0 to 40.2 dBm
+[47.000] Step 47/300: RL Agent: Adjusting cell 12 power from 46.0 to 37.7 dBm
+[47.000] Step 47/300: RL Agent: Adjusting cell 13 power from 44.4 to 34.9 dBm
+[47.000] Step 47/300: RL Agent: Adjusting cell 14 power from 36.6 to 46.0 dBm
+[47.000] Step 47/300: RL Agent: Adjusting cell 15 power from 30.0 to 46.0 dBm
+[47.000] Step 47/300: RL Agent: Adjusting cell 16 power from 46.0 to 45.0 dBm
+[47.000] Step 47/300: RL Agent: Adjusting cell 17 power from 35.8 to 45.3 dBm
+[47.000] Step 47/300: RL Agent: Setting cell 18 to minimum power (30.0 dBm)
+[47.000] Step 47/300: RL Agent: Adjusting cell 19 power from 46.0 to 32.7 dBm
+[47.000] Step 47/300: RL Agent: Setting cell 20 to minimum power (30.0 dBm)
+[48.000] Step 48/300: RL Agent: Adjusting cell 1 power from 30.5 to 42.5 dBm
+[48.000] Step 48/300: RL Agent: Adjusting cell 2 power from 46.0 to 44.8 dBm
+[48.000] Step 48/300: RL Agent: Setting cell 3 to minimum power (30.0 dBm)
+[48.000] Step 48/300: RL Agent: Adjusting cell 4 power from 38.8 to 35.6 dBm
+[48.000] Step 48/300: RL Agent: Setting cell 5 to minimum power (30.0 dBm)
+[48.000] Step 48/300: RL Agent: Adjusting cell 6 power from 43.7 to 42.3 dBm
+[48.000] Step 48/300: RL Agent: Adjusting cell 7 power from 39.6 to 43.8 dBm
+[48.000] Step 48/300: RL Agent: Adjusting cell 8 power from 46.0 to 39.7 dBm
+[48.000] Step 48/300: RL Agent: Setting cell 9 to minimum power (30.0 dBm)
+[48.000] Step 48/300: RL Agent: Adjusting cell 10 power from 40.2 to 34.9 dBm
+[48.000] Step 48/300: RL Agent: Adjusting cell 11 power from 40.2 to 35.0 dBm
+[48.000] Step 48/300: RL Agent: Adjusting cell 12 power from 37.7 to 45.4 dBm
+[48.000] Step 48/300: RL Agent: Adjusting cell 13 power from 34.9 to 36.0 dBm
+[48.000] Step 48/300: RL Agent: Adjusting cell 14 power from 46.0 to 45.3 dBm
+[48.000] Step 48/300: RL Agent: Setting cell 16 to minimum power (30.0 dBm)
+[48.000] Step 48/300: RL Agent: Adjusting cell 17 power from 45.3 to 46.0 dBm
+[48.000] Step 48/300: RL Agent: Adjusting cell 18 power from 30.0 to 33.0 dBm
+[48.000] Step 48/300: RL Agent: Adjusting cell 19 power from 32.7 to 46.0 dBm
+[48.000] Step 48/300: RL Agent: Setting cell 20 to minimum power (30.0 dBm)
+[49.000] Step 49/300: RL Agent: Adjusting cell 1 power from 42.5 to 32.6 dBm
+[49.000] Step 49/300: RL Agent: Adjusting cell 2 power from 44.8 to 46.0 dBm
+[49.000] Step 49/300: RL Agent: Adjusting cell 3 power from 30.0 to 32.6 dBm
+[49.000] Step 49/300: RL Agent: Setting cell 4 to minimum power (30.0 dBm)
+[49.000] Step 49/300: RL Agent: Adjusting cell 5 power from 30.0 to 37.3 dBm
+[49.000] Step 49/300: RL Agent: Setting cell 6 to minimum power (30.0 dBm)
+[49.000] Step 49/300: RL Agent: Adjusting cell 7 power from 43.8 to 42.1 dBm
+[49.000] Step 49/300: RL Agent: Adjusting cell 8 power from 39.7 to 31.8 dBm
+[49.000] Step 49/300: RL Agent: Adjusting cell 9 power from 30.0 to 44.1 dBm
+[49.000] Step 49/300: RL Agent: Adjusting cell 10 power from 34.9 to 46.0 dBm
+[49.000] Step 49/300: RL Agent: Setting cell 11 to minimum power (30.0 dBm)
+[49.000] Step 49/300: RL Agent: Adjusting cell 12 power from 45.4 to 38.6 dBm
+[49.000] Step 49/300: RL Agent: Adjusting cell 13 power from 36.0 to 45.5 dBm
+[49.000] Step 49/300: RL Agent: Adjusting cell 14 power from 45.3 to 46.0 dBm
+[49.000] Step 49/300: RL Agent: Adjusting cell 15 power from 46.0 to 35.7 dBm
+[49.000] Step 49/300: RL Agent: Adjusting cell 16 power from 30.0 to 38.7 dBm
+[49.000] Step 49/300: RL Agent: Adjusting cell 18 power from 33.0 to 31.2 dBm
+[49.000] Step 49/300: RL Agent: Setting cell 19 to minimum power (30.0 dBm)
+[49.000] Step 49/300: RL Agent: Setting cell 20 to minimum power (30.0 dBm)
+[49.000] Step 49/300: RL Agent: Adjusting cell 21 power from 46.0 to 35.0 dBm
+[50.000] Step 50/300: RL Agent: Adjusting cell 1 power from 32.6 to 34.3 dBm
+[50.000] Step 50/300: RL Agent: Setting cell 2 to minimum power (30.0 dBm)
+[50.000] Step 50/300: RL Agent: Setting cell 3 to minimum power (30.0 dBm)
+[50.000] Step 50/300: RL Agent: Adjusting cell 4 power from 30.0 to 35.7 dBm
+[50.000] Step 50/300: RL Agent: Adjusting cell 5 power from 37.3 to 32.2 dBm
+[50.000] Step 50/300: RL Agent: Adjusting cell 6 power from 30.0 to 46.0 dBm
+[50.000] Step 50/300: RL Agent: Adjusting cell 7 power from 42.1 to 43.1 dBm
+[50.000] Step 50/300: RL Agent: Setting cell 8 to minimum power (30.0 dBm)
+[50.000] Step 50/300: RL Agent: Adjusting cell 9 power from 44.1 to 37.2 dBm
+[50.000] Step 50/300: RL Agent: Adjusting cell 11 power from 30.0 to 43.8 dBm
+[50.000] Step 50/300: RL Agent: Adjusting cell 12 power from 38.6 to 40.3 dBm
+[50.000] Step 50/300: RL Agent: Adjusting cell 13 power from 45.5 to 45.4 dBm
+[50.000] Step 50/300: RL Agent: Adjusting cell 15 power from 35.7 to 44.9 dBm
+[50.000] Step 50/300: RL Agent: Adjusting cell 16 power from 38.7 to 38.7 dBm
+[50.000] Step 50/300: RL Agent: Adjusting cell 17 power from 46.0 to 33.3 dBm
+[50.000] Step 50/300: RL Agent: Adjusting cell 18 power from 31.2 to 35.9 dBm
+[50.000] Step 50/300: RL Agent: Adjusting cell 19 power from 30.0 to 38.6 dBm
+[50.000] Step 50/300: RL Agent: Adjusting cell 20 power from 30.0 to 32.1 dBm
+[50.000] Step 50/300: RL Agent: Adjusting cell 21 power from 35.0 to 35.5 dBm
+[51.000] Step 51/300: RL Agent: Adjusting cell 1 power from 34.3 to 32.5 dBm
+[51.000] Step 51/300: RL Agent: Setting cell 2 to minimum power (30.0 dBm)
+[51.000] Step 51/300: RL Agent: Adjusting cell 3 power from 30.0 to 35.8 dBm
+[51.000] Step 51/300: RL Agent: Adjusting cell 4 power from 35.7 to 36.6 dBm
+[51.000] Step 51/300: RL Agent: Adjusting cell 5 power from 32.2 to 46.0 dBm
+[51.000] Step 51/300: RL Agent: Adjusting cell 7 power from 43.1 to 36.4 dBm
+[51.000] Step 51/300: RL Agent: Adjusting cell 8 power from 30.0 to 39.3 dBm
+[51.000] Step 51/300: RL Agent: Adjusting cell 9 power from 37.2 to 31.3 dBm
+[51.000] Step 51/300: RL Agent: Adjusting cell 11 power from 43.8 to 38.3 dBm
+[51.000] Step 51/300: RL Agent: Adjusting cell 12 power from 40.3 to 34.1 dBm
+[51.000] Step 51/300: RL Agent: Setting cell 13 to minimum power (30.0 dBm)
+[51.000] Step 51/300: RL Agent: Adjusting cell 14 power from 46.0 to 31.1 dBm
+[51.000] Step 51/300: RL Agent: Adjusting cell 15 power from 44.9 to 43.2 dBm
+[51.000] Step 51/300: RL Agent: Adjusting cell 16 power from 38.7 to 41.6 dBm
+[51.000] Step 51/300: RL Agent: Setting cell 17 to minimum power (30.0 dBm)
+[51.000] Step 51/300: RL Agent: Adjusting cell 18 power from 35.9 to 42.7 dBm
+[51.000] Step 51/300: RL Agent: Adjusting cell 19 power from 38.6 to 44.2 dBm
+[51.000] Step 51/300: RL Agent: Adjusting cell 20 power from 32.1 to 46.0 dBm
+[51.000] Step 51/300: RL Agent: Setting cell 21 to minimum power (30.0 dBm)
+[52.000] Step 52/300: RL Agent: Adjusting cell 1 power from 32.5 to 42.3 dBm
+[52.000] Step 52/300: RL Agent: Adjusting cell 2 power from 30.0 to 46.0 dBm
+[52.000] Step 52/300: RL Agent: Adjusting cell 3 power from 35.8 to 44.7 dBm
+[52.000] Step 52/300: RL Agent: Adjusting cell 4 power from 36.6 to 32.6 dBm
+[52.000] Step 52/300: RL Agent: Adjusting cell 5 power from 46.0 to 35.7 dBm
+[52.000] Step 52/300: RL Agent: Adjusting cell 7 power from 36.4 to 35.9 dBm
+[52.000] Step 52/300: RL Agent: Adjusting cell 8 power from 39.3 to 46.0 dBm
+[52.000] Step 52/300: RL Agent: Adjusting cell 9 power from 31.3 to 40.1 dBm
+[52.000] Step 52/300: RL Agent: Adjusting cell 10 power from 46.0 to 44.2 dBm
+[52.000] Step 52/300: RL Agent: Adjusting cell 11 power from 38.3 to 32.6 dBm
+[52.000] Step 52/300: RL Agent: Adjusting cell 12 power from 34.1 to 41.9 dBm
+[52.000] Step 52/300: RL Agent: Adjusting cell 13 power from 30.0 to 43.5 dBm
+[52.000] Step 52/300: RL Agent: Setting cell 14 to minimum power (30.0 dBm)
+[52.000] Step 52/300: RL Agent: Adjusting cell 15 power from 43.2 to 43.0 dBm
+[52.000] Step 52/300: RL Agent: Setting cell 16 to minimum power (30.0 dBm)
+[52.000] Step 52/300: RL Agent: Setting cell 17 to minimum power (30.0 dBm)
+[52.000] Step 52/300: RL Agent: Setting cell 18 to minimum power (30.0 dBm)
+[52.000] Step 52/300: RL Agent: Setting cell 19 to minimum power (30.0 dBm)
+[52.000] Step 52/300: RL Agent: Adjusting cell 20 power from 46.0 to 42.3 dBm
+[52.000] Step 52/300: RL Agent: Adjusting cell 21 power from 30.0 to 46.0 dBm
+[53.000] Step 53/300: RL Agent: Adjusting cell 1 power from 42.3 to 46.0 dBm
+[53.000] Step 53/300: RL Agent: Adjusting cell 2 power from 46.0 to 43.6 dBm
+[53.000] Step 53/300: RL Agent: Adjusting cell 3 power from 44.7 to 46.0 dBm
+[53.000] Step 53/300: RL Agent: Adjusting cell 4 power from 32.6 to 44.2 dBm
+[53.000] Step 53/300: RL Agent: Adjusting cell 5 power from 35.7 to 37.7 dBm
+[53.000] Step 53/300: RL Agent: Adjusting cell 6 power from 46.0 to 38.7 dBm
+[53.000] Step 53/300: RL Agent: Setting cell 7 to minimum power (30.0 dBm)
+[53.000] Step 53/300: RL Agent: Adjusting cell 9 power from 40.1 to 42.4 dBm
+[53.000] Step 53/300: RL Agent: Setting cell 10 to minimum power (30.0 dBm)
+[53.000] Step 53/300: RL Agent: Adjusting cell 11 power from 32.6 to 34.4 dBm
+[53.000] Step 53/300: RL Agent: Setting cell 12 to minimum power (30.0 dBm)
+[53.000] Step 53/300: RL Agent: Adjusting cell 13 power from 43.5 to 37.8 dBm
+[53.000] Step 53/300: RL Agent: Adjusting cell 14 power from 30.0 to 35.1 dBm
+[53.000] Step 53/300: RL Agent: Adjusting cell 15 power from 43.0 to 45.6 dBm
+[53.000] Step 53/300: RL Agent: Setting cell 16 to minimum power (30.0 dBm)
+[53.000] Step 53/300: RL Agent: Adjusting cell 17 power from 30.0 to 35.0 dBm
+[53.000] Step 53/300: RL Agent: Adjusting cell 18 power from 30.0 to 43.3 dBm
+[53.000] Step 53/300: RL Agent: Adjusting cell 19 power from 30.0 to 46.0 dBm
+[53.000] Step 53/300: RL Agent: Setting cell 20 to minimum power (30.0 dBm)
+[54.000] Step 54/300: RL Agent: Adjusting cell 2 power from 43.6 to 46.0 dBm
+[54.000] Step 54/300: RL Agent: Adjusting cell 3 power from 46.0 to 37.9 dBm
+[54.000] Step 54/300: RL Agent: Adjusting cell 4 power from 44.2 to 32.3 dBm
+[54.000] Step 54/300: RL Agent: Adjusting cell 5 power from 37.7 to 34.2 dBm
+[54.000] Step 54/300: RL Agent: Adjusting cell 6 power from 38.7 to 31.7 dBm
+[54.000] Step 54/300: RL Agent: Adjusting cell 7 power from 30.0 to 46.0 dBm
+[54.000] Step 54/300: RL Agent: Adjusting cell 8 power from 46.0 to 35.1 dBm
+[54.000] Step 54/300: RL Agent: Setting cell 9 to minimum power (30.0 dBm)
+[54.000] Step 54/300: RL Agent: Adjusting cell 10 power from 30.0 to 46.0 dBm
+[54.000] Step 54/300: RL Agent: Adjusting cell 11 power from 34.4 to 42.2 dBm
+[54.000] Step 54/300: RL Agent: Adjusting cell 12 power from 30.0 to 46.0 dBm
+[54.000] Step 54/300: RL Agent: Adjusting cell 13 power from 37.8 to 46.0 dBm
+[54.000] Step 54/300: RL Agent: Adjusting cell 14 power from 35.1 to 41.4 dBm
+[54.000] Step 54/300: RL Agent: Adjusting cell 15 power from 45.6 to 32.3 dBm
+[54.000] Step 54/300: RL Agent: Setting cell 16 to minimum power (30.0 dBm)
+[54.000] Step 54/300: RL Agent: Adjusting cell 17 power from 35.0 to 40.7 dBm
+[54.000] Step 54/300: RL Agent: Adjusting cell 18 power from 43.3 to 42.0 dBm
+[54.000] Step 54/300: RL Agent: Adjusting cell 19 power from 46.0 to 37.9 dBm
+[54.000] Step 54/300: RL Agent: Adjusting cell 20 power from 30.0 to 46.0 dBm
+[54.000] Step 54/300: RL Agent: Setting cell 21 to minimum power (30.0 dBm)
+[55.000] Step 55/300: RL Agent: Adjusting cell 1 power from 46.0 to 33.1 dBm
+[55.000] Step 55/300: RL Agent: Adjusting cell 2 power from 46.0 to 40.0 dBm
+[55.000] Step 55/300: RL Agent: Adjusting cell 3 power from 37.9 to 44.0 dBm
+[55.000] Step 55/300: RL Agent: Adjusting cell 4 power from 32.3 to 46.0 dBm
+[55.000] Step 55/300: RL Agent: Adjusting cell 5 power from 34.2 to 36.0 dBm
+[55.000] Step 55/300: RL Agent: Adjusting cell 6 power from 31.7 to 38.6 dBm
+[55.000] Step 55/300: RL Agent: Adjusting cell 7 power from 46.0 to 34.3 dBm
+[55.000] Step 55/300: RL Agent: Adjusting cell 8 power from 35.1 to 38.7 dBm
+[55.000] Step 55/300: RL Agent: Setting cell 9 to minimum power (30.0 dBm)
+[55.000] Step 55/300: RL Agent: Adjusting cell 11 power from 42.2 to 41.6 dBm
+[55.000] Step 55/300: RL Agent: Adjusting cell 12 power from 46.0 to 32.4 dBm
+[55.000] Step 55/300: RL Agent: Setting cell 13 to minimum power (30.5 dBm)
+[55.000] Step 55/300: RL Agent: Adjusting cell 14 power from 41.4 to 46.0 dBm
+[55.000] Step 55/300: RL Agent: Adjusting cell 15 power from 32.3 to 36.0 dBm
+[55.000] Step 55/300: RL Agent: Adjusting cell 16 power from 30.0 to 34.2 dBm
+[55.000] Step 55/300: RL Agent: Adjusting cell 17 power from 40.7 to 31.5 dBm
+[55.000] Step 55/300: RL Agent: Setting cell 18 to minimum power (30.0 dBm)
+[55.000] Step 55/300: RL Agent: Adjusting cell 19 power from 37.9 to 34.1 dBm
+[55.000] Step 55/300: RL Agent: Adjusting cell 21 power from 30.0 to 41.8 dBm
+[56.000] Step 56/300: RL Agent: Adjusting cell 1 power from 33.1 to 32.6 dBm
+[56.000] Step 56/300: RL Agent: Setting cell 2 to minimum power (30.0 dBm)
+[56.000] Step 56/300: RL Agent: Adjusting cell 3 power from 44.0 to 38.3 dBm
+[56.000] Step 56/300: RL Agent: Setting cell 4 to minimum power (30.0 dBm)
+[56.000] Step 56/300: RL Agent: Setting cell 5 to minimum power (30.0 dBm)
+[56.000] Step 56/300: RL Agent: Adjusting cell 6 power from 38.6 to 36.1 dBm
+[56.000] Step 56/300: RL Agent: Adjusting cell 7 power from 34.3 to 46.0 dBm
+[56.000] Step 56/300: RL Agent: Adjusting cell 8 power from 38.7 to 39.8 dBm
+[56.000] Step 56/300: RL Agent: Setting cell 9 to minimum power (30.0 dBm)
+[56.000] Step 56/300: RL Agent: Adjusting cell 10 power from 46.0 to 38.4 dBm
+[56.000] Step 56/300: RL Agent: Adjusting cell 11 power from 41.6 to 43.6 dBm
+[56.000] Step 56/300: RL Agent: Setting cell 12 to minimum power (30.5 dBm)
+[56.000] Step 56/300: RL Agent: Adjusting cell 13 power from 30.5 to 46.0 dBm
+[56.000] Step 56/300: RL Agent: Adjusting cell 15 power from 36.0 to 33.7 dBm
+[56.000] Step 56/300: RL Agent: Adjusting cell 16 power from 34.2 to 37.6 dBm
+[56.000] Step 56/300: RL Agent: Adjusting cell 17 power from 31.5 to 41.9 dBm
+[56.000] Step 56/300: RL Agent: Setting cell 18 to minimum power (30.0 dBm)
+[56.000] Step 56/300: RL Agent: Adjusting cell 19 power from 34.1 to 46.0 dBm
+[56.000] Step 56/300: RL Agent: Adjusting cell 20 power from 46.0 to 32.8 dBm
+[56.000] Step 56/300: RL Agent: Adjusting cell 21 power from 41.8 to 41.6 dBm
+[57.000] Step 57/300: RL Agent: Adjusting cell 1 power from 32.6 to 37.8 dBm
+[57.000] Step 57/300: RL Agent: Adjusting cell 2 power from 30.0 to 46.0 dBm
+[57.000] Step 57/300: RL Agent: Adjusting cell 3 power from 38.3 to 42.1 dBm
+[57.000] Step 57/300: RL Agent: Adjusting cell 4 power from 30.0 to 44.0 dBm
+[57.000] Step 57/300: RL Agent: Adjusting cell 5 power from 30.0 to 34.2 dBm
+[57.000] Step 57/300: RL Agent: Adjusting cell 6 power from 36.1 to 34.8 dBm
+[57.000] Step 57/300: RL Agent: Adjusting cell 7 power from 46.0 to 45.1 dBm
+[57.000] Step 57/300: RL Agent: Adjusting cell 8 power from 39.8 to 46.0 dBm
+[57.000] Step 57/300: RL Agent: Setting cell 9 to minimum power (30.4 dBm)
+[57.000] Step 57/300: RL Agent: Adjusting cell 10 power from 38.4 to 43.2 dBm
+[57.000] Step 57/300: RL Agent: Adjusting cell 11 power from 43.6 to 46.0 dBm
+[57.000] Step 57/300: RL Agent: Adjusting cell 12 power from 30.5 to 38.2 dBm
+[57.000] Step 57/300: RL Agent: Adjusting cell 13 power from 46.0 to 32.1 dBm
+[57.000] Step 57/300: RL Agent: Adjusting cell 14 power from 46.0 to 43.0 dBm
+[57.000] Step 57/300: RL Agent: Setting cell 15 to minimum power (30.0 dBm)
+[57.000] Step 57/300: RL Agent: Adjusting cell 16 power from 37.6 to 46.0 dBm
+[57.000] Step 57/300: RL Agent: Adjusting cell 17 power from 41.9 to 39.4 dBm
+[57.000] Step 57/300: RL Agent: Adjusting cell 18 power from 30.0 to 41.4 dBm
+[57.000] Step 57/300: RL Agent: Adjusting cell 19 power from 46.0 to 38.3 dBm
+[57.000] Step 57/300: RL Agent: Adjusting cell 20 power from 32.8 to 40.6 dBm
+[57.000] Step 57/300: RL Agent: Adjusting cell 21 power from 41.6 to 37.5 dBm
+[58.000] Step 58/300: RL Agent: Adjusting cell 1 power from 37.8 to 46.0 dBm
+[58.000] Step 58/300: RL Agent: Adjusting cell 2 power from 46.0 to 39.2 dBm
+[58.000] Step 58/300: RL Agent: Adjusting cell 3 power from 42.1 to 37.3 dBm
+[58.000] Step 58/300: RL Agent: Setting cell 4 to minimum power (30.0 dBm)
+[58.000] Step 58/300: RL Agent: Adjusting cell 5 power from 34.2 to 36.0 dBm
+[58.000] Step 58/300: RL Agent: Adjusting cell 6 power from 34.8 to 35.7 dBm
+[58.000] Step 58/300: RL Agent: Adjusting cell 7 power from 45.1 to 46.0 dBm
+[58.000] Step 58/300: RL Agent: Adjusting cell 8 power from 46.0 to 45.8 dBm
+[58.000] Step 58/300: RL Agent: Setting cell 9 to minimum power (30.0 dBm)
+[58.000] Step 58/300: RL Agent: Adjusting cell 10 power from 43.2 to 46.0 dBm
+[58.000] Step 58/300: RL Agent: Setting cell 12 to minimum power (30.0 dBm)
+[58.000] Step 58/300: RL Agent: Adjusting cell 13 power from 32.1 to 42.1 dBm
+[58.000] Step 58/300: RL Agent: Adjusting cell 14 power from 43.0 to 33.3 dBm
+[58.000] Step 58/300: RL Agent: Adjusting cell 15 power from 30.0 to 42.4 dBm
+[58.000] Step 58/300: RL Agent: Setting cell 16 to minimum power (30.0 dBm)
+[58.000] Step 58/300: RL Agent: Adjusting cell 17 power from 39.4 to 46.0 dBm
+[58.000] Step 58/300: RL Agent: Adjusting cell 18 power from 41.4 to 45.1 dBm
+[58.000] Step 58/300: RL Agent: Adjusting cell 19 power from 38.3 to 37.2 dBm
+[58.000] Step 58/300: RL Agent: Adjusting cell 20 power from 40.6 to 46.0 dBm
+[58.000] Step 58/300: RL Agent: Setting cell 21 to minimum power (30.0 dBm)
+[59.000] Step 59/300: RL Agent: Adjusting cell 1 power from 46.0 to 39.3 dBm
+[59.000] Step 59/300: RL Agent: Adjusting cell 2 power from 39.2 to 41.5 dBm
+[59.000] Step 59/300: RL Agent: Setting cell 3 to minimum power (30.0 dBm)
+[59.000] Step 59/300: RL Agent: Adjusting cell 4 power from 30.0 to 46.0 dBm
+[59.000] Step 59/300: RL Agent: Adjusting cell 5 power from 36.0 to 44.9 dBm
+[59.000] Step 59/300: RL Agent: Adjusting cell 6 power from 35.7 to 35.2 dBm
+[59.000] Step 59/300: RL Agent: Setting cell 7 to minimum power (30.1 dBm)
+[59.000] Step 59/300: RL Agent: Setting cell 8 to minimum power (30.0 dBm)
+[59.000] Step 59/300: RL Agent: Adjusting cell 9 power from 30.0 to 35.1 dBm
+[59.000] Step 59/300: RL Agent: Adjusting cell 10 power from 46.0 to 41.2 dBm
+[59.000] Step 59/300: RL Agent: Adjusting cell 12 power from 30.0 to 42.1 dBm
+[59.000] Step 59/300: RL Agent: Setting cell 13 to minimum power (30.0 dBm)
+[59.000] Step 59/300: RL Agent: Adjusting cell 14 power from 33.3 to 31.5 dBm
+[59.000] Step 59/300: RL Agent: Adjusting cell 15 power from 42.4 to 32.6 dBm
+[59.000] Step 59/300: RL Agent: Setting cell 16 to minimum power (30.0 dBm)
+[59.000] Step 59/300: RL Agent: Setting cell 17 to minimum power (30.0 dBm)
+[59.000] Step 59/300: RL Agent: Setting cell 18 to minimum power (30.9 dBm)
+[59.000] Step 59/300: RL Agent: Setting cell 19 to minimum power (30.0 dBm)
+[59.000] Step 59/300: RL Agent: Adjusting cell 20 power from 46.0 to 40.9 dBm
+[59.000] Step 59/300: RL Agent: Setting cell 21 to minimum power (30.0 dBm)
+[60.000] Step 60/300: RL Agent: Setting cell 1 to minimum power (30.7 dBm)
+[60.000] Step 60/300: RL Agent: Adjusting cell 2 power from 41.5 to 37.1 dBm
+[60.000] Step 60/300: RL Agent: Adjusting cell 3 power from 30.0 to 42.2 dBm
+[60.000] Step 60/300: RL Agent: Setting cell 4 to minimum power (30.0 dBm)
+[60.000] Step 60/300: RL Agent: Adjusting cell 5 power from 44.9 to 42.4 dBm
+[60.000] Step 60/300: RL Agent: Setting cell 6 to minimum power (30.0 dBm)
+[60.000] Step 60/300: RL Agent: Adjusting cell 7 power from 30.1 to 33.9 dBm
+[60.000] Step 60/300: RL Agent: Adjusting cell 8 power from 30.0 to 46.0 dBm
+[60.000] Step 60/300: RL Agent: Setting cell 9 to minimum power (30.0 dBm)
+[60.000] Step 60/300: RL Agent: Adjusting cell 10 power from 41.2 to 46.0 dBm
+[60.000] Step 60/300: RL Agent: Adjusting cell 11 power from 46.0 to 46.0 dBm
+[60.000] Step 60/300: RL Agent: Adjusting cell 12 power from 42.1 to 38.8 dBm
+[60.000] Step 60/300: RL Agent: Adjusting cell 13 power from 30.0 to 46.0 dBm
+[60.000] Step 60/300: RL Agent: Setting cell 14 to minimum power (30.8 dBm)
+[60.000] Step 60/300: RL Agent: Setting cell 15 to minimum power (30.0 dBm)
+[60.000] Step 60/300: RL Agent: Adjusting cell 16 power from 30.0 to 45.2 dBm
+[60.000] Step 60/300: RL Agent: Adjusting cell 17 power from 30.0 to 46.0 dBm
+[60.000] Step 60/300: RL Agent: Adjusting cell 18 power from 30.9 to 46.0 dBm
+[60.000] Step 60/300: RL Agent: Setting cell 19 to minimum power (30.0 dBm)
+[60.000] Step 60/300: RL Agent: Setting cell 20 to minimum power (30.0 dBm)
+[60.000] Step 60/300: RL Agent: Adjusting cell 21 power from 30.0 to 45.3 dBm
+[61.000] Step 61/300: RL Agent: Adjusting cell 1 power from 30.7 to 34.7 dBm
+[61.000] Step 61/300: RL Agent: Setting cell 2 to minimum power (30.0 dBm)
+[61.000] Step 61/300: RL Agent: Adjusting cell 3 power from 42.2 to 39.7 dBm
+[61.000] Step 61/300: RL Agent: Adjusting cell 4 power from 30.0 to 32.4 dBm
+[61.000] Step 61/300: RL Agent: Setting cell 5 to minimum power (30.0 dBm)
+[61.000] Step 61/300: RL Agent: Setting cell 6 to minimum power (30.0 dBm)
+[61.000] Step 61/300: RL Agent: Adjusting cell 7 power from 33.9 to 46.0 dBm
+[61.000] Step 61/300: RL Agent: Adjusting cell 8 power from 46.0 to 41.2 dBm
+[61.000] Step 61/300: RL Agent: Adjusting cell 9 power from 30.0 to 36.3 dBm
+[61.000] Step 61/300: RL Agent: Adjusting cell 10 power from 46.0 to 45.0 dBm
+[61.000] Step 61/300: RL Agent: Adjusting cell 11 power from 46.0 to 36.0 dBm
+[61.000] Step 61/300: RL Agent: Adjusting cell 12 power from 38.8 to 39.4 dBm
+[61.000] Step 61/300: RL Agent: Setting cell 14 to minimum power (30.0 dBm)
+[61.000] Step 61/300: RL Agent: Adjusting cell 15 power from 30.0 to 46.0 dBm
+[61.000] Step 61/300: RL Agent: Adjusting cell 16 power from 45.2 to 35.4 dBm
+[61.000] Step 61/300: RL Agent: Adjusting cell 17 power from 46.0 to 44.1 dBm
+[61.000] Step 61/300: RL Agent: Adjusting cell 18 power from 46.0 to 40.7 dBm
+[61.000] Step 61/300: RL Agent: Adjusting cell 19 power from 30.0 to 33.1 dBm
+[61.000] Step 61/300: RL Agent: Adjusting cell 20 power from 30.0 to 46.0 dBm
+[61.000] Step 61/300: RL Agent: Adjusting cell 21 power from 45.3 to 38.6 dBm
+[62.000] Step 62/300: RL Agent: Adjusting cell 1 power from 34.7 to 44.6 dBm
+[62.000] Step 62/300: RL Agent: Adjusting cell 2 power from 30.0 to 39.8 dBm
+[62.000] Step 62/300: RL Agent: Adjusting cell 3 power from 39.7 to 46.0 dBm
+[62.000] Step 62/300: RL Agent: Adjusting cell 4 power from 32.4 to 31.4 dBm
+[62.000] Step 62/300: RL Agent: Adjusting cell 5 power from 30.0 to 46.0 dBm
+[62.000] Step 62/300: RL Agent: Setting cell 6 to minimum power (30.0 dBm)
+[62.000] Step 62/300: RL Agent: Adjusting cell 7 power from 46.0 to 38.1 dBm
+[62.000] Step 62/300: RL Agent: Adjusting cell 8 power from 41.2 to 46.0 dBm
+[62.000] Step 62/300: RL Agent: Adjusting cell 9 power from 36.3 to 35.6 dBm
+[62.000] Step 62/300: RL Agent: Adjusting cell 10 power from 45.0 to 40.2 dBm
+[62.000] Step 62/300: RL Agent: Setting cell 11 to minimum power (30.0 dBm)
+[62.000] Step 62/300: RL Agent: Adjusting cell 12 power from 39.4 to 42.7 dBm
+[62.000] Step 62/300: RL Agent: Adjusting cell 13 power from 46.0 to 43.9 dBm
+[62.000] Step 62/300: RL Agent: Adjusting cell 14 power from 30.0 to 37.3 dBm
+[62.000] Step 62/300: RL Agent: Adjusting cell 15 power from 46.0 to 41.4 dBm
+[62.000] Step 62/300: RL Agent: Adjusting cell 16 power from 35.4 to 39.1 dBm
+[62.000] Step 62/300: RL Agent: Setting cell 17 to minimum power (30.0 dBm)
+[62.000] Step 62/300: RL Agent: Setting cell 18 to minimum power (30.0 dBm)
+[62.000] Step 62/300: RL Agent: Adjusting cell 19 power from 33.1 to 37.5 dBm
+[62.000] Step 62/300: RL Agent: Adjusting cell 20 power from 46.0 to 37.8 dBm
+[62.000] Step 62/300: RL Agent: Adjusting cell 21 power from 38.6 to 46.0 dBm
+[63.000] Step 63/300: RL Agent: Setting cell 1 to minimum power (30.0 dBm)
+[63.000] Step 63/300: RL Agent: Setting cell 2 to minimum power (30.0 dBm)
+[63.000] Step 63/300: RL Agent: Setting cell 3 to minimum power (30.0 dBm)
+[63.000] Step 63/300: RL Agent: Adjusting cell 4 power from 31.4 to 46.0 dBm
+[63.000] Step 63/300: RL Agent: Adjusting cell 5 power from 46.0 to 33.9 dBm
+[63.000] Step 63/300: RL Agent: Setting cell 6 to minimum power (30.0 dBm)
+[63.000] Step 63/300: RL Agent: Adjusting cell 7 power from 38.1 to 44.7 dBm
+[63.000] Step 63/300: RL Agent: Setting cell 8 to minimum power (30.0 dBm)
+[63.000] Step 63/300: RL Agent: Setting cell 9 to minimum power (30.0 dBm)
+[63.000] Step 63/300: RL Agent: Adjusting cell 10 power from 40.2 to 46.0 dBm
+[63.000] Step 63/300: RL Agent: Adjusting cell 11 power from 30.0 to 38.3 dBm
+[63.000] Step 63/300: RL Agent: Adjusting cell 12 power from 42.7 to 40.2 dBm
+[63.000] Step 63/300: RL Agent: Adjusting cell 13 power from 43.9 to 35.5 dBm
+[63.000] Step 63/300: RL Agent: Setting cell 14 to minimum power (30.0 dBm)
+[63.000] Step 63/300: RL Agent: Adjusting cell 15 power from 41.4 to 45.7 dBm
+[63.000] Step 63/300: RL Agent: Setting cell 16 to minimum power (30.7 dBm)
+[63.000] Step 63/300: RL Agent: Adjusting cell 17 power from 30.0 to 46.0 dBm
+[63.000] Step 63/300: RL Agent: Adjusting cell 18 power from 30.0 to 39.3 dBm
+[63.000] Step 63/300: RL Agent: Setting cell 19 to minimum power (30.0 dBm)
+[63.000] Step 63/300: RL Agent: Adjusting cell 20 power from 37.8 to 38.6 dBm
+[63.000] Step 63/300: RL Agent: Adjusting cell 21 power from 46.0 to 36.7 dBm
+[64.000] Step 64/300: RL Agent: Adjusting cell 1 power from 30.0 to 46.0 dBm
+[64.000] Step 64/300: RL Agent: Setting cell 2 to minimum power (30.0 dBm)
+[64.000] Step 64/300: RL Agent: Setting cell 3 to minimum power (30.0 dBm)
+[64.000] Step 64/300: RL Agent: Setting cell 4 to minimum power (30.7 dBm)
+[64.000] Step 64/300: RL Agent: Setting cell 5 to minimum power (30.0 dBm)
+[64.000] Step 64/300: RL Agent: Setting cell 6 to minimum power (30.0 dBm)
+[64.000] Step 64/300: RL Agent: Setting cell 7 to minimum power (30.7 dBm)
+[64.000] Step 64/300: RL Agent: Adjusting cell 8 power from 30.0 to 36.6 dBm
+[64.000] Step 64/300: RL Agent: Adjusting cell 9 power from 30.0 to 46.0 dBm
+[64.000] Step 64/300: RL Agent: Setting cell 10 to minimum power (30.0 dBm)
+[64.000] Step 64/300: RL Agent: Adjusting cell 11 power from 38.3 to 40.3 dBm
+[64.000] Step 64/300: RL Agent: Adjusting cell 12 power from 40.2 to 34.5 dBm
+[64.000] Step 64/300: RL Agent: Adjusting cell 13 power from 35.5 to 40.4 dBm
+[64.000] Step 64/300: RL Agent: Adjusting cell 14 power from 30.0 to 38.6 dBm
+[64.000] Step 64/300: RL Agent: Adjusting cell 15 power from 45.7 to 44.0 dBm
+[64.000] Step 64/300: RL Agent: Adjusting cell 16 power from 30.7 to 46.0 dBm
+[64.000] Step 64/300: RL Agent: Adjusting cell 17 power from 46.0 to 45.6 dBm
+[64.000] Step 64/300: RL Agent: Adjusting cell 18 power from 39.3 to 46.0 dBm
+[64.000] Step 64/300: RL Agent: Adjusting cell 19 power from 30.0 to 38.9 dBm
+[64.000] Step 64/300: RL Agent: Adjusting cell 20 power from 38.6 to 37.1 dBm
+[64.000] Step 64/300: RL Agent: Adjusting cell 21 power from 36.7 to 44.5 dBm
+[65.000] Step 65/300: RL Agent: Adjusting cell 1 power from 46.0 to 42.3 dBm
+[65.000] Step 65/300: RL Agent: Setting cell 2 to minimum power (30.0 dBm)
+[65.000] Step 65/300: RL Agent: Adjusting cell 3 power from 30.0 to 35.4 dBm
+[65.000] Step 65/300: RL Agent: Adjusting cell 4 power from 30.7 to 35.6 dBm
+[65.000] Step 65/300: RL Agent: Setting cell 5 to minimum power (30.0 dBm)
+[65.000] Step 65/300: RL Agent: Adjusting cell 6 power from 30.0 to 46.0 dBm
+[65.000] Step 65/300: RL Agent: Adjusting cell 7 power from 30.7 to 43.5 dBm
+[65.000] Step 65/300: RL Agent: Adjusting cell 8 power from 36.6 to 46.0 dBm
+[65.000] Step 65/300: RL Agent: Setting cell 10 to minimum power (30.0 dBm)
+[65.000] Step 65/300: RL Agent: Adjusting cell 11 power from 40.3 to 33.5 dBm
+[65.000] Step 65/300: RL Agent: Adjusting cell 12 power from 34.5 to 41.9 dBm
+[65.000] Step 65/300: RL Agent: Adjusting cell 13 power from 40.4 to 32.5 dBm
+[65.000] Step 65/300: RL Agent: Setting cell 14 to minimum power (30.6 dBm)
+[65.000] Step 65/300: RL Agent: Adjusting cell 15 power from 44.0 to 33.4 dBm
+[65.000] Step 65/300: RL Agent: Setting cell 16 to minimum power (30.0 dBm)
+[65.000] Step 65/300: RL Agent: Adjusting cell 17 power from 45.6 to 41.2 dBm
+[65.000] Step 65/300: RL Agent: Adjusting cell 19 power from 38.9 to 46.0 dBm
+[65.000] Step 65/300: RL Agent: Adjusting cell 20 power from 37.1 to 46.0 dBm
+[65.000] Step 65/300: RL Agent: Adjusting cell 21 power from 44.5 to 39.4 dBm
+[66.000] Step 66/300: RL Agent: Adjusting cell 1 power from 42.3 to 46.0 dBm
+[66.000] Step 66/300: RL Agent: Adjusting cell 2 power from 30.0 to 33.5 dBm
+[66.000] Step 66/300: RL Agent: Setting cell 3 to minimum power (30.0 dBm)
+[66.000] Step 66/300: RL Agent: Adjusting cell 4 power from 35.6 to 42.3 dBm
+[66.000] Step 66/300: RL Agent: Adjusting cell 5 power from 30.0 to 34.6 dBm
+[66.000] Step 66/300: RL Agent: Setting cell 7 to minimum power (30.0 dBm)
+[66.000] Step 66/300: RL Agent: Setting cell 8 to minimum power (30.2 dBm)
+[66.000] Step 66/300: RL Agent: Adjusting cell 9 power from 46.0 to 35.8 dBm
+[66.000] Step 66/300: RL Agent: Setting cell 10 to minimum power (30.0 dBm)
+[66.000] Step 66/300: RL Agent: Adjusting cell 11 power from 33.5 to 36.0 dBm
+[66.000] Step 66/300: RL Agent: Adjusting cell 12 power from 41.9 to 33.7 dBm
+[66.000] Step 66/300: RL Agent: Adjusting cell 13 power from 32.5 to 36.2 dBm
+[66.000] Step 66/300: RL Agent: Adjusting cell 14 power from 30.6 to 46.0 dBm
+[66.000] Step 66/300: RL Agent: Adjusting cell 15 power from 33.4 to 46.0 dBm
+[66.000] Step 66/300: RL Agent: Adjusting cell 16 power from 30.0 to 46.0 dBm
+[66.000] Step 66/300: RL Agent: Adjusting cell 17 power from 41.2 to 45.4 dBm
+[66.000] Step 66/300: RL Agent: Setting cell 19 to minimum power (30.0 dBm)
+[66.000] Step 66/300: RL Agent: Adjusting cell 20 power from 46.0 to 41.9 dBm
+[66.000] Step 66/300: RL Agent: Setting cell 21 to minimum power (30.0 dBm)
+[67.000] Step 67/300: RL Agent: Adjusting cell 1 power from 46.0 to 43.7 dBm
+[67.000] Step 67/300: RL Agent: Adjusting cell 2 power from 33.5 to 46.0 dBm
+[67.000] Step 67/300: RL Agent: Adjusting cell 3 power from 30.0 to 42.1 dBm
+[67.000] Step 67/300: RL Agent: Adjusting cell 4 power from 42.3 to 46.0 dBm
+[67.000] Step 67/300: RL Agent: Adjusting cell 5 power from 34.6 to 43.0 dBm
+[67.000] Step 67/300: RL Agent: Adjusting cell 7 power from 30.0 to 33.7 dBm
+[67.000] Step 67/300: RL Agent: Setting cell 8 to minimum power (30.1 dBm)
+[67.000] Step 67/300: RL Agent: Adjusting cell 9 power from 35.8 to 42.6 dBm
+[67.000] Step 67/300: RL Agent: Adjusting cell 10 power from 30.0 to 35.7 dBm
+[67.000] Step 67/300: RL Agent: Adjusting cell 11 power from 36.0 to 34.4 dBm
+[67.000] Step 67/300: RL Agent: Adjusting cell 12 power from 33.7 to 40.3 dBm
+[67.000] Step 67/300: RL Agent: Adjusting cell 13 power from 36.2 to 37.4 dBm
+[67.000] Step 67/300: RL Agent: Adjusting cell 15 power from 46.0 to 45.9 dBm
+[67.000] Step 67/300: RL Agent: Adjusting cell 16 power from 46.0 to 41.3 dBm
+[67.000] Step 67/300: RL Agent: Adjusting cell 17 power from 45.4 to 46.0 dBm
+[67.000] Step 67/300: RL Agent: Adjusting cell 18 power from 46.0 to 32.5 dBm
+[67.000] Step 67/300: RL Agent: Adjusting cell 19 power from 30.0 to 39.8 dBm
+[67.000] Step 67/300: RL Agent: Setting cell 20 to minimum power (30.0 dBm)
+[67.000] Step 67/300: RL Agent: Adjusting cell 21 power from 30.0 to 37.3 dBm
+[68.000] Step 68/300: RL Agent: Setting cell 1 to minimum power (30.0 dBm)
+[68.000] Step 68/300: RL Agent: Adjusting cell 2 power from 46.0 to 35.1 dBm
+[68.000] Step 68/300: RL Agent: Adjusting cell 3 power from 42.1 to 38.5 dBm
+[68.000] Step 68/300: RL Agent: Setting cell 4 to minimum power (30.0 dBm)
+[68.000] Step 68/300: RL Agent: Adjusting cell 5 power from 43.0 to 37.0 dBm
+[68.000] Step 68/300: RL Agent: Adjusting cell 6 power from 46.0 to 32.1 dBm
+[68.000] Step 68/300: RL Agent: Setting cell 7 to minimum power (30.0 dBm)
+[68.000] Step 68/300: RL Agent: Adjusting cell 8 power from 30.1 to 43.3 dBm
+[68.000] Step 68/300: RL Agent: Adjusting cell 9 power from 42.6 to 35.5 dBm
+[68.000] Step 68/300: RL Agent: Setting cell 10 to minimum power (30.0 dBm)
+[68.000] Step 68/300: RL Agent: Adjusting cell 11 power from 34.4 to 46.0 dBm
+[68.000] Step 68/300: RL Agent: Adjusting cell 12 power from 40.3 to 37.0 dBm
+[68.000] Step 68/300: RL Agent: Adjusting cell 13 power from 37.4 to 36.9 dBm
+[68.000] Step 68/300: RL Agent: Adjusting cell 14 power from 46.0 to 40.8 dBm
+[68.000] Step 68/300: RL Agent: Adjusting cell 15 power from 45.9 to 37.6 dBm
+[68.000] Step 68/300: RL Agent: Adjusting cell 16 power from 41.3 to 46.0 dBm
+[68.000] Step 68/300: RL Agent: Setting cell 17 to minimum power (30.9 dBm)
+[68.000] Step 68/300: RL Agent: Adjusting cell 18 power from 32.5 to 46.0 dBm
+[68.000] Step 68/300: RL Agent: Setting cell 19 to minimum power (30.0 dBm)
+[68.000] Step 68/300: RL Agent: Adjusting cell 20 power from 30.0 to 34.7 dBm
+[68.000] Step 68/300: RL Agent: Adjusting cell 21 power from 37.3 to 38.6 dBm
+[69.000] Step 69/300: RL Agent: Adjusting cell 1 power from 30.0 to 33.3 dBm
+[69.000] Step 69/300: RL Agent: Adjusting cell 2 power from 35.1 to 38.6 dBm
+[69.000] Step 69/300: RL Agent: Adjusting cell 3 power from 38.5 to 32.9 dBm
+[69.000] Step 69/300: RL Agent: Adjusting cell 4 power from 30.0 to 31.7 dBm
+[69.000] Step 69/300: RL Agent: Adjusting cell 5 power from 37.0 to 43.1 dBm
+[69.000] Step 69/300: RL Agent: Adjusting cell 6 power from 32.1 to 45.6 dBm
+[69.000] Step 69/300: RL Agent: Adjusting cell 7 power from 30.0 to 41.0 dBm
+[69.000] Step 69/300: RL Agent: Adjusting cell 8 power from 43.3 to 33.8 dBm
+[69.000] Step 69/300: RL Agent: Setting cell 9 to minimum power (30.0 dBm)
+[69.000] Step 69/300: RL Agent: Setting cell 10 to minimum power (30.0 dBm)
+[69.000] Step 69/300: RL Agent: Adjusting cell 11 power from 46.0 to 44.6 dBm
+[69.000] Step 69/300: RL Agent: Adjusting cell 12 power from 37.0 to 42.3 dBm
+[69.000] Step 69/300: RL Agent: Adjusting cell 13 power from 36.9 to 35.9 dBm
+[69.000] Step 69/300: RL Agent: Adjusting cell 14 power from 40.8 to 32.7 dBm
+[69.000] Step 69/300: RL Agent: Adjusting cell 15 power from 37.6 to 46.0 dBm
+[69.000] Step 69/300: RL Agent: Adjusting cell 16 power from 46.0 to 34.7 dBm
+[69.000] Step 69/300: RL Agent: Adjusting cell 17 power from 30.9 to 40.0 dBm
+[69.000] Step 69/300: RL Agent: Adjusting cell 18 power from 46.0 to 38.5 dBm
+[69.000] Step 69/300: RL Agent: Adjusting cell 19 power from 30.0 to 35.7 dBm
+[69.000] Step 69/300: RL Agent: Adjusting cell 20 power from 34.7 to 44.5 dBm
+[69.000] Step 69/300: RL Agent: Adjusting cell 21 power from 38.6 to 39.3 dBm
+[70.000] Step 70/300: RL Agent: Setting cell 1 to minimum power (30.0 dBm)
+[70.000] Step 70/300: RL Agent: Adjusting cell 2 power from 38.6 to 41.5 dBm
+[70.000] Step 70/300: RL Agent: Adjusting cell 3 power from 32.9 to 46.0 dBm
+[70.000] Step 70/300: RL Agent: Adjusting cell 4 power from 31.7 to 32.4 dBm
+[70.000] Step 70/300: RL Agent: Adjusting cell 5 power from 43.1 to 35.8 dBm
+[70.000] Step 70/300: RL Agent: Adjusting cell 6 power from 45.6 to 46.0 dBm
+[70.000] Step 70/300: RL Agent: Adjusting cell 7 power from 41.0 to 36.0 dBm
+[70.000] Step 70/300: RL Agent: Adjusting cell 8 power from 33.8 to 46.0 dBm
+[70.000] Step 70/300: RL Agent: Adjusting cell 9 power from 30.0 to 46.0 dBm
+[70.000] Step 70/300: RL Agent: Setting cell 10 to minimum power (30.0 dBm)
+[70.000] Step 70/300: RL Agent: Adjusting cell 11 power from 44.6 to 34.8 dBm
+[70.000] Step 70/300: RL Agent: Adjusting cell 12 power from 42.3 to 41.2 dBm
+[70.000] Step 70/300: RL Agent: Adjusting cell 13 power from 35.9 to 46.0 dBm
+[70.000] Step 70/300: RL Agent: Adjusting cell 14 power from 32.7 to 40.4 dBm
+[70.000] Step 70/300: RL Agent: Adjusting cell 15 power from 46.0 to 35.9 dBm
+[70.000] Step 70/300: RL Agent: Adjusting cell 16 power from 34.7 to 32.8 dBm
+[70.000] Step 70/300: RL Agent: Adjusting cell 17 power from 40.0 to 32.9 dBm
+[70.000] Step 70/300: RL Agent: Adjusting cell 18 power from 38.5 to 44.3 dBm
+[70.000] Step 70/300: RL Agent: Adjusting cell 19 power from 35.7 to 40.8 dBm
+[70.000] Step 70/300: RL Agent: Adjusting cell 20 power from 44.5 to 41.8 dBm
+[70.000] Step 70/300: RL Agent: Adjusting cell 21 power from 39.3 to 32.1 dBm
+[71.000] Step 71/300: RL Agent: Adjusting cell 1 power from 30.0 to 45.1 dBm
+[71.000] Step 71/300: RL Agent: Adjusting cell 2 power from 41.5 to 40.1 dBm
+[71.000] Step 71/300: RL Agent: Adjusting cell 3 power from 46.0 to 43.7 dBm
+[71.000] Step 71/300: RL Agent: Adjusting cell 4 power from 32.4 to 46.0 dBm
+[71.000] Step 71/300: RL Agent: Adjusting cell 5 power from 35.8 to 31.1 dBm
+[71.000] Step 71/300: RL Agent: Adjusting cell 7 power from 36.0 to 32.1 dBm
+[71.000] Step 71/300: RL Agent: Adjusting cell 8 power from 46.0 to 39.8 dBm
+[71.000] Step 71/300: RL Agent: Adjusting cell 10 power from 30.0 to 46.0 dBm
+[71.000] Step 71/300: RL Agent: Adjusting cell 11 power from 34.8 to 39.5 dBm
+[71.000] Step 71/300: RL Agent: Setting cell 12 to minimum power (30.0 dBm)
+[71.000] Step 71/300: RL Agent: Adjusting cell 14 power from 40.4 to 37.7 dBm
+[71.000] Step 71/300: RL Agent: Adjusting cell 15 power from 35.9 to 46.0 dBm
+[71.000] Step 71/300: RL Agent: Adjusting cell 16 power from 32.8 to 42.7 dBm
+[71.000] Step 71/300: RL Agent: Adjusting cell 17 power from 32.9 to 42.1 dBm
+[71.000] Step 71/300: RL Agent: Setting cell 18 to minimum power (30.0 dBm)
+[71.000] Step 71/300: RL Agent: Adjusting cell 19 power from 40.8 to 46.0 dBm
+[71.000] Step 71/300: RL Agent: Adjusting cell 20 power from 41.8 to 39.5 dBm
+[71.000] Step 71/300: RL Agent: Setting cell 21 to minimum power (30.6 dBm)
+[72.000] Step 72/300: RL Agent: Setting cell 1 to minimum power (30.0 dBm)
+[72.000] Step 72/300: RL Agent: Adjusting cell 2 power from 40.1 to 34.6 dBm
+[72.000] Step 72/300: RL Agent: Setting cell 3 to minimum power (30.0 dBm)
+[72.000] Step 72/300: RL Agent: Setting cell 4 to minimum power (30.0 dBm)
+[72.000] Step 72/300: RL Agent: Adjusting cell 5 power from 31.1 to 40.5 dBm
+[72.000] Step 72/300: RL Agent: Setting cell 7 to minimum power (30.0 dBm)
+[72.000] Step 72/300: RL Agent: Adjusting cell 8 power from 39.8 to 46.0 dBm
+[72.000] Step 72/300: RL Agent: Adjusting cell 9 power from 46.0 to 32.2 dBm
+[72.000] Step 72/300: RL Agent: Adjusting cell 10 power from 46.0 to 32.2 dBm
+[72.000] Step 72/300: RL Agent: Adjusting cell 11 power from 39.5 to 46.0 dBm
+[72.000] Step 72/300: RL Agent: Adjusting cell 12 power from 30.0 to 44.1 dBm
+[72.000] Step 72/300: RL Agent: Adjusting cell 13 power from 46.0 to 35.6 dBm
+[72.000] Step 72/300: RL Agent: Adjusting cell 14 power from 37.7 to 46.0 dBm
+[72.000] Step 72/300: RL Agent: Adjusting cell 15 power from 46.0 to 39.1 dBm
+[72.000] Step 72/300: RL Agent: Setting cell 16 to minimum power (30.0 dBm)
+[72.000] Step 72/300: RL Agent: Adjusting cell 17 power from 42.1 to 40.4 dBm
+[72.000] Step 72/300: RL Agent: Adjusting cell 18 power from 30.0 to 40.6 dBm
+[72.000] Step 72/300: RL Agent: Adjusting cell 20 power from 39.5 to 36.3 dBm
+[72.000] Step 72/300: RL Agent: Adjusting cell 21 power from 30.6 to 42.2 dBm
+[73.000] Step 73/300: RL Agent: Adjusting cell 1 power from 30.0 to 32.0 dBm
+[73.000] Step 73/300: RL Agent: Adjusting cell 2 power from 34.6 to 40.7 dBm
+[73.000] Step 73/300: RL Agent: Adjusting cell 3 power from 30.0 to 31.9 dBm
+[73.000] Step 73/300: RL Agent: Adjusting cell 4 power from 30.0 to 41.5 dBm
+[73.000] Step 73/300: RL Agent: Adjusting cell 5 power from 40.5 to 46.0 dBm
+[73.000] Step 73/300: RL Agent: Adjusting cell 6 power from 46.0 to 41.2 dBm
+[73.000] Step 73/300: RL Agent: Adjusting cell 7 power from 30.0 to 46.0 dBm
+[73.000] Step 73/300: RL Agent: Adjusting cell 8 power from 46.0 to 39.7 dBm
+[73.000] Step 73/300: RL Agent: Setting cell 9 to minimum power (30.0 dBm)
+[73.000] Step 73/300: RL Agent: Adjusting cell 10 power from 32.2 to 46.0 dBm
+[73.000] Step 73/300: RL Agent: Adjusting cell 11 power from 46.0 to 40.9 dBm
+[73.000] Step 73/300: RL Agent: Adjusting cell 12 power from 44.1 to 46.0 dBm
+[73.000] Step 73/300: RL Agent: Adjusting cell 13 power from 35.6 to 42.9 dBm
+[73.000] Step 73/300: RL Agent: Setting cell 14 to minimum power (30.0 dBm)
+[73.000] Step 73/300: RL Agent: Adjusting cell 15 power from 39.1 to 41.0 dBm
+[73.000] Step 73/300: RL Agent: Adjusting cell 16 power from 30.0 to 33.9 dBm
+[73.000] Step 73/300: RL Agent: Setting cell 17 to minimum power (30.0 dBm)
+[73.000] Step 73/300: RL Agent: Adjusting cell 18 power from 40.6 to 41.1 dBm
+[73.000] Step 73/300: RL Agent: Adjusting cell 19 power from 46.0 to 38.5 dBm
+[73.000] Step 73/300: RL Agent: Adjusting cell 20 power from 36.3 to 36.9 dBm
+[73.000] Step 73/300: RL Agent: Adjusting cell 21 power from 42.2 to 44.0 dBm
+[74.000] Step 74/300: RL Agent: Adjusting cell 1 power from 32.0 to 38.7 dBm
+[74.000] Step 74/300: RL Agent: Adjusting cell 2 power from 40.7 to 38.7 dBm
+[74.000] Step 74/300: RL Agent: Adjusting cell 3 power from 31.9 to 31.1 dBm
+[74.000] Step 74/300: RL Agent: Adjusting cell 4 power from 41.5 to 46.0 dBm
+[74.000] Step 74/300: RL Agent: Adjusting cell 5 power from 46.0 to 35.7 dBm
+[74.000] Step 74/300: RL Agent: Adjusting cell 6 power from 41.2 to 45.0 dBm
+[74.000] Step 74/300: RL Agent: Setting cell 7 to minimum power (30.0 dBm)
+[74.000] Step 74/300: RL Agent: Adjusting cell 8 power from 39.7 to 37.5 dBm
+[74.000] Step 74/300: RL Agent: Setting cell 9 to minimum power (30.0 dBm)
+[74.000] Step 74/300: RL Agent: Adjusting cell 10 power from 46.0 to 33.7 dBm
+[74.000] Step 74/300: RL Agent: Adjusting cell 11 power from 40.9 to 46.0 dBm
+[74.000] Step 74/300: RL Agent: Adjusting cell 12 power from 46.0 to 40.2 dBm
+[74.000] Step 74/300: RL Agent: Setting cell 13 to minimum power (30.0 dBm)
+[74.000] Step 74/300: RL Agent: Adjusting cell 14 power from 30.0 to 32.7 dBm
+[74.000] Step 74/300: RL Agent: Adjusting cell 15 power from 41.0 to 41.5 dBm
+[74.000] Step 74/300: RL Agent: Setting cell 16 to minimum power (30.0 dBm)
+[74.000] Step 74/300: RL Agent: Adjusting cell 17 power from 30.0 to 34.9 dBm
+[74.000] Step 74/300: RL Agent: Adjusting cell 18 power from 41.1 to 44.4 dBm
+[74.000] Step 74/300: RL Agent: Adjusting cell 19 power from 38.5 to 45.8 dBm
+[74.000] Step 74/300: RL Agent: Adjusting cell 20 power from 36.9 to 37.4 dBm
+[74.000] Step 74/300: RL Agent: Setting cell 21 to minimum power (30.0 dBm)
+[75.000] Step 75/300: RL Agent: Adjusting cell 1 power from 38.7 to 46.0 dBm
+[75.000] Step 75/300: RL Agent: Adjusting cell 2 power from 38.7 to 34.9 dBm
+[75.000] Step 75/300: RL Agent: Adjusting cell 3 power from 31.1 to 46.0 dBm
+[75.000] Step 75/300: RL Agent: Adjusting cell 4 power from 46.0 to 41.2 dBm
+[75.000] Step 75/300: RL Agent: Setting cell 5 to minimum power (30.0 dBm)
+[75.000] Step 75/300: RL Agent: Setting cell 6 to minimum power (30.0 dBm)
+[75.000] Step 75/300: RL Agent: Adjusting cell 7 power from 30.0 to 33.0 dBm
+[75.000] Step 75/300: RL Agent: Adjusting cell 8 power from 37.5 to 46.0 dBm
+[75.000] Step 75/300: RL Agent: Adjusting cell 9 power from 30.0 to 43.1 dBm
+[75.000] Step 75/300: RL Agent: Setting cell 10 to minimum power (30.7 dBm)
+[75.000] Step 75/300: RL Agent: Adjusting cell 11 power from 46.0 to 37.0 dBm
+[75.000] Step 75/300: RL Agent: Adjusting cell 12 power from 40.2 to 40.5 dBm
+[75.000] Step 75/300: RL Agent: Adjusting cell 13 power from 30.0 to 32.5 dBm
+[75.000] Step 75/300: RL Agent: Adjusting cell 14 power from 32.7 to 35.6 dBm
+[75.000] Step 75/300: RL Agent: Setting cell 15 to minimum power (30.0 dBm)
+[75.000] Step 75/300: RL Agent: Adjusting cell 16 power from 30.0 to 31.4 dBm
+[75.000] Step 75/300: RL Agent: Adjusting cell 17 power from 34.9 to 41.9 dBm
+[75.000] Step 75/300: RL Agent: Adjusting cell 18 power from 44.4 to 36.1 dBm
+[75.000] Step 75/300: RL Agent: Adjusting cell 19 power from 45.8 to 42.7 dBm
+[75.000] Step 75/300: RL Agent: Setting cell 20 to minimum power (30.0 dBm)
+[75.000] Step 75/300: RL Agent: Adjusting cell 21 power from 30.0 to 46.0 dBm
+[76.000] Step 76/300: RL Agent: Adjusting cell 1 power from 46.0 to 45.3 dBm
+[76.000] Step 76/300: RL Agent: Adjusting cell 2 power from 34.9 to 43.2 dBm
+[76.000] Step 76/300: RL Agent: Adjusting cell 4 power from 41.2 to 39.0 dBm
+[76.000] Step 76/300: RL Agent: Adjusting cell 5 power from 30.0 to 33.0 dBm
+[76.000] Step 76/300: RL Agent: Adjusting cell 6 power from 30.0 to 34.8 dBm
+[76.000] Step 76/300: RL Agent: Adjusting cell 7 power from 33.0 to 40.9 dBm
+[76.000] Step 76/300: RL Agent: Adjusting cell 8 power from 46.0 to 37.3 dBm
+[76.000] Step 76/300: RL Agent: Adjusting cell 9 power from 43.1 to 36.6 dBm
+[76.000] Step 76/300: RL Agent: Setting cell 10 to minimum power (30.0 dBm)
+[76.000] Step 76/300: RL Agent: Adjusting cell 11 power from 37.0 to 32.8 dBm
+[76.000] Step 76/300: RL Agent: Adjusting cell 12 power from 40.5 to 44.1 dBm
+[76.000] Step 76/300: RL Agent: Adjusting cell 13 power from 32.5 to 31.4 dBm
+[76.000] Step 76/300: RL Agent: Setting cell 14 to minimum power (30.0 dBm)
+[76.000] Step 76/300: RL Agent: Setting cell 15 to minimum power (30.0 dBm)
+[76.000] Step 76/300: RL Agent: Setting cell 16 to minimum power (30.7 dBm)
+[76.000] Step 76/300: RL Agent: Adjusting cell 17 power from 41.9 to 37.1 dBm
+[76.000] Step 76/300: RL Agent: Adjusting cell 18 power from 36.1 to 46.0 dBm
+[76.000] Step 76/300: RL Agent: Adjusting cell 19 power from 42.7 to 40.4 dBm
+[76.000] Step 76/300: RL Agent: Adjusting cell 20 power from 30.0 to 31.1 dBm
+[76.000] Step 76/300: RL Agent: Setting cell 21 to minimum power (30.0 dBm)
+[77.000] Step 77/300: RL Agent: Adjusting cell 1 power from 45.3 to 46.0 dBm
+[77.000] Step 77/300: RL Agent: Adjusting cell 2 power from 43.2 to 40.9 dBm
+[77.000] Step 77/300: RL Agent: Adjusting cell 3 power from 46.0 to 33.8 dBm
+[77.000] Step 77/300: RL Agent: Adjusting cell 4 power from 39.0 to 46.0 dBm
+[77.000] Step 77/300: RL Agent: Adjusting cell 5 power from 33.0 to 46.0 dBm
+[77.000] Step 77/300: RL Agent: Setting cell 6 to minimum power (30.1 dBm)
+[77.000] Step 77/300: RL Agent: Setting cell 7 to minimum power (30.0 dBm)
+[77.000] Step 77/300: RL Agent: Adjusting cell 8 power from 37.3 to 43.3 dBm
+[77.000] Step 77/300: RL Agent: Setting cell 9 to minimum power (30.0 dBm)
+[77.000] Step 77/300: RL Agent: Adjusting cell 10 power from 30.0 to 44.0 dBm
+[77.000] Step 77/300: RL Agent: Adjusting cell 11 power from 32.8 to 35.6 dBm
+[77.000] Step 77/300: RL Agent: Setting cell 12 to minimum power (30.0 dBm)
+[77.000] Step 77/300: RL Agent: Adjusting cell 13 power from 31.4 to 38.9 dBm
+[77.000] Step 77/300: RL Agent: Setting cell 14 to minimum power (30.0 dBm)
+[77.000] Step 77/300: RL Agent: Adjusting cell 15 power from 30.0 to 46.0 dBm
+[77.000] Step 77/300: RL Agent: Adjusting cell 16 power from 30.7 to 46.0 dBm
+[77.000] Step 77/300: RL Agent: Adjusting cell 17 power from 37.1 to 46.0 dBm
+[77.000] Step 77/300: RL Agent: Adjusting cell 19 power from 40.4 to 46.0 dBm
+[77.000] Step 77/300: RL Agent: Adjusting cell 20 power from 31.1 to 42.6 dBm
+[77.000] Step 77/300: RL Agent: Adjusting cell 21 power from 30.0 to 34.0 dBm
+[78.000] Step 78/300: RL Agent: Adjusting cell 1 power from 46.0 to 31.2 dBm
+[78.000] Step 78/300: RL Agent: Adjusting cell 2 power from 40.9 to 46.0 dBm
+[78.000] Step 78/300: RL Agent: Adjusting cell 3 power from 33.8 to 40.2 dBm
+[78.000] Step 78/300: RL Agent: Adjusting cell 4 power from 46.0 to 36.8 dBm
+[78.000] Step 78/300: RL Agent: Adjusting cell 5 power from 46.0 to 42.2 dBm
+[78.000] Step 78/300: RL Agent: Adjusting cell 6 power from 30.1 to 35.3 dBm
+[78.000] Step 78/300: RL Agent: Setting cell 7 to minimum power (30.0 dBm)
+[78.000] Step 78/300: RL Agent: Adjusting cell 8 power from 43.3 to 44.1 dBm
+[78.000] Step 78/300: RL Agent: Adjusting cell 9 power from 30.0 to 44.7 dBm
+[78.000] Step 78/300: RL Agent: Adjusting cell 10 power from 44.0 to 45.5 dBm
+[78.000] Step 78/300: RL Agent: Adjusting cell 11 power from 35.6 to 46.0 dBm
+[78.000] Step 78/300: RL Agent: Adjusting cell 12 power from 30.0 to 45.8 dBm
+[78.000] Step 78/300: RL Agent: Setting cell 13 to minimum power (30.5 dBm)
+[78.000] Step 78/300: RL Agent: Adjusting cell 14 power from 30.0 to 46.0 dBm
+[78.000] Step 78/300: RL Agent: Setting cell 15 to minimum power (30.0 dBm)
+[78.000] Step 78/300: RL Agent: Setting cell 16 to minimum power (30.0 dBm)
+[78.000] Step 78/300: RL Agent: Setting cell 17 to minimum power (30.0 dBm)
+[78.000] Step 78/300: RL Agent: Adjusting cell 18 power from 46.0 to 40.8 dBm
+[78.000] Step 78/300: RL Agent: Adjusting cell 20 power from 42.6 to 40.3 dBm
+[78.000] Step 78/300: RL Agent: Adjusting cell 21 power from 34.0 to 36.9 dBm
+[79.000] Step 79/300: RL Agent: Adjusting cell 1 power from 31.2 to 36.6 dBm
+[79.000] Step 79/300: RL Agent: Adjusting cell 2 power from 46.0 to 39.6 dBm
+[79.000] Step 79/300: RL Agent: Adjusting cell 3 power from 40.2 to 46.0 dBm
+[79.000] Step 79/300: RL Agent: Setting cell 4 to minimum power (30.0 dBm)
+[79.000] Step 79/300: RL Agent: Adjusting cell 5 power from 42.2 to 31.7 dBm
+[79.000] Step 79/300: RL Agent: Adjusting cell 6 power from 35.3 to 46.0 dBm
+[79.000] Step 79/300: RL Agent: Adjusting cell 7 power from 30.0 to 41.3 dBm
+[79.000] Step 79/300: RL Agent: Adjusting cell 8 power from 44.1 to 40.3 dBm
+[79.000] Step 79/300: RL Agent: Adjusting cell 9 power from 44.7 to 34.2 dBm
+[79.000] Step 79/300: RL Agent: Adjusting cell 10 power from 45.5 to 39.8 dBm
+[79.000] Step 79/300: RL Agent: Setting cell 12 to minimum power (30.0 dBm)
+[79.000] Step 79/300: RL Agent: Adjusting cell 13 power from 30.5 to 44.5 dBm
+[79.000] Step 79/300: RL Agent: Setting cell 14 to minimum power (30.0 dBm)
+[79.000] Step 79/300: RL Agent: Adjusting cell 15 power from 30.0 to 39.1 dBm
+[79.000] Step 79/300: RL Agent: Setting cell 16 to minimum power (30.0 dBm)
+[79.000] Step 79/300: RL Agent: Adjusting cell 17 power from 30.0 to 42.7 dBm
+[79.000] Step 79/300: RL Agent: Adjusting cell 18 power from 40.8 to 32.1 dBm
+[79.000] Step 79/300: RL Agent: Adjusting cell 19 power from 46.0 to 44.4 dBm
+[79.000] Step 79/300: RL Agent: Adjusting cell 20 power from 40.3 to 32.3 dBm
+[79.000] Step 79/300: RL Agent: Adjusting cell 21 power from 36.9 to 46.0 dBm
+[80.000] Step 80/300: RL Agent: Adjusting cell 1 power from 36.6 to 45.8 dBm
+[80.000] Step 80/300: RL Agent: Adjusting cell 2 power from 39.6 to 46.0 dBm
+[80.000] Step 80/300: RL Agent: Adjusting cell 3 power from 46.0 to 33.7 dBm
+[80.000] Step 80/300: RL Agent: Setting cell 4 to minimum power (30.0 dBm)
+[80.000] Step 80/300: RL Agent: Setting cell 5 to minimum power (30.0 dBm)
+[80.000] Step 80/300: RL Agent: Adjusting cell 6 power from 46.0 to 45.8 dBm
+[80.000] Step 80/300: RL Agent: Adjusting cell 7 power from 41.3 to 46.0 dBm
+[80.000] Step 80/300: RL Agent: Adjusting cell 8 power from 40.3 to 46.0 dBm
+[80.000] Step 80/300: RL Agent: Adjusting cell 9 power from 34.2 to 45.5 dBm
+[80.000] Step 80/300: RL Agent: Adjusting cell 10 power from 39.8 to 46.0 dBm
+[80.000] Step 80/300: RL Agent: Adjusting cell 11 power from 46.0 to 39.8 dBm
+[80.000] Step 80/300: RL Agent: Adjusting cell 12 power from 30.0 to 41.8 dBm
+[80.000] Step 80/300: RL Agent: Adjusting cell 13 power from 44.5 to 46.0 dBm
+[80.000] Step 80/300: RL Agent: Setting cell 14 to minimum power (30.0 dBm)
+[80.000] Step 80/300: RL Agent: Adjusting cell 15 power from 39.1 to 46.0 dBm
+[80.000] Step 80/300: RL Agent: Adjusting cell 16 power from 30.0 to 36.6 dBm
+[80.000] Step 80/300: RL Agent: Adjusting cell 17 power from 42.7 to 46.0 dBm
+[80.000] Step 80/300: RL Agent: Adjusting cell 18 power from 32.1 to 36.6 dBm
+[80.000] Step 80/300: RL Agent: Adjusting cell 19 power from 44.4 to 37.2 dBm
+[80.000] Step 80/300: RL Agent: Adjusting cell 20 power from 32.3 to 38.0 dBm
+[80.000] Step 80/300: RL Agent: Adjusting cell 21 power from 46.0 to 39.4 dBm
+[81.000] Step 81/300: RL Agent: Adjusting cell 1 power from 45.8 to 43.3 dBm
+[81.000] Step 81/300: RL Agent: Setting cell 3 to minimum power (30.0 dBm)
+[81.000] Step 81/300: RL Agent: Adjusting cell 4 power from 30.0 to 42.3 dBm
+[81.000] Step 81/300: RL Agent: Setting cell 5 to minimum power (30.0 dBm)
+[81.000] Step 81/300: RL Agent: Adjusting cell 6 power from 45.8 to 41.7 dBm
+[81.000] Step 81/300: RL Agent: Setting cell 7 to minimum power (30.0 dBm)
+[81.000] Step 81/300: RL Agent: Adjusting cell 8 power from 46.0 to 43.4 dBm
+[81.000] Step 81/300: RL Agent: Adjusting cell 9 power from 45.5 to 41.9 dBm
+[81.000] Step 81/300: RL Agent: Adjusting cell 10 power from 46.0 to 32.1 dBm
+[81.000] Step 81/300: RL Agent: Adjusting cell 11 power from 39.8 to 35.0 dBm
+[81.000] Step 81/300: RL Agent: Adjusting cell 12 power from 41.8 to 46.0 dBm
+[81.000] Step 81/300: RL Agent: Adjusting cell 13 power from 46.0 to 38.6 dBm
+[81.000] Step 81/300: RL Agent: Adjusting cell 14 power from 30.0 to 33.1 dBm
+[81.000] Step 81/300: RL Agent: Adjusting cell 15 power from 46.0 to 39.4 dBm
+[81.000] Step 81/300: RL Agent: Setting cell 16 to minimum power (30.9 dBm)
+[81.000] Step 81/300: RL Agent: Adjusting cell 17 power from 46.0 to 35.2 dBm
+[81.000] Step 81/300: RL Agent: Adjusting cell 18 power from 36.6 to 31.3 dBm
+[81.000] Step 81/300: RL Agent: Setting cell 19 to minimum power (30.0 dBm)
+[81.000] Step 81/300: RL Agent: Adjusting cell 20 power from 38.0 to 41.3 dBm
+[81.000] Step 81/300: RL Agent: Adjusting cell 21 power from 39.4 to 46.0 dBm
+[82.000] Step 82/300: RL Agent: Adjusting cell 1 power from 43.3 to 40.7 dBm
+[82.000] Step 82/300: RL Agent: Adjusting cell 2 power from 46.0 to 41.4 dBm
+[82.000] Step 82/300: RL Agent: Adjusting cell 3 power from 30.0 to 34.5 dBm
+[82.000] Step 82/300: RL Agent: Adjusting cell 4 power from 42.3 to 45.3 dBm
+[82.000] Step 82/300: RL Agent: Setting cell 5 to minimum power (31.0 dBm)
+[82.000] Step 82/300: RL Agent: Adjusting cell 6 power from 41.7 to 37.1 dBm
+[82.000] Step 82/300: RL Agent: Adjusting cell 7 power from 30.0 to 33.4 dBm
+[82.000] Step 82/300: RL Agent: Adjusting cell 8 power from 43.4 to 44.5 dBm
+[82.000] Step 82/300: RL Agent: Adjusting cell 9 power from 41.9 to 42.2 dBm
+[82.000] Step 82/300: RL Agent: Adjusting cell 10 power from 32.1 to 33.0 dBm
+[82.000] Step 82/300: RL Agent: Setting cell 11 to minimum power (30.0 dBm)
+[82.000] Step 82/300: RL Agent: Adjusting cell 12 power from 46.0 to 39.0 dBm
+[82.000] Step 82/300: RL Agent: Adjusting cell 13 power from 38.6 to 45.2 dBm
+[82.000] Step 82/300: RL Agent: Adjusting cell 14 power from 33.1 to 34.3 dBm
+[82.000] Step 82/300: RL Agent: Adjusting cell 15 power from 39.4 to 43.1 dBm
+[82.000] Step 82/300: RL Agent: Adjusting cell 16 power from 30.9 to 42.7 dBm
+[82.000] Step 82/300: RL Agent: Adjusting cell 17 power from 35.2 to 46.0 dBm
+[82.000] Step 82/300: RL Agent: Adjusting cell 18 power from 31.3 to 40.8 dBm
+[82.000] Step 82/300: RL Agent: Adjusting cell 19 power from 30.0 to 41.0 dBm
+[82.000] Step 82/300: RL Agent: Adjusting cell 20 power from 41.3 to 46.0 dBm
+[82.000] Step 82/300: RL Agent: Adjusting cell 21 power from 46.0 to 39.3 dBm
+[83.000] Step 83/300: RL Agent: Adjusting cell 1 power from 40.7 to 41.9 dBm
+[83.000] Step 83/300: RL Agent: Adjusting cell 2 power from 41.4 to 38.5 dBm
+[83.000] Step 83/300: RL Agent: Setting cell 3 to minimum power (30.0 dBm)
+[83.000] Step 83/300: RL Agent: Adjusting cell 4 power from 45.3 to 40.3 dBm
+[83.000] Step 83/300: RL Agent: Adjusting cell 5 power from 31.0 to 37.3 dBm
+[83.000] Step 83/300: RL Agent: Setting cell 6 to minimum power (30.0 dBm)
+[83.000] Step 83/300: RL Agent: Adjusting cell 7 power from 33.4 to 46.0 dBm
+[83.000] Step 83/300: RL Agent: Adjusting cell 8 power from 44.5 to 37.4 dBm
+[83.000] Step 83/300: RL Agent: Adjusting cell 9 power from 42.2 to 40.0 dBm
+[83.000] Step 83/300: RL Agent: Adjusting cell 10 power from 33.0 to 36.3 dBm
+[83.000] Step 83/300: RL Agent: Adjusting cell 11 power from 30.0 to 33.6 dBm
+[83.000] Step 83/300: RL Agent: Adjusting cell 12 power from 39.0 to 34.3 dBm
+[83.000] Step 83/300: RL Agent: Setting cell 13 to minimum power (30.0 dBm)
+[83.000] Step 83/300: RL Agent: Adjusting cell 14 power from 34.3 to 46.0 dBm
+[83.000] Step 83/300: RL Agent: Adjusting cell 15 power from 43.1 to 42.6 dBm
+[83.000] Step 83/300: RL Agent: Setting cell 16 to minimum power (30.1 dBm)
+[83.000] Step 83/300: RL Agent: Adjusting cell 17 power from 46.0 to 40.3 dBm
+[83.000] Step 83/300: RL Agent: Setting cell 18 to minimum power (30.0 dBm)
+[83.000] Step 83/300: RL Agent: Adjusting cell 19 power from 41.0 to 37.3 dBm
+[83.000] Step 83/300: RL Agent: Adjusting cell 20 power from 46.0 to 42.1 dBm
+[83.000] Step 83/300: RL Agent: Adjusting cell 21 power from 39.3 to 38.1 dBm
+[84.000] Step 84/300: RL Agent: Adjusting cell 1 power from 41.9 to 43.0 dBm
+[84.000] Step 84/300: RL Agent: Adjusting cell 2 power from 38.5 to 46.0 dBm
+[84.000] Step 84/300: RL Agent: Adjusting cell 3 power from 30.0 to 37.6 dBm
+[84.000] Step 84/300: RL Agent: Setting cell 4 to minimum power (30.0 dBm)
+[84.000] Step 84/300: RL Agent: Setting cell 5 to minimum power (30.0 dBm)
+[84.000] Step 84/300: RL Agent: Adjusting cell 6 power from 30.0 to 36.9 dBm
+[84.000] Step 84/300: RL Agent: Adjusting cell 8 power from 37.4 to 36.2 dBm
+[84.000] Step 84/300: RL Agent: Adjusting cell 9 power from 40.0 to 46.0 dBm
+[84.000] Step 84/300: RL Agent: Adjusting cell 10 power from 36.3 to 46.0 dBm
+[84.000] Step 84/300: RL Agent: Setting cell 11 to minimum power (30.0 dBm)
+[84.000] Step 84/300: RL Agent: Adjusting cell 12 power from 34.3 to 46.0 dBm
+[84.000] Step 84/300: RL Agent: Setting cell 13 to minimum power (30.0 dBm)
+[84.000] Step 84/300: RL Agent: Adjusting cell 14 power from 46.0 to 31.7 dBm
+[84.000] Step 84/300: RL Agent: Adjusting cell 15 power from 42.6 to 40.5 dBm
+[84.000] Step 84/300: RL Agent: Adjusting cell 16 power from 30.1 to 46.0 dBm
+[84.000] Step 84/300: RL Agent: Adjusting cell 17 power from 40.3 to 38.3 dBm
+[84.000] Step 84/300: RL Agent: Adjusting cell 18 power from 30.0 to 40.0 dBm
+[84.000] Step 84/300: RL Agent: Setting cell 19 to minimum power (30.0 dBm)
+[84.000] Step 84/300: RL Agent: Adjusting cell 20 power from 42.1 to 46.0 dBm
+[84.000] Step 84/300: RL Agent: Adjusting cell 21 power from 38.1 to 46.0 dBm
+[85.000] Step 85/300: RL Agent: Setting cell 1 to minimum power (30.0 dBm)
+[85.000] Step 85/300: RL Agent: Adjusting cell 2 power from 46.0 to 37.9 dBm
+[85.000] Step 85/300: RL Agent: Adjusting cell 3 power from 37.6 to 37.4 dBm
+[85.000] Step 85/300: RL Agent: Adjusting cell 4 power from 30.0 to 41.0 dBm
+[85.000] Step 85/300: RL Agent: Adjusting cell 5 power from 30.0 to 34.6 dBm
+[85.000] Step 85/300: RL Agent: Adjusting cell 6 power from 36.9 to 39.3 dBm
+[85.000] Step 85/300: RL Agent: Adjusting cell 7 power from 46.0 to 34.6 dBm
+[85.000] Step 85/300: RL Agent: Adjusting cell 8 power from 36.2 to 46.0 dBm
+[85.000] Step 85/300: RL Agent: Adjusting cell 9 power from 46.0 to 34.1 dBm
+[85.000] Step 85/300: RL Agent: Adjusting cell 11 power from 30.0 to 46.0 dBm
+[85.000] Step 85/300: RL Agent: Adjusting cell 12 power from 46.0 to 38.8 dBm
+[85.000] Step 85/300: RL Agent: Adjusting cell 13 power from 30.0 to 42.7 dBm
+[85.000] Step 85/300: RL Agent: Adjusting cell 14 power from 31.7 to 35.8 dBm
+[85.000] Step 85/300: RL Agent: Setting cell 15 to minimum power (30.0 dBm)
+[85.000] Step 85/300: RL Agent: Adjusting cell 17 power from 38.3 to 46.0 dBm
+[85.000] Step 85/300: RL Agent: Adjusting cell 18 power from 40.0 to 44.5 dBm
+[85.000] Step 85/300: RL Agent: Adjusting cell 19 power from 30.0 to 34.6 dBm
+[85.000] Step 85/300: RL Agent: Setting cell 20 to minimum power (30.0 dBm)
+[86.000] Step 86/300: RL Agent: Adjusting cell 1 power from 30.0 to 39.2 dBm
+[86.000] Step 86/300: RL Agent: Setting cell 2 to minimum power (30.0 dBm)
+[86.000] Step 86/300: RL Agent: Adjusting cell 3 power from 37.4 to 36.4 dBm
+[86.000] Step 86/300: RL Agent: Adjusting cell 4 power from 41.0 to 41.1 dBm
+[86.000] Step 86/300: RL Agent: Adjusting cell 5 power from 34.6 to 33.6 dBm
+[86.000] Step 86/300: RL Agent: Adjusting cell 6 power from 39.3 to 35.7 dBm
+[86.000] Step 86/300: RL Agent: Adjusting cell 7 power from 34.6 to 46.0 dBm
+[86.000] Step 86/300: RL Agent: Adjusting cell 8 power from 46.0 to 31.2 dBm
+[86.000] Step 86/300: RL Agent: Adjusting cell 9 power from 34.1 to 42.7 dBm
+[86.000] Step 86/300: RL Agent: Adjusting cell 10 power from 46.0 to 36.9 dBm
+[86.000] Step 86/300: RL Agent: Adjusting cell 11 power from 46.0 to 38.0 dBm
+[86.000] Step 86/300: RL Agent: Adjusting cell 12 power from 38.8 to 43.5 dBm
+[86.000] Step 86/300: RL Agent: Adjusting cell 13 power from 42.7 to 42.2 dBm
+[86.000] Step 86/300: RL Agent: Adjusting cell 14 power from 35.8 to 46.0 dBm
+[86.000] Step 86/300: RL Agent: Setting cell 15 to minimum power (30.0 dBm)
+[86.000] Step 86/300: RL Agent: Adjusting cell 16 power from 46.0 to 33.1 dBm
+[86.000] Step 86/300: RL Agent: Adjusting cell 17 power from 46.0 to 36.2 dBm
+[86.000] Step 86/300: RL Agent: Adjusting cell 18 power from 44.5 to 32.6 dBm
+[86.000] Step 86/300: RL Agent: Adjusting cell 19 power from 34.6 to 46.0 dBm
+[86.000] Step 86/300: RL Agent: Adjusting cell 20 power from 30.0 to 31.3 dBm
+[86.000] Step 86/300: RL Agent: Adjusting cell 21 power from 46.0 to 35.1 dBm
+[87.000] Step 87/300: RL Agent: Setting cell 1 to minimum power (30.0 dBm)
+[87.000] Step 87/300: RL Agent: Adjusting cell 2 power from 30.0 to 40.9 dBm
+[87.000] Step 87/300: RL Agent: Setting cell 3 to minimum power (30.0 dBm)
+[87.000] Step 87/300: RL Agent: Adjusting cell 4 power from 41.1 to 38.9 dBm
+[87.000] Step 87/300: RL Agent: Adjusting cell 5 power from 33.6 to 34.2 dBm
+[87.000] Step 87/300: RL Agent: Adjusting cell 6 power from 35.7 to 35.5 dBm
+[87.000] Step 87/300: RL Agent: Adjusting cell 8 power from 31.2 to 46.0 dBm
+[87.000] Step 87/300: RL Agent: Setting cell 9 to minimum power (30.0 dBm)
+[87.000] Step 87/300: RL Agent: Adjusting cell 10 power from 36.9 to 45.9 dBm
+[87.000] Step 87/300: RL Agent: Adjusting cell 11 power from 38.0 to 46.0 dBm
+[87.000] Step 87/300: RL Agent: Setting cell 12 to minimum power (30.0 dBm)
+[87.000] Step 87/300: RL Agent: Adjusting cell 13 power from 42.2 to 35.9 dBm
+[87.000] Step 87/300: RL Agent: Setting cell 14 to minimum power (30.0 dBm)
+[87.000] Step 87/300: RL Agent: Setting cell 15 to minimum power (30.0 dBm)
+[87.000] Step 87/300: RL Agent: Setting cell 16 to minimum power (30.0 dBm)
+[87.000] Step 87/300: RL Agent: Adjusting cell 17 power from 36.2 to 46.0 dBm
+[87.000] Step 87/300: RL Agent: Setting cell 18 to minimum power (30.0 dBm)
+[87.000] Step 87/300: RL Agent: Adjusting cell 19 power from 46.0 to 37.8 dBm
+[87.000] Step 87/300: RL Agent: Adjusting cell 20 power from 31.3 to 35.6 dBm
+[87.000] Step 87/300: RL Agent: Setting cell 21 to minimum power (30.0 dBm)
+[88.000] Step 88/300: RL Agent: Adjusting cell 1 power from 30.0 to 43.7 dBm
+[88.000] Step 88/300: RL Agent: Setting cell 2 to minimum power (30.0 dBm)
+[88.000] Step 88/300: RL Agent: Adjusting cell 3 power from 30.0 to 38.8 dBm
+[88.000] Step 88/300: RL Agent: Setting cell 4 to minimum power (30.0 dBm)
+[88.000] Step 88/300: RL Agent: Adjusting cell 5 power from 34.2 to 46.0 dBm
+[88.000] Step 88/300: RL Agent: Setting cell 6 to minimum power (30.0 dBm)
+[88.000] Step 88/300: RL Agent: Adjusting cell 8 power from 46.0 to 39.7 dBm
+[88.000] Step 88/300: RL Agent: Adjusting cell 9 power from 30.0 to 33.3 dBm
+[88.000] Step 88/300: RL Agent: Adjusting cell 10 power from 45.9 to 44.4 dBm
+[88.000] Step 88/300: RL Agent: Adjusting cell 11 power from 46.0 to 33.2 dBm
+[88.000] Step 88/300: RL Agent: Adjusting cell 12 power from 30.0 to 46.0 dBm
+[88.000] Step 88/300: RL Agent: Adjusting cell 13 power from 35.9 to 42.2 dBm
+[88.000] Step 88/300: RL Agent: Adjusting cell 14 power from 30.0 to 42.8 dBm
+[88.000] Step 88/300: RL Agent: Setting cell 15 to minimum power (30.0 dBm)
+[88.000] Step 88/300: RL Agent: Adjusting cell 16 power from 30.0 to 35.7 dBm
+[88.000] Step 88/300: RL Agent: Adjusting cell 17 power from 46.0 to 44.1 dBm
+[88.000] Step 88/300: RL Agent: Setting cell 18 to minimum power (30.7 dBm)
+[88.000] Step 88/300: RL Agent: Adjusting cell 19 power from 37.8 to 35.5 dBm
+[88.000] Step 88/300: RL Agent: Setting cell 20 to minimum power (30.0 dBm)
+[88.000] Step 88/300: RL Agent: Adjusting cell 21 power from 30.0 to 39.6 dBm
+[89.000] Step 89/300: RL Agent: Adjusting cell 1 power from 43.7 to 41.1 dBm
+[89.000] Step 89/300: RL Agent: Adjusting cell 2 power from 30.0 to 43.0 dBm
+[89.000] Step 89/300: RL Agent: Adjusting cell 3 power from 38.8 to 46.0 dBm
+[89.000] Step 89/300: RL Agent: Adjusting cell 4 power from 30.0 to 38.6 dBm
+[89.000] Step 89/300: RL Agent: Setting cell 6 to minimum power (30.0 dBm)
+[89.000] Step 89/300: RL Agent: Adjusting cell 7 power from 46.0 to 37.0 dBm
+[89.000] Step 89/300: RL Agent: Adjusting cell 8 power from 39.7 to 43.3 dBm
+[89.000] Step 89/300: RL Agent: Adjusting cell 9 power from 33.3 to 44.3 dBm
+[89.000] Step 89/300: RL Agent: Adjusting cell 10 power from 44.4 to 42.7 dBm
+[89.000] Step 89/300: RL Agent: Setting cell 11 to minimum power (30.0 dBm)
+[89.000] Step 89/300: RL Agent: Adjusting cell 12 power from 46.0 to 37.7 dBm
+[89.000] Step 89/300: RL Agent: Adjusting cell 13 power from 42.2 to 36.7 dBm
+[89.000] Step 89/300: RL Agent: Setting cell 14 to minimum power (30.5 dBm)
+[89.000] Step 89/300: RL Agent: Adjusting cell 15 power from 30.0 to 46.0 dBm
+[89.000] Step 89/300: RL Agent: Adjusting cell 16 power from 35.7 to 31.9 dBm
+[89.000] Step 89/300: RL Agent: Adjusting cell 17 power from 44.1 to 45.4 dBm
+[89.000] Step 89/300: RL Agent: Setting cell 18 to minimum power (30.0 dBm)
+[89.000] Step 89/300: RL Agent: Setting cell 19 to minimum power (30.0 dBm)
+[89.000] Step 89/300: RL Agent: Adjusting cell 20 power from 30.0 to 46.0 dBm
+[89.000] Step 89/300: RL Agent: Setting cell 21 to minimum power (30.0 dBm)
+[90.000] Step 90/300: RL Agent: Adjusting cell 1 power from 41.1 to 46.0 dBm
+[90.000] Step 90/300: RL Agent: Setting cell 2 to minimum power (30.0 dBm)
+[90.000] Step 90/300: RL Agent: Adjusting cell 3 power from 46.0 to 39.5 dBm
+[90.000] Step 90/300: RL Agent: Setting cell 4 to minimum power (30.0 dBm)
+[90.000] Step 90/300: RL Agent: Adjusting cell 5 power from 46.0 to 40.2 dBm
+[90.000] Step 90/300: RL Agent: Adjusting cell 6 power from 30.0 to 46.0 dBm
+[90.000] Step 90/300: RL Agent: Setting cell 7 to minimum power (30.0 dBm)
+[90.000] Step 90/300: RL Agent: Adjusting cell 8 power from 43.3 to 36.4 dBm
+[90.000] Step 90/300: RL Agent: Adjusting cell 9 power from 44.3 to 46.0 dBm
+[90.000] Step 90/300: RL Agent: Setting cell 10 to minimum power (30.0 dBm)
+[90.000] Step 90/300: RL Agent: Adjusting cell 11 power from 30.0 to 39.7 dBm
+[90.000] Step 90/300: RL Agent: Adjusting cell 12 power from 37.7 to 41.1 dBm
+[90.000] Step 90/300: RL Agent: Adjusting cell 13 power from 36.7 to 37.1 dBm
+[90.000] Step 90/300: RL Agent: Adjusting cell 14 power from 30.5 to 44.1 dBm
+[90.000] Step 90/300: RL Agent: Adjusting cell 15 power from 46.0 to 31.6 dBm
+[90.000] Step 90/300: RL Agent: Adjusting cell 16 power from 31.9 to 42.8 dBm
+[90.000] Step 90/300: RL Agent: Adjusting cell 17 power from 45.4 to 31.0 dBm
+[90.000] Step 90/300: RL Agent: Setting cell 18 to minimum power (30.0 dBm)
+[90.000] Step 90/300: RL Agent: Setting cell 19 to minimum power (30.5 dBm)
+[90.000] Step 90/300: RL Agent: Setting cell 20 to minimum power (30.0 dBm)
+[90.000] Step 90/300: RL Agent: Setting cell 21 to minimum power (30.0 dBm)
+[91.000] Step 91/300: RL Agent: Adjusting cell 1 power from 46.0 to 34.6 dBm
+[91.000] Step 91/300: RL Agent: Adjusting cell 2 power from 30.0 to 44.8 dBm
+[91.000] Step 91/300: RL Agent: Adjusting cell 3 power from 39.5 to 45.6 dBm
+[91.000] Step 91/300: RL Agent: Adjusting cell 4 power from 30.0 to 38.3 dBm
+[91.000] Step 91/300: RL Agent: Adjusting cell 5 power from 40.2 to 42.6 dBm
+[91.000] Step 91/300: RL Agent: Adjusting cell 6 power from 46.0 to 32.2 dBm
+[91.000] Step 91/300: RL Agent: Adjusting cell 7 power from 30.0 to 46.0 dBm
+[91.000] Step 91/300: RL Agent: Adjusting cell 8 power from 36.4 to 32.6 dBm
+[91.000] Step 91/300: RL Agent: Adjusting cell 9 power from 46.0 to 40.6 dBm
+[91.000] Step 91/300: RL Agent: Adjusting cell 10 power from 30.0 to 46.0 dBm
+[91.000] Step 91/300: RL Agent: Adjusting cell 11 power from 39.7 to 45.2 dBm
+[91.000] Step 91/300: RL Agent: Adjusting cell 12 power from 41.1 to 37.4 dBm
+[91.000] Step 91/300: RL Agent: Adjusting cell 13 power from 37.1 to 41.9 dBm
+[91.000] Step 91/300: RL Agent: Adjusting cell 14 power from 44.1 to 39.1 dBm
+[91.000] Step 91/300: RL Agent: Setting cell 15 to minimum power (30.0 dBm)
+[91.000] Step 91/300: RL Agent: Setting cell 16 to minimum power (30.0 dBm)
+[91.000] Step 91/300: RL Agent: Setting cell 17 to minimum power (30.0 dBm)
+[91.000] Step 91/300: RL Agent: Adjusting cell 18 power from 30.0 to 41.6 dBm
+[91.000] Step 91/300: RL Agent: Adjusting cell 19 power from 30.5 to 46.0 dBm
+[91.000] Step 91/300: RL Agent: Adjusting cell 20 power from 30.0 to 46.0 dBm
+[91.000] Step 91/300: RL Agent: Adjusting cell 21 power from 30.0 to 46.0 dBm
+[92.000] Step 92/300: RL Agent: Adjusting cell 1 power from 34.6 to 35.3 dBm
+[92.000] Step 92/300: RL Agent: Adjusting cell 2 power from 44.8 to 33.9 dBm
+[92.000] Step 92/300: RL Agent: Adjusting cell 3 power from 45.6 to 39.2 dBm
+[92.000] Step 92/300: RL Agent: Setting cell 4 to minimum power (30.0 dBm)
+[92.000] Step 92/300: RL Agent: Adjusting cell 5 power from 42.6 to 42.6 dBm
+[92.000] Step 92/300: RL Agent: Adjusting cell 6 power from 32.2 to 46.0 dBm
+[92.000] Step 92/300: RL Agent: Adjusting cell 7 power from 46.0 to 40.1 dBm
+[92.000] Step 92/300: RL Agent: Setting cell 8 to minimum power (30.0 dBm)
+[92.000] Step 92/300: RL Agent: Setting cell 9 to minimum power (30.0 dBm)
+[92.000] Step 92/300: RL Agent: Setting cell 10 to minimum power (30.0 dBm)
+[92.000] Step 92/300: RL Agent: Adjusting cell 11 power from 45.2 to 43.7 dBm
+[92.000] Step 92/300: RL Agent: Setting cell 12 to minimum power (30.0 dBm)
+[92.000] Step 92/300: RL Agent: Adjusting cell 13 power from 41.9 to 46.0 dBm
+[92.000] Step 92/300: RL Agent: Adjusting cell 14 power from 39.1 to 37.8 dBm
+[92.000] Step 92/300: RL Agent: Adjusting cell 15 power from 30.0 to 46.0 dBm
+[92.000] Step 92/300: RL Agent: Setting cell 16 to minimum power (30.0 dBm)
+[92.000] Step 92/300: RL Agent: Setting cell 17 to minimum power (30.0 dBm)
+[92.000] Step 92/300: RL Agent: Adjusting cell 18 power from 41.6 to 41.9 dBm
+[92.000] Step 92/300: RL Agent: Adjusting cell 20 power from 46.0 to 37.9 dBm
+[92.000] Step 92/300: RL Agent: Adjusting cell 21 power from 46.0 to 38.4 dBm
+[93.000] Step 93/300: RL Agent: Setting cell 1 to minimum power (30.0 dBm)
+[93.000] Step 93/300: RL Agent: Setting cell 2 to minimum power (31.0 dBm)
+[93.000] Step 93/300: RL Agent: Adjusting cell 3 power from 39.2 to 42.7 dBm
+[93.000] Step 93/300: RL Agent: Adjusting cell 4 power from 30.0 to 34.9 dBm
+[93.000] Step 93/300: RL Agent: Adjusting cell 5 power from 42.6 to 33.2 dBm
+[93.000] Step 93/300: RL Agent: Adjusting cell 6 power from 46.0 to 40.2 dBm
+[93.000] Step 93/300: RL Agent: Adjusting cell 7 power from 40.1 to 40.4 dBm
+[93.000] Step 93/300: RL Agent: Adjusting cell 8 power from 30.0 to 42.9 dBm
+[93.000] Step 93/300: RL Agent: Setting cell 9 to minimum power (30.0 dBm)
+[93.000] Step 93/300: RL Agent: Adjusting cell 10 power from 30.0 to 40.7 dBm
+[93.000] Step 93/300: RL Agent: Adjusting cell 11 power from 43.7 to 46.0 dBm
+[93.000] Step 93/300: RL Agent: Setting cell 12 to minimum power (30.0 dBm)
+[93.000] Step 93/300: RL Agent: Adjusting cell 13 power from 46.0 to 39.2 dBm
+[93.000] Step 93/300: RL Agent: Adjusting cell 14 power from 37.8 to 36.8 dBm
+[93.000] Step 93/300: RL Agent: Setting cell 15 to minimum power (30.0 dBm)
+[93.000] Step 93/300: RL Agent: Adjusting cell 16 power from 30.0 to 43.8 dBm
+[93.000] Step 93/300: RL Agent: Adjusting cell 17 power from 30.0 to 46.0 dBm
+[93.000] Step 93/300: RL Agent: Setting cell 18 to minimum power (30.0 dBm)
+[93.000] Step 93/300: RL Agent: Setting cell 19 to minimum power (30.0 dBm)
+[93.000] Step 93/300: RL Agent: Adjusting cell 20 power from 37.9 to 36.5 dBm
+[93.000] Step 93/300: RL Agent: Setting cell 21 to minimum power (30.9 dBm)
+[94.000] Step 94/300: RL Agent: Adjusting cell 1 power from 30.0 to 46.0 dBm
+[94.000] Step 94/300: RL Agent: Adjusting cell 2 power from 31.0 to 34.0 dBm
+[94.000] Step 94/300: RL Agent: Adjusting cell 3 power from 42.7 to 33.9 dBm
+[94.000] Step 94/300: RL Agent: Adjusting cell 4 power from 34.9 to 40.7 dBm
+[94.000] Step 94/300: RL Agent: Setting cell 5 to minimum power (30.0 dBm)
+[94.000] Step 94/300: RL Agent: Adjusting cell 6 power from 40.2 to 34.3 dBm
+[94.000] Step 94/300: RL Agent: Adjusting cell 7 power from 40.4 to 33.0 dBm
+[94.000] Step 94/300: RL Agent: Adjusting cell 8 power from 42.9 to 46.0 dBm
+[94.000] Step 94/300: RL Agent: Adjusting cell 9 power from 30.0 to 39.6 dBm
+[94.000] Step 94/300: RL Agent: Adjusting cell 10 power from 40.7 to 46.0 dBm
+[94.000] Step 94/300: RL Agent: Adjusting cell 12 power from 30.0 to 37.7 dBm
+[94.000] Step 94/300: RL Agent: Setting cell 13 to minimum power (30.0 dBm)
+[94.000] Step 94/300: RL Agent: Adjusting cell 14 power from 36.8 to 42.2 dBm
+[94.000] Step 94/300: RL Agent: Adjusting cell 15 power from 30.0 to 46.0 dBm
+[94.000] Step 94/300: RL Agent: Adjusting cell 16 power from 43.8 to 31.2 dBm
+[94.000] Step 94/300: RL Agent: Setting cell 17 to minimum power (30.0 dBm)
+[94.000] Step 94/300: RL Agent: Adjusting cell 18 power from 30.0 to 33.5 dBm
+[94.000] Step 94/300: RL Agent: Adjusting cell 19 power from 30.0 to 33.8 dBm
+[94.000] Step 94/300: RL Agent: Adjusting cell 20 power from 36.5 to 45.3 dBm
+[94.000] Step 94/300: RL Agent: Adjusting cell 21 power from 30.9 to 45.4 dBm
+[95.000] Step 95/300: RL Agent: Setting cell 1 to minimum power (30.9 dBm)
+[95.000] Step 95/300: RL Agent: Setting cell 2 to minimum power (30.0 dBm)
+[95.000] Step 95/300: RL Agent: Adjusting cell 3 power from 33.9 to 39.0 dBm
+[95.000] Step 95/300: RL Agent: Adjusting cell 4 power from 40.7 to 31.7 dBm
+[95.000] Step 95/300: RL Agent: Adjusting cell 5 power from 30.0 to 46.0 dBm
+[95.000] Step 95/300: RL Agent: Setting cell 6 to minimum power (30.0 dBm)
+[95.000] Step 95/300: RL Agent: Setting cell 7 to minimum power (30.0 dBm)
+[95.000] Step 95/300: RL Agent: Adjusting cell 9 power from 39.6 to 38.1 dBm
+[95.000] Step 95/300: RL Agent: Adjusting cell 12 power from 37.7 to 41.5 dBm
+[95.000] Step 95/300: RL Agent: Adjusting cell 13 power from 30.0 to 41.8 dBm
+[95.000] Step 95/300: RL Agent: Adjusting cell 14 power from 42.2 to 45.7 dBm
+[95.000] Step 95/300: RL Agent: Adjusting cell 15 power from 46.0 to 36.9 dBm
+[95.000] Step 95/300: RL Agent: Setting cell 16 to minimum power (30.3 dBm)
+[95.000] Step 95/300: RL Agent: Setting cell 17 to minimum power (30.0 dBm)
+[95.000] Step 95/300: RL Agent: Setting cell 18 to minimum power (30.0 dBm)
+[95.000] Step 95/300: RL Agent: Setting cell 19 to minimum power (30.0 dBm)
+[95.000] Step 95/300: RL Agent: Adjusting cell 20 power from 45.3 to 38.5 dBm
+[95.000] Step 95/300: RL Agent: Adjusting cell 21 power from 45.4 to 37.9 dBm
+[96.000] Step 96/300: RL Agent: Adjusting cell 1 power from 30.9 to 31.4 dBm
+[96.000] Step 96/300: RL Agent: Setting cell 2 to minimum power (30.0 dBm)
+[96.000] Step 96/300: RL Agent: Adjusting cell 3 power from 39.0 to 35.4 dBm
+[96.000] Step 96/300: RL Agent: Setting cell 4 to minimum power (30.0 dBm)
+[96.000] Step 96/300: RL Agent: Adjusting cell 5 power from 46.0 to 36.2 dBm
+[96.000] Step 96/300: RL Agent: Setting cell 6 to minimum power (30.0 dBm)
+[96.000] Step 96/300: RL Agent: Adjusting cell 7 power from 30.0 to 40.4 dBm
+[96.000] Step 96/300: RL Agent: Adjusting cell 8 power from 46.0 to 43.8 dBm
+[96.000] Step 96/300: RL Agent: Adjusting cell 9 power from 38.1 to 43.5 dBm
+[96.000] Step 96/300: RL Agent: Adjusting cell 10 power from 46.0 to 36.2 dBm
+[96.000] Step 96/300: RL Agent: Setting cell 12 to minimum power (30.6 dBm)
+[96.000] Step 96/300: RL Agent: Adjusting cell 13 power from 41.8 to 45.0 dBm
+[96.000] Step 96/300: RL Agent: Setting cell 14 to minimum power (30.0 dBm)
+[96.000] Step 96/300: RL Agent: Adjusting cell 15 power from 36.9 to 46.0 dBm
+[96.000] Step 96/300: RL Agent: Adjusting cell 16 power from 30.3 to 32.4 dBm
+[96.000] Step 96/300: RL Agent: Adjusting cell 17 power from 30.0 to 36.6 dBm
+[96.000] Step 96/300: RL Agent: Setting cell 18 to minimum power (30.0 dBm)
+[96.000] Step 96/300: RL Agent: Adjusting cell 19 power from 30.0 to 46.0 dBm
+[96.000] Step 96/300: RL Agent: Adjusting cell 20 power from 38.5 to 42.0 dBm
+[96.000] Step 96/300: RL Agent: Adjusting cell 21 power from 37.9 to 31.5 dBm
+[97.000] Step 97/300: RL Agent: Setting cell 1 to minimum power (30.0 dBm)
+[97.000] Step 97/300: RL Agent: Adjusting cell 2 power from 30.0 to 46.0 dBm
+[97.000] Step 97/300: RL Agent: Adjusting cell 3 power from 35.4 to 42.8 dBm
+[97.000] Step 97/300: RL Agent: Setting cell 4 to minimum power (30.0 dBm)
+[97.000] Step 97/300: RL Agent: Adjusting cell 5 power from 36.2 to 46.0 dBm
+[97.000] Step 97/300: RL Agent: Adjusting cell 6 power from 30.0 to 42.5 dBm
+[97.000] Step 97/300: RL Agent: Adjusting cell 7 power from 40.4 to 32.1 dBm
+[97.000] Step 97/300: RL Agent: Adjusting cell 8 power from 43.8 to 31.3 dBm
+[97.000] Step 97/300: RL Agent: Adjusting cell 9 power from 43.5 to 40.8 dBm
+[97.000] Step 97/300: RL Agent: Adjusting cell 10 power from 36.2 to 31.3 dBm
+[97.000] Step 97/300: RL Agent: Adjusting cell 11 power from 46.0 to 38.7 dBm
+[97.000] Step 97/300: RL Agent: Adjusting cell 12 power from 30.6 to 45.6 dBm
+[97.000] Step 97/300: RL Agent: Adjusting cell 13 power from 45.0 to 36.6 dBm
+[97.000] Step 97/300: RL Agent: Adjusting cell 14 power from 30.0 to 46.0 dBm
+[97.000] Step 97/300: RL Agent: Setting cell 15 to minimum power (30.0 dBm)
+[97.000] Step 97/300: RL Agent: Adjusting cell 16 power from 32.4 to 46.0 dBm
+[97.000] Step 97/300: RL Agent: Adjusting cell 17 power from 36.6 to 46.0 dBm
+[97.000] Step 97/300: RL Agent: Setting cell 18 to minimum power (30.0 dBm)
+[97.000] Step 97/300: RL Agent: Adjusting cell 19 power from 46.0 to 41.6 dBm
+[97.000] Step 97/300: RL Agent: Adjusting cell 20 power from 42.0 to 42.9 dBm
+[97.000] Step 97/300: RL Agent: Adjusting cell 21 power from 31.5 to 46.0 dBm
+[98.000] Step 98/300: RL Agent: Adjusting cell 1 power from 30.0 to 46.0 dBm
+[98.000] Step 98/300: RL Agent: Adjusting cell 2 power from 46.0 to 34.3 dBm
+[98.000] Step 98/300: RL Agent: Adjusting cell 3 power from 42.8 to 45.1 dBm
+[98.000] Step 98/300: RL Agent: Setting cell 4 to minimum power (30.0 dBm)
+[98.000] Step 98/300: RL Agent: Adjusting cell 5 power from 46.0 to 33.4 dBm
+[98.000] Step 98/300: RL Agent: Adjusting cell 6 power from 42.5 to 37.4 dBm
+[98.000] Step 98/300: RL Agent: Adjusting cell 7 power from 32.1 to 33.2 dBm
+[98.000] Step 98/300: RL Agent: Adjusting cell 8 power from 31.3 to 45.0 dBm
+[98.000] Step 98/300: RL Agent: Adjusting cell 9 power from 40.8 to 43.0 dBm
+[98.000] Step 98/300: RL Agent: Setting cell 10 to minimum power (30.0 dBm)
+[98.000] Step 98/300: RL Agent: Setting cell 11 to minimum power (30.0 dBm)
+[98.000] Step 98/300: RL Agent: Setting cell 12 to minimum power (30.0 dBm)
+[98.000] Step 98/300: RL Agent: Adjusting cell 13 power from 36.6 to 46.0 dBm
+[98.000] Step 98/300: RL Agent: Adjusting cell 15 power from 30.0 to 46.0 dBm
+[98.000] Step 98/300: RL Agent: Adjusting cell 16 power from 46.0 to 40.4 dBm
+[98.000] Step 98/300: RL Agent: Setting cell 17 to minimum power (30.0 dBm)
+[98.000] Step 98/300: RL Agent: Adjusting cell 18 power from 30.0 to 37.3 dBm
+[98.000] Step 98/300: RL Agent: Adjusting cell 19 power from 41.6 to 46.0 dBm
+[98.000] Step 98/300: RL Agent: Adjusting cell 20 power from 42.9 to 40.1 dBm
+[98.000] Step 98/300: RL Agent: Adjusting cell 21 power from 46.0 to 38.5 dBm
+[99.000] Step 99/300: RL Agent: Adjusting cell 1 power from 46.0 to 42.3 dBm
+[99.000] Step 99/300: RL Agent: Adjusting cell 2 power from 34.3 to 38.2 dBm
+[99.000] Step 99/300: RL Agent: Adjusting cell 3 power from 45.1 to 37.3 dBm
+[99.000] Step 99/300: RL Agent: Adjusting cell 4 power from 30.0 to 44.7 dBm
+[99.000] Step 99/300: RL Agent: Adjusting cell 5 power from 33.4 to 32.2 dBm
+[99.000] Step 99/300: RL Agent: Adjusting cell 6 power from 37.4 to 39.2 dBm
+[99.000] Step 99/300: RL Agent: Adjusting cell 7 power from 33.2 to 39.3 dBm
+[99.000] Step 99/300: RL Agent: Adjusting cell 8 power from 45.0 to 36.7 dBm
+[99.000] Step 99/300: RL Agent: Adjusting cell 9 power from 43.0 to 44.3 dBm
+[99.000] Step 99/300: RL Agent: Adjusting cell 10 power from 30.0 to 40.7 dBm
+[99.000] Step 99/300: RL Agent: Adjusting cell 11 power from 30.0 to 46.0 dBm
+[99.000] Step 99/300: RL Agent: Adjusting cell 12 power from 30.0 to 38.6 dBm
+[99.000] Step 99/300: RL Agent: Adjusting cell 13 power from 46.0 to 45.4 dBm
+[99.000] Step 99/300: RL Agent: Adjusting cell 14 power from 46.0 to 40.4 dBm
+[99.000] Step 99/300: RL Agent: Adjusting cell 15 power from 46.0 to 41.0 dBm
+[99.000] Step 99/300: RL Agent: Adjusting cell 16 power from 40.4 to 44.1 dBm
+[99.000] Step 99/300: RL Agent: Setting cell 17 to minimum power (30.0 dBm)
+[99.000] Step 99/300: RL Agent: Adjusting cell 18 power from 37.3 to 42.1 dBm
+[99.000] Step 99/300: RL Agent: Adjusting cell 19 power from 46.0 to 41.5 dBm
+[99.000] Step 99/300: RL Agent: Adjusting cell 20 power from 40.1 to 41.0 dBm
+[99.000] Step 99/300: RL Agent: Adjusting cell 21 power from 38.5 to 46.0 dBm
+[100.000] Step 100/300: RL Agent: Adjusting cell 1 power from 42.3 to 46.0 dBm
+[100.000] Step 100/300: RL Agent: Adjusting cell 2 power from 38.2 to 45.5 dBm
+[100.000] Step 100/300: RL Agent: Setting cell 3 to minimum power (30.0 dBm)
+[100.000] Step 100/300: RL Agent: Adjusting cell 4 power from 44.7 to 39.7 dBm
+[100.000] Step 100/300: RL Agent: Setting cell 5 to minimum power (30.0 dBm)
+[100.000] Step 100/300: RL Agent: Adjusting cell 6 power from 39.2 to 41.0 dBm
+[100.000] Step 100/300: RL Agent: Setting cell 7 to minimum power (30.0 dBm)
+[100.000] Step 100/300: RL Agent: Adjusting cell 8 power from 36.7 to 36.4 dBm
+[100.000] Step 100/300: RL Agent: Setting cell 9 to minimum power (30.0 dBm)
+[100.000] Step 100/300: RL Agent: Adjusting cell 10 power from 40.7 to 35.4 dBm
+[100.000] Step 100/300: RL Agent: Setting cell 11 to minimum power (30.9 dBm)
+[100.000] Step 100/300: RL Agent: Adjusting cell 12 power from 38.6 to 35.5 dBm
+[100.000] Step 100/300: RL Agent: Adjusting cell 13 power from 45.4 to 46.0 dBm
+[100.000] Step 100/300: RL Agent: Setting cell 14 to minimum power (30.0 dBm)
+[100.000] Step 100/300: RL Agent: Adjusting cell 15 power from 41.0 to 46.0 dBm
+[100.000] Step 100/300: RL Agent: Adjusting cell 16 power from 44.1 to 46.0 dBm
+[100.000] Step 100/300: RL Agent: Adjusting cell 17 power from 30.0 to 46.0 dBm
+[100.000] Step 100/300: RL Agent: Adjusting cell 18 power from 42.1 to 35.1 dBm
+[100.000] Step 100/300: RL Agent: Adjusting cell 19 power from 41.5 to 46.0 dBm
+[100.000] Step 100/300: RL Agent: Adjusting cell 20 power from 41.0 to 31.0 dBm
+[100.000] Step 100/300: RL Agent: Setting cell 21 to minimum power (30.0 dBm)
+[101.000] Step 101/300: RL Agent: Adjusting cell 1 power from 46.0 to 32.5 dBm
+[101.000] Step 101/300: RL Agent: Adjusting cell 2 power from 45.5 to 46.0 dBm
+[101.000] Step 101/300: RL Agent: Adjusting cell 3 power from 30.0 to 46.0 dBm
+[101.000] Step 101/300: RL Agent: Setting cell 4 to minimum power (30.0 dBm)
+[101.000] Step 101/300: RL Agent: Setting cell 5 to minimum power (30.0 dBm)
+[101.000] Step 101/300: RL Agent: Adjusting cell 6 power from 41.0 to 41.3 dBm
+[101.000] Step 101/300: RL Agent: Adjusting cell 7 power from 30.0 to 36.3 dBm
+[101.000] Step 101/300: RL Agent: Adjusting cell 8 power from 36.4 to 31.3 dBm
+[101.000] Step 101/300: RL Agent: Adjusting cell 9 power from 30.0 to 34.4 dBm
+[101.000] Step 101/300: RL Agent: Adjusting cell 10 power from 35.4 to 46.0 dBm
+[101.000] Step 101/300: RL Agent: Adjusting cell 11 power from 30.9 to 34.8 dBm
+[101.000] Step 101/300: RL Agent: Adjusting cell 12 power from 35.5 to 41.6 dBm
+[101.000] Step 101/300: RL Agent: Adjusting cell 13 power from 46.0 to 42.6 dBm
+[101.000] Step 101/300: RL Agent: Adjusting cell 14 power from 30.0 to 46.0 dBm
+[101.000] Step 101/300: RL Agent: Setting cell 16 to minimum power (30.0 dBm)
+[101.000] Step 101/300: RL Agent: Adjusting cell 17 power from 46.0 to 40.1 dBm
+[101.000] Step 101/300: RL Agent: Setting cell 18 to minimum power (30.0 dBm)
+[101.000] Step 101/300: RL Agent: Setting cell 19 to minimum power (30.0 dBm)
+[101.000] Step 101/300: RL Agent: Adjusting cell 20 power from 31.0 to 46.0 dBm
+[101.000] Step 101/300: RL Agent: Setting cell 21 to minimum power (30.0 dBm)
+[102.000] Step 102/300: RL Agent: Adjusting cell 1 power from 32.5 to 46.0 dBm
+[102.000] Step 102/300: RL Agent: Adjusting cell 2 power from 46.0 to 39.4 dBm
+[102.000] Step 102/300: RL Agent: Adjusting cell 3 power from 46.0 to 31.8 dBm
+[102.000] Step 102/300: RL Agent: Adjusting cell 4 power from 30.0 to 46.0 dBm
+[102.000] Step 102/300: RL Agent: Setting cell 5 to minimum power (30.0 dBm)
+[102.000] Step 102/300: RL Agent: Adjusting cell 6 power from 41.3 to 34.5 dBm
+[102.000] Step 102/300: RL Agent: Adjusting cell 7 power from 36.3 to 42.3 dBm
+[102.000] Step 102/300: RL Agent: Adjusting cell 8 power from 31.3 to 46.0 dBm
+[102.000] Step 102/300: RL Agent: Adjusting cell 9 power from 34.4 to 36.7 dBm
+[102.000] Step 102/300: RL Agent: Setting cell 10 to minimum power (30.7 dBm)
+[102.000] Step 102/300: RL Agent: Adjusting cell 11 power from 34.8 to 38.5 dBm
+[102.000] Step 102/300: RL Agent: Adjusting cell 12 power from 41.6 to 35.5 dBm
+[102.000] Step 102/300: RL Agent: Adjusting cell 13 power from 42.6 to 34.2 dBm
+[102.000] Step 102/300: RL Agent: Adjusting cell 14 power from 46.0 to 41.7 dBm
+[102.000] Step 102/300: RL Agent: Setting cell 15 to minimum power (30.0 dBm)
+[102.000] Step 102/300: RL Agent: Setting cell 16 to minimum power (30.0 dBm)
+[102.000] Step 102/300: RL Agent: Adjusting cell 17 power from 40.1 to 35.4 dBm
+[102.000] Step 102/300: RL Agent: Adjusting cell 18 power from 30.0 to 35.0 dBm
+[102.000] Step 102/300: RL Agent: Adjusting cell 19 power from 30.0 to 33.1 dBm
+[102.000] Step 102/300: RL Agent: Setting cell 20 to minimum power (30.0 dBm)
+[102.000] Step 102/300: RL Agent: Adjusting cell 21 power from 30.0 to 40.3 dBm
+[103.000] Step 103/300: RL Agent: Setting cell 1 to minimum power (30.0 dBm)
+[103.000] Step 103/300: RL Agent: Adjusting cell 2 power from 39.4 to 34.8 dBm
+[103.000] Step 103/300: RL Agent: Adjusting cell 3 power from 31.8 to 39.7 dBm
+[103.000] Step 103/300: RL Agent: Adjusting cell 4 power from 46.0 to 34.6 dBm
+[103.000] Step 103/300: RL Agent: Adjusting cell 5 power from 30.0 to 35.6 dBm
+[103.000] Step 103/300: RL Agent: Adjusting cell 6 power from 34.5 to 32.5 dBm
+[103.000] Step 103/300: RL Agent: Adjusting cell 7 power from 42.3 to 36.3 dBm
+[103.000] Step 103/300: RL Agent: Adjusting cell 8 power from 46.0 to 34.8 dBm
+[103.000] Step 103/300: RL Agent: Adjusting cell 9 power from 36.7 to 32.3 dBm
+[103.000] Step 103/300: RL Agent: Adjusting cell 10 power from 30.7 to 38.0 dBm
+[103.000] Step 103/300: RL Agent: Adjusting cell 11 power from 38.5 to 33.6 dBm
+[103.000] Step 103/300: RL Agent: Adjusting cell 12 power from 35.5 to 32.4 dBm
+[103.000] Step 103/300: RL Agent: Adjusting cell 13 power from 34.2 to 43.3 dBm
+[103.000] Step 103/300: RL Agent: Setting cell 14 to minimum power (30.0 dBm)
+[103.000] Step 103/300: RL Agent: Adjusting cell 15 power from 30.0 to 31.2 dBm
+[103.000] Step 103/300: RL Agent: Setting cell 16 to minimum power (30.3 dBm)
+[103.000] Step 103/300: RL Agent: Setting cell 17 to minimum power (30.0 dBm)
+[103.000] Step 103/300: RL Agent: Adjusting cell 18 power from 35.0 to 46.0 dBm
+[103.000] Step 103/300: RL Agent: Adjusting cell 19 power from 33.1 to 46.0 dBm
+[103.000] Step 103/300: RL Agent: Setting cell 20 to minimum power (30.0 dBm)
+[103.000] Step 103/300: RL Agent: Setting cell 21 to minimum power (30.0 dBm)
+[104.000] Step 104/300: RL Agent: Adjusting cell 1 power from 30.0 to 46.0 dBm
+[104.000] Step 104/300: RL Agent: Setting cell 2 to minimum power (30.0 dBm)
+[104.000] Step 104/300: RL Agent: Setting cell 3 to minimum power (30.0 dBm)
+[104.000] Step 104/300: RL Agent: Adjusting cell 4 power from 34.6 to 39.2 dBm
+[104.000] Step 104/300: RL Agent: Setting cell 5 to minimum power (30.0 dBm)
+[104.000] Step 104/300: RL Agent: Adjusting cell 6 power from 32.5 to 43.8 dBm
+[104.000] Step 104/300: RL Agent: Adjusting cell 7 power from 36.3 to 46.0 dBm
+[104.000] Step 104/300: RL Agent: Adjusting cell 8 power from 34.8 to 46.0 dBm
+[104.000] Step 104/300: RL Agent: Adjusting cell 9 power from 32.3 to 37.4 dBm
+[104.000] Step 104/300: RL Agent: Adjusting cell 10 power from 38.0 to 46.0 dBm
+[104.000] Step 104/300: RL Agent: Setting cell 11 to minimum power (30.0 dBm)
+[104.000] Step 104/300: RL Agent: Adjusting cell 12 power from 32.4 to 31.2 dBm
+[104.000] Step 104/300: RL Agent: Adjusting cell 13 power from 43.3 to 45.3 dBm
+[104.000] Step 104/300: RL Agent: Adjusting cell 14 power from 30.0 to 38.7 dBm
+[104.000] Step 104/300: RL Agent: Adjusting cell 15 power from 31.2 to 33.8 dBm
+[104.000] Step 104/300: RL Agent: Adjusting cell 16 power from 30.3 to 38.0 dBm
+[104.000] Step 104/300: RL Agent: Setting cell 17 to minimum power (30.0 dBm)
+[104.000] Step 104/300: RL Agent: Setting cell 19 to minimum power (30.0 dBm)
+[104.000] Step 104/300: RL Agent: Adjusting cell 20 power from 30.0 to 35.2 dBm
+[104.000] Step 104/300: RL Agent: Adjusting cell 21 power from 30.0 to 37.8 dBm
+[105.000] Step 105/300: RL Agent: Adjusting cell 2 power from 30.0 to 37.5 dBm
+[105.000] Step 105/300: RL Agent: Setting cell 3 to minimum power (30.9 dBm)
+[105.000] Step 105/300: RL Agent: Adjusting cell 4 power from 39.2 to 37.6 dBm
+[105.000] Step 105/300: RL Agent: Adjusting cell 5 power from 30.0 to 34.2 dBm
+[105.000] Step 105/300: RL Agent: Adjusting cell 6 power from 43.8 to 39.9 dBm
+[105.000] Step 105/300: RL Agent: Adjusting cell 9 power from 37.4 to 33.6 dBm
+[105.000] Step 105/300: RL Agent: Adjusting cell 10 power from 46.0 to 38.1 dBm
+[105.000] Step 105/300: RL Agent: Setting cell 11 to minimum power (30.0 dBm)
+[105.000] Step 105/300: RL Agent: Adjusting cell 12 power from 31.2 to 40.8 dBm
+[105.000] Step 105/300: RL Agent: Adjusting cell 13 power from 45.3 to 31.5 dBm
+[105.000] Step 105/300: RL Agent: Setting cell 14 to minimum power (30.0 dBm)
+[105.000] Step 105/300: RL Agent: Setting cell 15 to minimum power (30.0 dBm)
+[105.000] Step 105/300: RL Agent: Adjusting cell 16 power from 38.0 to 46.0 dBm
+[105.000] Step 105/300: RL Agent: Adjusting cell 17 power from 30.0 to 46.0 dBm
+[105.000] Step 105/300: RL Agent: Adjusting cell 18 power from 46.0 to 44.0 dBm
+[105.000] Step 105/300: RL Agent: Setting cell 19 to minimum power (30.0 dBm)
+[105.000] Step 105/300: RL Agent: Adjusting cell 20 power from 35.2 to 32.1 dBm
+[105.000] Step 105/300: RL Agent: Adjusting cell 21 power from 37.8 to 38.7 dBm
+[106.000] Step 106/300: RL Agent: Adjusting cell 1 power from 46.0 to 44.7 dBm
+[106.000] Step 106/300: RL Agent: Adjusting cell 2 power from 37.5 to 33.1 dBm
+[106.000] Step 106/300: RL Agent: Setting cell 3 to minimum power (30.6 dBm)
+[106.000] Step 106/300: RL Agent: Setting cell 4 to minimum power (30.0 dBm)
+[106.000] Step 106/300: RL Agent: Adjusting cell 5 power from 34.2 to 46.0 dBm
+[106.000] Step 106/300: RL Agent: Adjusting cell 6 power from 39.9 to 38.0 dBm
+[106.000] Step 106/300: RL Agent: Adjusting cell 7 power from 46.0 to 37.1 dBm
+[106.000] Step 106/300: RL Agent: Adjusting cell 8 power from 46.0 to 35.4 dBm
+[106.000] Step 106/300: RL Agent: Setting cell 9 to minimum power (30.0 dBm)
+[106.000] Step 106/300: RL Agent: Adjusting cell 10 power from 38.1 to 40.8 dBm
+[106.000] Step 106/300: RL Agent: Adjusting cell 11 power from 30.0 to 35.2 dBm
+[106.000] Step 106/300: RL Agent: Setting cell 12 to minimum power (30.0 dBm)
+[106.000] Step 106/300: RL Agent: Adjusting cell 13 power from 31.5 to 34.4 dBm
+[106.000] Step 106/300: RL Agent: Adjusting cell 14 power from 30.0 to 46.0 dBm
+[106.000] Step 106/300: RL Agent: Adjusting cell 15 power from 30.0 to 45.1 dBm
+[106.000] Step 106/300: RL Agent: Setting cell 16 to minimum power (30.0 dBm)
+[106.000] Step 106/300: RL Agent: Adjusting cell 17 power from 46.0 to 33.6 dBm
+[106.000] Step 106/300: RL Agent: Adjusting cell 18 power from 44.0 to 46.0 dBm
+[106.000] Step 106/300: RL Agent: Adjusting cell 19 power from 30.0 to 46.0 dBm
+[106.000] Step 106/300: RL Agent: Setting cell 20 to minimum power (30.0 dBm)
+[106.000] Step 106/300: RL Agent: Setting cell 21 to minimum power (30.0 dBm)
+[107.000] Step 107/300: RL Agent: Adjusting cell 1 power from 44.7 to 42.3 dBm
+[107.000] Step 107/300: RL Agent: Adjusting cell 2 power from 33.1 to 45.4 dBm
+[107.000] Step 107/300: RL Agent: Setting cell 3 to minimum power (30.0 dBm)
+[107.000] Step 107/300: RL Agent: Adjusting cell 4 power from 30.0 to 32.5 dBm
+[107.000] Step 107/300: RL Agent: Adjusting cell 5 power from 46.0 to 37.2 dBm
+[107.000] Step 107/300: RL Agent: Adjusting cell 6 power from 38.0 to 31.6 dBm
+[107.000] Step 107/300: RL Agent: Adjusting cell 7 power from 37.1 to 46.0 dBm
+[107.000] Step 107/300: RL Agent: Adjusting cell 8 power from 35.4 to 35.9 dBm
+[107.000] Step 107/300: RL Agent: Adjusting cell 9 power from 30.0 to 35.2 dBm
+[107.000] Step 107/300: RL Agent: Adjusting cell 10 power from 40.8 to 45.6 dBm
+[107.000] Step 107/300: RL Agent: Adjusting cell 11 power from 35.2 to 41.4 dBm
+[107.000] Step 107/300: RL Agent: Adjusting cell 12 power from 30.0 to 35.8 dBm
+[107.000] Step 107/300: RL Agent: Adjusting cell 13 power from 34.4 to 37.0 dBm
+[107.000] Step 107/300: RL Agent: Setting cell 14 to minimum power (30.0 dBm)
+[107.000] Step 107/300: RL Agent: Adjusting cell 15 power from 45.1 to 45.1 dBm
+[107.000] Step 107/300: RL Agent: Adjusting cell 16 power from 30.0 to 46.0 dBm
+[107.000] Step 107/300: RL Agent: Setting cell 17 to minimum power (30.0 dBm)
+[107.000] Step 107/300: RL Agent: Setting cell 18 to minimum power (30.0 dBm)
+[107.000] Step 107/300: RL Agent: Adjusting cell 20 power from 30.0 to 38.6 dBm
+[107.000] Step 107/300: RL Agent: Setting cell 21 to minimum power (30.0 dBm)
+[108.000] Step 108/300: RL Agent: Adjusting cell 1 power from 42.3 to 40.8 dBm
+[108.000] Step 108/300: RL Agent: Adjusting cell 2 power from 45.4 to 46.0 dBm
+[108.000] Step 108/300: RL Agent: Adjusting cell 3 power from 30.0 to 46.0 dBm
+[108.000] Step 108/300: RL Agent: Adjusting cell 4 power from 32.5 to 44.7 dBm
+[108.000] Step 108/300: RL Agent: Setting cell 5 to minimum power (30.0 dBm)
+[108.000] Step 108/300: RL Agent: Setting cell 6 to minimum power (30.0 dBm)
+[108.000] Step 108/300: RL Agent: Adjusting cell 7 power from 46.0 to 37.4 dBm
+[108.000] Step 108/300: RL Agent: Adjusting cell 8 power from 35.9 to 46.0 dBm
+[108.000] Step 108/300: RL Agent: Adjusting cell 9 power from 35.2 to 46.0 dBm
+[108.000] Step 108/300: RL Agent: Adjusting cell 10 power from 45.6 to 45.1 dBm
+[108.000] Step 108/300: RL Agent: Adjusting cell 11 power from 41.4 to 34.6 dBm
+[108.000] Step 108/300: RL Agent: Adjusting cell 12 power from 35.8 to 41.7 dBm
+[108.000] Step 108/300: RL Agent: Adjusting cell 13 power from 37.0 to 38.0 dBm
+[108.000] Step 108/300: RL Agent: Adjusting cell 14 power from 30.0 to 35.3 dBm
+[108.000] Step 108/300: RL Agent: Adjusting cell 15 power from 45.1 to 43.0 dBm
+[108.000] Step 108/300: RL Agent: Setting cell 16 to minimum power (30.0 dBm)
+[108.000] Step 108/300: RL Agent: Setting cell 17 to minimum power (30.0 dBm)
+[108.000] Step 108/300: RL Agent: Adjusting cell 18 power from 30.0 to 34.5 dBm
+[108.000] Step 108/300: RL Agent: Adjusting cell 19 power from 46.0 to 41.4 dBm
+[108.000] Step 108/300: RL Agent: Adjusting cell 20 power from 38.6 to 42.3 dBm
+[108.000] Step 108/300: RL Agent: Setting cell 21 to minimum power (30.0 dBm)
+[109.000] Step 109/300: RL Agent: Adjusting cell 1 power from 40.8 to 32.2 dBm
+[109.000] Step 109/300: RL Agent: Setting cell 2 to minimum power (30.0 dBm)
+[109.000] Step 109/300: RL Agent: Adjusting cell 3 power from 46.0 to 33.6 dBm
+[109.000] Step 109/300: RL Agent: Setting cell 4 to minimum power (30.0 dBm)
+[109.000] Step 109/300: RL Agent: Adjusting cell 5 power from 30.0 to 41.6 dBm
+[109.000] Step 109/300: RL Agent: Adjusting cell 6 power from 30.0 to 31.4 dBm
+[109.000] Step 109/300: RL Agent: Adjusting cell 7 power from 37.4 to 43.4 dBm
+[109.000] Step 109/300: RL Agent: Setting cell 8 to minimum power (30.0 dBm)
+[109.000] Step 109/300: RL Agent: Adjusting cell 10 power from 45.1 to 46.0 dBm
+[109.000] Step 109/300: RL Agent: Setting cell 11 to minimum power (30.0 dBm)
+[109.000] Step 109/300: RL Agent: Adjusting cell 12 power from 41.7 to 46.0 dBm
+[109.000] Step 109/300: RL Agent: Adjusting cell 13 power from 38.0 to 42.3 dBm
+[109.000] Step 109/300: RL Agent: Adjusting cell 14 power from 35.3 to 41.3 dBm
+[109.000] Step 109/300: RL Agent: Adjusting cell 15 power from 43.0 to 44.6 dBm
+[109.000] Step 109/300: RL Agent: Adjusting cell 16 power from 30.0 to 40.9 dBm
+[109.000] Step 109/300: RL Agent: Adjusting cell 17 power from 30.0 to 46.0 dBm
+[109.000] Step 109/300: RL Agent: Adjusting cell 18 power from 34.5 to 35.1 dBm
+[109.000] Step 109/300: RL Agent: Adjusting cell 19 power from 41.4 to 39.7 dBm
+[109.000] Step 109/300: RL Agent: Adjusting cell 20 power from 42.3 to 46.0 dBm
+[109.000] Step 109/300: RL Agent: Setting cell 21 to minimum power (30.0 dBm)
+[110.000] Step 110/300: RL Agent: Adjusting cell 1 power from 32.2 to 37.6 dBm
+[110.000] Step 110/300: RL Agent: Setting cell 2 to minimum power (30.0 dBm)
+[110.000] Step 110/300: RL Agent: Adjusting cell 3 power from 33.6 to 34.3 dBm
+[110.000] Step 110/300: RL Agent: Adjusting cell 4 power from 30.0 to 33.3 dBm
+[110.000] Step 110/300: RL Agent: Adjusting cell 5 power from 41.6 to 45.9 dBm
+[110.000] Step 110/300: RL Agent: Adjusting cell 6 power from 31.4 to 38.9 dBm
+[110.000] Step 110/300: RL Agent: Adjusting cell 7 power from 43.4 to 40.4 dBm
+[110.000] Step 110/300: RL Agent: Adjusting cell 8 power from 30.0 to 37.2 dBm
+[110.000] Step 110/300: RL Agent: Adjusting cell 9 power from 46.0 to 36.0 dBm
+[110.000] Step 110/300: RL Agent: Setting cell 10 to minimum power (30.0 dBm)
+[110.000] Step 110/300: RL Agent: Adjusting cell 11 power from 30.0 to 33.5 dBm
+[110.000] Step 110/300: RL Agent: Adjusting cell 13 power from 42.3 to 42.8 dBm
+[110.000] Step 110/300: RL Agent: Adjusting cell 14 power from 41.3 to 39.4 dBm
+[110.000] Step 110/300: RL Agent: Adjusting cell 15 power from 44.6 to 32.0 dBm
+[110.000] Step 110/300: RL Agent: Adjusting cell 16 power from 40.9 to 39.4 dBm
+[110.000] Step 110/300: RL Agent: Adjusting cell 17 power from 46.0 to 39.2 dBm
+[110.000] Step 110/300: RL Agent: Adjusting cell 18 power from 35.1 to 39.2 dBm
+[110.000] Step 110/300: RL Agent: Setting cell 19 to minimum power (30.0 dBm)
+[110.000] Step 110/300: RL Agent: Adjusting cell 20 power from 46.0 to 32.3 dBm
+[110.000] Step 110/300: RL Agent: Adjusting cell 21 power from 30.0 to 46.0 dBm
+[111.000] Step 111/300: RL Agent: Adjusting cell 1 power from 37.6 to 32.4 dBm
+[111.000] Step 111/300: RL Agent: Adjusting cell 2 power from 30.0 to 46.0 dBm
+[111.000] Step 111/300: RL Agent: Adjusting cell 3 power from 34.3 to 46.0 dBm
+[111.000] Step 111/300: RL Agent: Setting cell 4 to minimum power (30.0 dBm)
+[111.000] Step 111/300: RL Agent: Adjusting cell 5 power from 45.9 to 44.6 dBm
+[111.000] Step 111/300: RL Agent: Adjusting cell 6 power from 38.9 to 40.9 dBm
+[111.000] Step 111/300: RL Agent: Setting cell 7 to minimum power (30.0 dBm)
+[111.000] Step 111/300: RL Agent: Setting cell 8 to minimum power (30.0 dBm)
+[111.000] Step 111/300: RL Agent: Adjusting cell 9 power from 36.0 to 33.9 dBm
+[111.000] Step 111/300: RL Agent: Adjusting cell 10 power from 30.0 to 33.2 dBm
+[111.000] Step 111/300: RL Agent: Setting cell 11 to minimum power (30.0 dBm)
+[111.000] Step 111/300: RL Agent: Adjusting cell 12 power from 46.0 to 35.3 dBm
+[111.000] Step 111/300: RL Agent: Setting cell 13 to minimum power (30.0 dBm)
+[111.000] Step 111/300: RL Agent: Adjusting cell 14 power from 39.4 to 40.9 dBm
+[111.000] Step 111/300: RL Agent: Adjusting cell 15 power from 32.0 to 45.0 dBm
+[111.000] Step 111/300: RL Agent: Adjusting cell 16 power from 39.4 to 33.1 dBm
+[111.000] Step 111/300: RL Agent: Adjusting cell 17 power from 39.2 to 41.9 dBm
+[111.000] Step 111/300: RL Agent: Setting cell 18 to minimum power (30.0 dBm)
+[111.000] Step 111/300: RL Agent: Adjusting cell 19 power from 30.0 to 39.6 dBm
+[111.000] Step 111/300: RL Agent: Adjusting cell 20 power from 32.3 to 46.0 dBm
+[111.000] Step 111/300: RL Agent: Setting cell 21 to minimum power (30.0 dBm)
+[112.000] Step 112/300: RL Agent: Adjusting cell 1 power from 32.4 to 37.4 dBm
+[112.000] Step 112/300: RL Agent: Adjusting cell 2 power from 46.0 to 33.6 dBm
+[112.000] Step 112/300: RL Agent: Adjusting cell 3 power from 46.0 to 32.5 dBm
+[112.000] Step 112/300: RL Agent: Adjusting cell 4 power from 30.0 to 42.3 dBm
+[112.000] Step 112/300: RL Agent: Adjusting cell 5 power from 44.6 to 36.7 dBm
+[112.000] Step 112/300: RL Agent: Setting cell 6 to minimum power (30.0 dBm)
+[112.000] Step 112/300: RL Agent: Adjusting cell 7 power from 30.0 to 41.9 dBm
+[112.000] Step 112/300: RL Agent: Adjusting cell 8 power from 30.0 to 40.1 dBm
+[112.000] Step 112/300: RL Agent: Adjusting cell 9 power from 33.9 to 37.6 dBm
+[112.000] Step 112/300: RL Agent: Adjusting cell 10 power from 33.2 to 31.3 dBm
+[112.000] Step 112/300: RL Agent: Adjusting cell 11 power from 30.0 to 43.6 dBm
+[112.000] Step 112/300: RL Agent: Adjusting cell 12 power from 35.3 to 46.0 dBm
+[112.000] Step 112/300: RL Agent: Adjusting cell 13 power from 30.0 to 45.1 dBm
+[112.000] Step 112/300: RL Agent: Setting cell 14 to minimum power (30.0 dBm)
+[112.000] Step 112/300: RL Agent: Adjusting cell 15 power from 45.0 to 36.6 dBm
+[112.000] Step 112/300: RL Agent: Adjusting cell 16 power from 33.1 to 43.7 dBm
+[112.000] Step 112/300: RL Agent: Adjusting cell 17 power from 41.9 to 45.6 dBm
+[112.000] Step 112/300: RL Agent: Adjusting cell 18 power from 30.0 to 39.6 dBm
+[112.000] Step 112/300: RL Agent: Adjusting cell 19 power from 39.6 to 45.4 dBm
+[112.000] Step 112/300: RL Agent: Setting cell 20 to minimum power (30.0 dBm)
+[112.000] Step 112/300: RL Agent: Adjusting cell 21 power from 30.0 to 39.2 dBm
+[113.000] Step 113/300: RL Agent: Adjusting cell 1 power from 37.4 to 34.4 dBm
+[113.000] Step 113/300: RL Agent: Setting cell 2 to minimum power (30.0 dBm)
+[113.000] Step 113/300: RL Agent: Adjusting cell 3 power from 32.5 to 34.7 dBm
+[113.000] Step 113/300: RL Agent: Adjusting cell 4 power from 42.3 to 31.1 dBm
+[113.000] Step 113/300: RL Agent: Adjusting cell 5 power from 36.7 to 46.0 dBm
+[113.000] Step 113/300: RL Agent: Adjusting cell 6 power from 30.0 to 46.0 dBm
+[113.000] Step 113/300: RL Agent: Adjusting cell 7 power from 41.9 to 46.0 dBm
+[113.000] Step 113/300: RL Agent: Setting cell 8 to minimum power (30.0 dBm)
+[113.000] Step 113/300: RL Agent: Adjusting cell 9 power from 37.6 to 33.2 dBm
+[113.000] Step 113/300: RL Agent: Adjusting cell 10 power from 31.3 to 32.9 dBm
+[113.000] Step 113/300: RL Agent: Adjusting cell 11 power from 43.6 to 46.0 dBm
+[113.000] Step 113/300: RL Agent: Adjusting cell 13 power from 45.1 to 34.0 dBm
+[113.000] Step 113/300: RL Agent: Adjusting cell 14 power from 30.0 to 35.2 dBm
+[113.000] Step 113/300: RL Agent: Adjusting cell 15 power from 36.6 to 46.0 dBm
+[113.000] Step 113/300: RL Agent: Adjusting cell 16 power from 43.7 to 37.4 dBm
+[113.000] Step 113/300: RL Agent: Adjusting cell 17 power from 45.6 to 38.6 dBm
+[113.000] Step 113/300: RL Agent: Adjusting cell 18 power from 39.6 to 45.1 dBm
+[113.000] Step 113/300: RL Agent: Adjusting cell 19 power from 45.4 to 32.4 dBm
+[113.000] Step 113/300: RL Agent: Adjusting cell 20 power from 30.0 to 40.1 dBm
+[113.000] Step 113/300: RL Agent: Adjusting cell 21 power from 39.2 to 38.6 dBm
+[114.000] Step 114/300: RL Agent: Setting cell 1 to minimum power (30.0 dBm)
+[114.000] Step 114/300: RL Agent: Adjusting cell 2 power from 30.0 to 39.6 dBm
+[114.000] Step 114/300: RL Agent: Adjusting cell 3 power from 34.7 to 37.8 dBm
+[114.000] Step 114/300: RL Agent: Adjusting cell 4 power from 31.1 to 46.0 dBm
+[114.000] Step 114/300: RL Agent: Adjusting cell 5 power from 46.0 to 33.6 dBm
+[114.000] Step 114/300: RL Agent: Setting cell 6 to minimum power (30.0 dBm)
+[114.000] Step 114/300: RL Agent: Adjusting cell 8 power from 30.0 to 46.0 dBm
+[114.000] Step 114/300: RL Agent: Setting cell 9 to minimum power (30.0 dBm)
+[114.000] Step 114/300: RL Agent: Adjusting cell 10 power from 32.9 to 38.2 dBm
+[114.000] Step 114/300: RL Agent: Setting cell 11 to minimum power (30.0 dBm)
+[114.000] Step 114/300: RL Agent: Adjusting cell 13 power from 34.0 to 46.0 dBm
+[114.000] Step 114/300: RL Agent: Adjusting cell 14 power from 35.2 to 44.1 dBm
+[114.000] Step 114/300: RL Agent: Adjusting cell 15 power from 46.0 to 33.9 dBm
+[114.000] Step 114/300: RL Agent: Adjusting cell 16 power from 37.4 to 37.7 dBm
+[114.000] Step 114/300: RL Agent: Setting cell 17 to minimum power (30.0 dBm)
+[114.000] Step 114/300: RL Agent: Adjusting cell 18 power from 45.1 to 41.9 dBm
+[114.000] Step 114/300: RL Agent: Adjusting cell 19 power from 32.4 to 40.7 dBm
+[114.000] Step 114/300: RL Agent: Adjusting cell 20 power from 40.1 to 33.5 dBm
+[114.000] Step 114/300: RL Agent: Setting cell 21 to minimum power (30.0 dBm)
+[115.000] Step 115/300: RL Agent: Adjusting cell 1 power from 30.0 to 43.2 dBm
+[115.000] Step 115/300: RL Agent: Adjusting cell 2 power from 39.6 to 37.7 dBm
+[115.000] Step 115/300: RL Agent: Adjusting cell 3 power from 37.8 to 46.0 dBm
+[115.000] Step 115/300: RL Agent: Adjusting cell 4 power from 46.0 to 45.2 dBm
+[115.000] Step 115/300: RL Agent: Adjusting cell 5 power from 33.6 to 44.2 dBm
+[115.000] Step 115/300: RL Agent: Setting cell 6 to minimum power (30.0 dBm)
+[115.000] Step 115/300: RL Agent: Setting cell 7 to minimum power (30.0 dBm)
+[115.000] Step 115/300: RL Agent: Setting cell 8 to minimum power (30.0 dBm)
+[115.000] Step 115/300: RL Agent: Adjusting cell 9 power from 30.0 to 46.0 dBm
+[115.000] Step 115/300: RL Agent: Adjusting cell 10 power from 38.2 to 46.0 dBm
+[115.000] Step 115/300: RL Agent: Adjusting cell 11 power from 30.0 to 46.0 dBm
+[115.000] Step 115/300: RL Agent: Adjusting cell 14 power from 44.1 to 36.0 dBm
+[115.000] Step 115/300: RL Agent: Adjusting cell 15 power from 33.9 to 33.1 dBm
+[115.000] Step 115/300: RL Agent: Setting cell 16 to minimum power (30.0 dBm)
+[115.000] Step 115/300: RL Agent: Adjusting cell 17 power from 30.0 to 34.6 dBm
+[115.000] Step 115/300: RL Agent: Adjusting cell 18 power from 41.9 to 46.0 dBm
+[115.000] Step 115/300: RL Agent: Adjusting cell 19 power from 40.7 to 46.0 dBm
+[115.000] Step 115/300: RL Agent: Adjusting cell 20 power from 33.5 to 46.0 dBm
+[115.000] Step 115/300: RL Agent: Adjusting cell 21 power from 30.0 to 46.0 dBm
+[116.000] Step 116/300: RL Agent: Adjusting cell 1 power from 43.2 to 46.0 dBm
+[116.000] Step 116/300: RL Agent: Adjusting cell 2 power from 37.7 to 32.7 dBm
+[116.000] Step 116/300: RL Agent: Adjusting cell 3 power from 46.0 to 40.2 dBm
+[116.000] Step 116/300: RL Agent: Adjusting cell 4 power from 45.2 to 33.8 dBm
+[116.000] Step 116/300: RL Agent: Adjusting cell 5 power from 44.2 to 42.1 dBm
+[116.000] Step 116/300: RL Agent: Adjusting cell 6 power from 30.0 to 40.2 dBm
+[116.000] Step 116/300: RL Agent: Setting cell 7 to minimum power (30.0 dBm)
+[116.000] Step 116/300: RL Agent: Adjusting cell 8 power from 30.0 to 42.4 dBm
+[116.000] Step 116/300: RL Agent: Adjusting cell 9 power from 46.0 to 34.1 dBm
+[116.000] Step 116/300: RL Agent: Setting cell 10 to minimum power (30.0 dBm)
+[116.000] Step 116/300: RL Agent: Adjusting cell 11 power from 46.0 to 39.7 dBm
+[116.000] Step 116/300: RL Agent: Adjusting cell 13 power from 46.0 to 41.3 dBm
+[116.000] Step 116/300: RL Agent: Adjusting cell 14 power from 36.0 to 41.3 dBm
+[116.000] Step 116/300: RL Agent: Adjusting cell 15 power from 33.1 to 46.0 dBm
+[116.000] Step 116/300: RL Agent: Adjusting cell 16 power from 30.0 to 38.8 dBm
+[116.000] Step 116/300: RL Agent: Setting cell 17 to minimum power (30.0 dBm)
+[116.000] Step 116/300: RL Agent: Setting cell 18 to minimum power (30.0 dBm)
+[116.000] Step 116/300: RL Agent: Adjusting cell 19 power from 46.0 to 39.6 dBm
+[116.000] Step 116/300: RL Agent: Setting cell 21 to minimum power (30.0 dBm)
+[117.000] Step 117/300: RL Agent: Adjusting cell 2 power from 32.7 to 46.0 dBm
+[117.000] Step 117/300: RL Agent: Adjusting cell 3 power from 40.2 to 46.0 dBm
+[117.000] Step 117/300: RL Agent: Adjusting cell 4 power from 33.8 to 46.0 dBm
+[117.000] Step 117/300: RL Agent: Adjusting cell 5 power from 42.1 to 44.7 dBm
+[117.000] Step 117/300: RL Agent: Adjusting cell 6 power from 40.2 to 33.8 dBm
+[117.000] Step 117/300: RL Agent: Adjusting cell 7 power from 30.0 to 32.4 dBm
+[117.000] Step 117/300: RL Agent: Adjusting cell 8 power from 42.4 to 44.4 dBm
+[117.000] Step 117/300: RL Agent: Adjusting cell 9 power from 34.1 to 39.8 dBm
+[117.000] Step 117/300: RL Agent: Adjusting cell 10 power from 30.0 to 46.0 dBm
+[117.000] Step 117/300: RL Agent: Adjusting cell 11 power from 39.7 to 38.4 dBm
+[117.000] Step 117/300: RL Agent: Adjusting cell 13 power from 41.3 to 46.0 dBm
+[117.000] Step 117/300: RL Agent: Setting cell 14 to minimum power (30.0 dBm)
+[117.000] Step 117/300: RL Agent: Adjusting cell 15 power from 46.0 to 44.4 dBm
+[117.000] Step 117/300: RL Agent: Setting cell 16 to minimum power (30.0 dBm)
+[117.000] Step 117/300: RL Agent: Adjusting cell 17 power from 30.0 to 39.7 dBm
+[117.000] Step 117/300: RL Agent: Adjusting cell 18 power from 30.0 to 46.0 dBm
+[117.000] Step 117/300: RL Agent: Adjusting cell 19 power from 39.6 to 44.3 dBm
+[117.000] Step 117/300: RL Agent: Adjusting cell 20 power from 46.0 to 36.0 dBm
+[117.000] Step 117/300: RL Agent: Adjusting cell 21 power from 30.0 to 33.5 dBm
+[118.000] Step 118/300: RL Agent: Adjusting cell 2 power from 46.0 to 34.1 dBm
+[118.000] Step 118/300: RL Agent: Adjusting cell 4 power from 46.0 to 40.9 dBm
+[118.000] Step 118/300: RL Agent: Adjusting cell 5 power from 44.7 to 46.0 dBm
+[118.000] Step 118/300: RL Agent: Adjusting cell 6 power from 33.8 to 40.1 dBm
+[118.000] Step 118/300: RL Agent: Adjusting cell 7 power from 32.4 to 46.0 dBm
+[118.000] Step 118/300: RL Agent: Adjusting cell 8 power from 44.4 to 37.0 dBm
+[118.000] Step 118/300: RL Agent: Adjusting cell 9 power from 39.8 to 41.3 dBm
+[118.000] Step 118/300: RL Agent: Setting cell 10 to minimum power (30.0 dBm)
+[118.000] Step 118/300: RL Agent: Adjusting cell 11 power from 38.4 to 43.7 dBm
+[118.000] Step 118/300: RL Agent: Adjusting cell 14 power from 30.0 to 39.7 dBm
+[118.000] Step 118/300: RL Agent: Adjusting cell 15 power from 44.4 to 37.3 dBm
+[118.000] Step 118/300: RL Agent: Adjusting cell 16 power from 30.0 to 46.0 dBm
+[118.000] Step 118/300: RL Agent: Adjusting cell 17 power from 39.7 to 32.3 dBm
+[118.000] Step 118/300: RL Agent: Adjusting cell 18 power from 46.0 to 32.7 dBm
+[118.000] Step 118/300: RL Agent: Adjusting cell 19 power from 44.3 to 41.9 dBm
+[118.000] Step 118/300: RL Agent: Adjusting cell 20 power from 36.0 to 46.0 dBm
+[118.000] Step 118/300: RL Agent: Adjusting cell 21 power from 33.5 to 33.1 dBm
+[119.000] Step 119/300: RL Agent: Adjusting cell 1 power from 46.0 to 39.3 dBm
+[119.000] Step 119/300: RL Agent: Setting cell 2 to minimum power (30.0 dBm)
+[119.000] Step 119/300: RL Agent: Setting cell 3 to minimum power (30.0 dBm)
+[119.000] Step 119/300: RL Agent: Adjusting cell 4 power from 40.9 to 46.0 dBm
+[119.000] Step 119/300: RL Agent: Adjusting cell 6 power from 40.1 to 32.6 dBm
+[119.000] Step 119/300: RL Agent: Adjusting cell 7 power from 46.0 to 32.7 dBm
+[119.000] Step 119/300: RL Agent: Adjusting cell 8 power from 37.0 to 46.0 dBm
+[119.000] Step 119/300: RL Agent: Adjusting cell 9 power from 41.3 to 39.5 dBm
+[119.000] Step 119/300: RL Agent: Adjusting cell 10 power from 30.0 to 42.9 dBm
+[119.000] Step 119/300: RL Agent: Adjusting cell 11 power from 43.7 to 41.4 dBm
+[119.000] Step 119/300: RL Agent: Adjusting cell 12 power from 46.0 to 33.2 dBm
+[119.000] Step 119/300: RL Agent: Adjusting cell 13 power from 46.0 to 37.6 dBm
+[119.000] Step 119/300: RL Agent: Adjusting cell 14 power from 39.7 to 46.0 dBm
+[119.000] Step 119/300: RL Agent: Adjusting cell 15 power from 37.3 to 46.0 dBm
+[119.000] Step 119/300: RL Agent: Setting cell 16 to minimum power (30.0 dBm)
+[119.000] Step 119/300: RL Agent: Adjusting cell 17 power from 32.3 to 39.9 dBm
+[119.000] Step 119/300: RL Agent: Setting cell 18 to minimum power (30.0 dBm)
+[119.000] Step 119/300: RL Agent: Setting cell 19 to minimum power (30.0 dBm)
+[119.000] Step 119/300: RL Agent: Adjusting cell 20 power from 46.0 to 37.0 dBm
+[119.000] Step 119/300: RL Agent: Adjusting cell 21 power from 33.1 to 38.8 dBm
+[120.000] Step 120/300: RL Agent: Adjusting cell 1 power from 39.3 to 46.0 dBm
+[120.000] Step 120/300: RL Agent: Setting cell 2 to minimum power (30.0 dBm)
+[120.000] Step 120/300: RL Agent: Adjusting cell 3 power from 30.0 to 41.3 dBm
+[120.000] Step 120/300: RL Agent: Adjusting cell 4 power from 46.0 to 39.6 dBm
+[120.000] Step 120/300: RL Agent: Adjusting cell 5 power from 46.0 to 41.2 dBm
+[120.000] Step 120/300: RL Agent: Adjusting cell 6 power from 32.6 to 35.5 dBm
+[120.000] Step 120/300: RL Agent: Adjusting cell 7 power from 32.7 to 44.1 dBm
+[120.000] Step 120/300: RL Agent: Setting cell 8 to minimum power (30.0 dBm)
+[120.000] Step 120/300: RL Agent: Adjusting cell 9 power from 39.5 to 37.5 dBm
+[120.000] Step 120/300: RL Agent: Adjusting cell 10 power from 42.9 to 45.5 dBm
+[120.000] Step 120/300: RL Agent: Adjusting cell 11 power from 41.4 to 38.2 dBm
+[120.000] Step 120/300: RL Agent: Adjusting cell 12 power from 33.2 to 32.9 dBm
+[120.000] Step 120/300: RL Agent: Setting cell 13 to minimum power (30.0 dBm)
+[120.000] Step 120/300: RL Agent: Adjusting cell 14 power from 46.0 to 33.3 dBm
+[120.000] Step 120/300: RL Agent: Setting cell 15 to minimum power (30.0 dBm)
+[120.000] Step 120/300: RL Agent: Adjusting cell 16 power from 30.0 to 46.0 dBm
+[120.000] Step 120/300: RL Agent: Adjusting cell 17 power from 39.9 to 38.8 dBm
+[120.000] Step 120/300: RL Agent: Adjusting cell 18 power from 30.0 to 46.0 dBm
+[120.000] Step 120/300: RL Agent: Adjusting cell 19 power from 30.0 to 39.4 dBm
+[120.000] Step 120/300: RL Agent: Adjusting cell 20 power from 37.0 to 36.4 dBm
+[120.000] Step 120/300: RL Agent: Setting cell 21 to minimum power (30.0 dBm)
+[121.000] Step 121/300: RL Agent: Adjusting cell 1 power from 46.0 to 39.9 dBm
+[121.000] Step 121/300: RL Agent: Adjusting cell 2 power from 30.0 to 46.0 dBm
+[121.000] Step 121/300: RL Agent: Adjusting cell 3 power from 41.3 to 42.8 dBm
+[121.000] Step 121/300: RL Agent: Setting cell 4 to minimum power (30.0 dBm)
+[121.000] Step 121/300: RL Agent: Adjusting cell 5 power from 41.2 to 46.0 dBm
+[121.000] Step 121/300: RL Agent: Adjusting cell 6 power from 35.5 to 38.8 dBm
+[121.000] Step 121/300: RL Agent: Adjusting cell 7 power from 44.1 to 46.0 dBm
+[121.000] Step 121/300: RL Agent: Adjusting cell 8 power from 30.0 to 40.5 dBm
+[121.000] Step 121/300: RL Agent: Setting cell 9 to minimum power (30.0 dBm)
+[121.000] Step 121/300: RL Agent: Adjusting cell 10 power from 45.5 to 31.1 dBm
+[121.000] Step 121/300: RL Agent: Adjusting cell 11 power from 38.2 to 43.8 dBm
+[121.000] Step 121/300: RL Agent: Adjusting cell 12 power from 32.9 to 46.0 dBm
+[121.000] Step 121/300: RL Agent: Adjusting cell 13 power from 30.0 to 46.0 dBm
+[121.000] Step 121/300: RL Agent: Setting cell 14 to minimum power (30.0 dBm)
+[121.000] Step 121/300: RL Agent: Adjusting cell 15 power from 30.0 to 44.3 dBm
+[121.000] Step 121/300: RL Agent: Adjusting cell 17 power from 38.8 to 46.0 dBm
+[121.000] Step 121/300: RL Agent: Adjusting cell 18 power from 46.0 to 36.3 dBm
+[121.000] Step 121/300: RL Agent: Setting cell 19 to minimum power (30.0 dBm)
+[121.000] Step 121/300: RL Agent: Setting cell 20 to minimum power (30.0 dBm)
+[121.000] Step 121/300: RL Agent: Setting cell 21 to minimum power (30.0 dBm)
+[122.000] Step 122/300: RL Agent: Adjusting cell 1 power from 39.9 to 37.8 dBm
+[122.000] Step 122/300: RL Agent: Adjusting cell 2 power from 46.0 to 41.3 dBm
+[122.000] Step 122/300: RL Agent: Adjusting cell 3 power from 42.8 to 42.4 dBm
+[122.000] Step 122/300: RL Agent: Adjusting cell 4 power from 30.0 to 35.8 dBm
+[122.000] Step 122/300: RL Agent: Adjusting cell 5 power from 46.0 to 40.0 dBm
+[122.000] Step 122/300: RL Agent: Setting cell 6 to minimum power (30.3 dBm)
+[122.000] Step 122/300: RL Agent: Setting cell 7 to minimum power (30.0 dBm)
+[122.000] Step 122/300: RL Agent: Adjusting cell 8 power from 40.5 to 42.3 dBm
+[122.000] Step 122/300: RL Agent: Setting cell 9 to minimum power (30.3 dBm)
+[122.000] Step 122/300: RL Agent: Adjusting cell 10 power from 31.1 to 39.2 dBm
+[122.000] Step 122/300: RL Agent: Setting cell 11 to minimum power (30.0 dBm)
+[122.000] Step 122/300: RL Agent: Adjusting cell 13 power from 46.0 to 38.6 dBm
+[122.000] Step 122/300: RL Agent: Setting cell 14 to minimum power (30.0 dBm)
+[122.000] Step 122/300: RL Agent: Setting cell 15 to minimum power (30.0 dBm)
+[122.000] Step 122/300: RL Agent: Adjusting cell 16 power from 46.0 to 43.2 dBm
+[122.000] Step 122/300: RL Agent: Adjusting cell 17 power from 46.0 to 41.5 dBm
+[122.000] Step 122/300: RL Agent: Adjusting cell 18 power from 36.3 to 46.0 dBm
+[122.000] Step 122/300: RL Agent: Adjusting cell 19 power from 30.0 to 34.1 dBm
+[122.000] Step 122/300: RL Agent: Adjusting cell 20 power from 30.0 to 39.7 dBm
+[122.000] Step 122/300: RL Agent: Adjusting cell 21 power from 30.0 to 41.5 dBm
+[123.000] Step 123/300: RL Agent: Setting cell 1 to minimum power (30.0 dBm)
+[123.000] Step 123/300: RL Agent: Adjusting cell 2 power from 41.3 to 38.2 dBm
+[123.000] Step 123/300: RL Agent: Adjusting cell 3 power from 42.4 to 45.6 dBm
+[123.000] Step 123/300: RL Agent: Adjusting cell 4 power from 35.8 to 35.5 dBm
+[123.000] Step 123/300: RL Agent: Adjusting cell 5 power from 40.0 to 42.2 dBm
+[123.000] Step 123/300: RL Agent: Adjusting cell 6 power from 30.3 to 42.6 dBm
+[123.000] Step 123/300: RL Agent: Adjusting cell 7 power from 30.0 to 38.0 dBm
+[123.000] Step 123/300: RL Agent: Adjusting cell 8 power from 42.3 to 42.6 dBm
+[123.000] Step 123/300: RL Agent: Adjusting cell 9 power from 30.3 to 46.0 dBm
+[123.000] Step 123/300: RL Agent: Adjusting cell 10 power from 39.2 to 35.8 dBm
+[123.000] Step 123/300: RL Agent: Setting cell 11 to minimum power (30.0 dBm)
+[123.000] Step 123/300: RL Agent: Adjusting cell 13 power from 38.6 to 46.0 dBm
+[123.000] Step 123/300: RL Agent: Adjusting cell 14 power from 30.0 to 32.5 dBm
+[123.000] Step 123/300: RL Agent: Setting cell 15 to minimum power (30.0 dBm)
+[123.000] Step 123/300: RL Agent: Setting cell 16 to minimum power (30.0 dBm)
+[123.000] Step 123/300: RL Agent: Setting cell 17 to minimum power (30.0 dBm)
+[123.000] Step 123/300: RL Agent: Adjusting cell 18 power from 46.0 to 34.9 dBm
+[123.000] Step 123/300: RL Agent: Adjusting cell 19 power from 34.1 to 33.6 dBm
+[123.000] Step 123/300: RL Agent: Adjusting cell 20 power from 39.7 to 43.8 dBm
+[123.000] Step 123/300: RL Agent: Adjusting cell 21 power from 41.5 to 45.8 dBm
+[124.000] Step 124/300: RL Agent: Adjusting cell 1 power from 30.0 to 46.0 dBm
+[124.000] Step 124/300: RL Agent: Setting cell 2 to minimum power (30.0 dBm)
+[124.000] Step 124/300: RL Agent: Adjusting cell 3 power from 45.6 to 41.8 dBm
+[124.000] Step 124/300: RL Agent: Adjusting cell 4 power from 35.5 to 39.7 dBm
+[124.000] Step 124/300: RL Agent: Adjusting cell 5 power from 42.2 to 44.5 dBm
+[124.000] Step 124/300: RL Agent: Adjusting cell 6 power from 42.6 to 39.5 dBm
+[124.000] Step 124/300: RL Agent: Setting cell 7 to minimum power (30.0 dBm)
+[124.000] Step 124/300: RL Agent: Adjusting cell 8 power from 42.6 to 36.9 dBm
+[124.000] Step 124/300: RL Agent: Adjusting cell 9 power from 46.0 to 43.5 dBm
+[124.000] Step 124/300: RL Agent: Adjusting cell 10 power from 35.8 to 32.9 dBm
+[124.000] Step 124/300: RL Agent: Adjusting cell 11 power from 30.0 to 42.9 dBm
+[124.000] Step 124/300: RL Agent: Adjusting cell 12 power from 46.0 to 33.7 dBm
+[124.000] Step 124/300: RL Agent: Adjusting cell 13 power from 46.0 to 35.9 dBm
+[124.000] Step 124/300: RL Agent: Adjusting cell 14 power from 32.5 to 37.5 dBm
+[124.000] Step 124/300: RL Agent: Adjusting cell 15 power from 30.0 to 46.0 dBm
+[124.000] Step 124/300: RL Agent: Adjusting cell 16 power from 30.0 to 43.9 dBm
+[124.000] Step 124/300: RL Agent: Adjusting cell 17 power from 30.0 to 33.5 dBm
+[124.000] Step 124/300: RL Agent: Adjusting cell 18 power from 34.9 to 38.0 dBm
+[124.000] Step 124/300: RL Agent: Adjusting cell 19 power from 33.6 to 46.0 dBm
+[124.000] Step 124/300: RL Agent: Setting cell 20 to minimum power (30.0 dBm)
+[124.000] Step 124/300: RL Agent: Adjusting cell 21 power from 45.8 to 44.8 dBm
